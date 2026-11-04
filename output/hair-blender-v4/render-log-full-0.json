@@ -1,0 +1,1406 @@
+{
+  "mode": "full",
+  "frames": 199,
+  "native_resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "elapsed_seconds": 363.74,
+  "test_start_seconds": 28.5,
+  "stats": [
+    {
+      "frame": 0,
+      "sec": 0.0,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 16.189
+    },
+    {
+      "frame": 1,
+      "sec": 0.041666666666666664,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.894
+    },
+    {
+      "frame": 2,
+      "sec": 0.08333333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.664
+    },
+    {
+      "frame": 3,
+      "sec": 0.125,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.628
+    },
+    {
+      "frame": 4,
+      "sec": 0.16666666666666666,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.578
+    },
+    {
+      "frame": 5,
+      "sec": 0.20833333333333334,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.641
+    },
+    {
+      "frame": 6,
+      "sec": 0.25,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.632
+    },
+    {
+      "frame": 7,
+      "sec": 0.2916666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.628
+    },
+    {
+      "frame": 8,
+      "sec": 0.3333333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.657
+    },
+    {
+      "frame": 9,
+      "sec": 0.375,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.617
+    },
+    {
+      "frame": 10,
+      "sec": 0.4166666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.593
+    },
+    {
+      "frame": 11,
+      "sec": 0.4583333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.596
+    },
+    {
+      "frame": 12,
+      "sec": 0.5,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.596
+    },
+    {
+      "frame": 13,
+      "sec": 0.5416666666666666,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.591
+    },
+    {
+      "frame": 14,
+      "sec": 0.5833333333333334,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.576
+    },
+    {
+      "frame": 15,
+      "sec": 0.625,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.58
+    },
+    {
+      "frame": 16,
+      "sec": 0.6666666666666666,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.586
+    },
+    {
+      "frame": 17,
+      "sec": 0.7083333333333334,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.578
+    },
+    {
+      "frame": 18,
+      "sec": 0.75,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.62
+    },
+    {
+      "frame": 19,
+      "sec": 0.7916666666666666,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.648
+    },
+    {
+      "frame": 20,
+      "sec": 0.8333333333333334,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.662
+    },
+    {
+      "frame": 21,
+      "sec": 0.875,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.609
+    },
+    {
+      "frame": 22,
+      "sec": 0.9166666666666666,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.667
+    },
+    {
+      "frame": 23,
+      "sec": 0.9583333333333334,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.621
+    },
+    {
+      "frame": 24,
+      "sec": 1.0,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.586
+    },
+    {
+      "frame": 25,
+      "sec": 1.0416666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.592
+    },
+    {
+      "frame": 26,
+      "sec": 1.0833333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.714
+    },
+    {
+      "frame": 27,
+      "sec": 1.125,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.712
+    },
+    {
+      "frame": 28,
+      "sec": 1.1666666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.752
+    },
+    {
+      "frame": 29,
+      "sec": 1.2083333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.713
+    },
+    {
+      "frame": 30,
+      "sec": 1.25,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.731
+    },
+    {
+      "frame": 31,
+      "sec": 1.2916666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.707
+    },
+    {
+      "frame": 32,
+      "sec": 1.3333333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.705
+    },
+    {
+      "frame": 33,
+      "sec": 1.375,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.706
+    },
+    {
+      "frame": 34,
+      "sec": 1.4166666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.685
+    },
+    {
+      "frame": 35,
+      "sec": 1.4583333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.71
+    },
+    {
+      "frame": 36,
+      "sec": 1.5,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.706
+    },
+    {
+      "frame": 37,
+      "sec": 1.5416666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.692
+    },
+    {
+      "frame": 38,
+      "sec": 1.5833333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.681
+    },
+    {
+      "frame": 39,
+      "sec": 1.625,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.699
+    },
+    {
+      "frame": 40,
+      "sec": 1.6666666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.745
+    },
+    {
+      "frame": 41,
+      "sec": 1.7083333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.697
+    },
+    {
+      "frame": 42,
+      "sec": 1.75,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.734
+    },
+    {
+      "frame": 43,
+      "sec": 1.7916666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.689
+    },
+    {
+      "frame": 44,
+      "sec": 1.8333333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.684
+    },
+    {
+      "frame": 45,
+      "sec": 1.875,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.679
+    },
+    {
+      "frame": 46,
+      "sec": 1.9166666666666667,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.685
+    },
+    {
+      "frame": 47,
+      "sec": 1.9583333333333333,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.721
+    },
+    {
+      "frame": 48,
+      "sec": 2.0,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.69
+    },
+    {
+      "frame": 49,
+      "sec": 2.0416666666666665,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.675
+    },
+    {
+      "frame": 50,
+      "sec": 2.0833333333333335,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.675
+    },
+    {
+      "frame": 51,
+      "sec": 2.125,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.674
+    },
+    {
+      "frame": 52,
+      "sec": 2.1666666666666665,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.673
+    },
+    {
+      "frame": 53,
+      "sec": 2.2083333333333335,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 54,
+      "sec": 2.25,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.692
+    },
+    {
+      "frame": 55,
+      "sec": 2.2916666666666665,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.688
+    },
+    {
+      "frame": 56,
+      "sec": 2.3333333333333335,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.685
+    },
+    {
+      "frame": 57,
+      "sec": 2.375,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.671
+    },
+    {
+      "frame": 58,
+      "sec": 2.4166666666666665,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.675
+    },
+    {
+      "frame": 59,
+      "sec": 2.4583333333333335,
+      "cut": "P1-C01",
+      "camera": "CAM_000_ROOM",
+      "render_seconds": 1.663
+    },
+    {
+      "frame": 60,
+      "sec": 2.5,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.667
+    },
+    {
+      "frame": 61,
+      "sec": 2.5416666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.676
+    },
+    {
+      "frame": 62,
+      "sec": 2.5833333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.681
+    },
+    {
+      "frame": 63,
+      "sec": 2.625,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.682
+    },
+    {
+      "frame": 64,
+      "sec": 2.6666666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 65,
+      "sec": 2.7083333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.669
+    },
+    {
+      "frame": 66,
+      "sec": 2.75,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.707
+    },
+    {
+      "frame": 67,
+      "sec": 2.7916666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.673
+    },
+    {
+      "frame": 68,
+      "sec": 2.8333333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.669
+    },
+    {
+      "frame": 69,
+      "sec": 2.875,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.696
+    },
+    {
+      "frame": 70,
+      "sec": 2.9166666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.684
+    },
+    {
+      "frame": 71,
+      "sec": 2.9583333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.659
+    },
+    {
+      "frame": 72,
+      "sec": 3.0,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 73,
+      "sec": 3.0416666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.675
+    },
+    {
+      "frame": 74,
+      "sec": 3.0833333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.688
+    },
+    {
+      "frame": 75,
+      "sec": 3.125,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.67
+    },
+    {
+      "frame": 76,
+      "sec": 3.1666666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.661
+    },
+    {
+      "frame": 77,
+      "sec": 3.2083333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.689
+    },
+    {
+      "frame": 78,
+      "sec": 3.25,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.689
+    },
+    {
+      "frame": 79,
+      "sec": 3.2916666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 80,
+      "sec": 3.3333333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.68
+    },
+    {
+      "frame": 81,
+      "sec": 3.375,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.686
+    },
+    {
+      "frame": 82,
+      "sec": 3.4166666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.671
+    },
+    {
+      "frame": 83,
+      "sec": 3.4583333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.669
+    },
+    {
+      "frame": 84,
+      "sec": 3.5,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.679
+    },
+    {
+      "frame": 85,
+      "sec": 3.5416666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.667
+    },
+    {
+      "frame": 86,
+      "sec": 3.5833333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 87,
+      "sec": 3.625,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.684
+    },
+    {
+      "frame": 88,
+      "sec": 3.6666666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.68
+    },
+    {
+      "frame": 89,
+      "sec": 3.7083333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.692
+    },
+    {
+      "frame": 90,
+      "sec": 3.75,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.694
+    },
+    {
+      "frame": 91,
+      "sec": 3.7916666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.673
+    },
+    {
+      "frame": 92,
+      "sec": 3.8333333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.68
+    },
+    {
+      "frame": 93,
+      "sec": 3.875,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.668
+    },
+    {
+      "frame": 94,
+      "sec": 3.9166666666666665,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.662
+    },
+    {
+      "frame": 95,
+      "sec": 3.9583333333333335,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.69
+    },
+    {
+      "frame": 96,
+      "sec": 4.0,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.679
+    },
+    {
+      "frame": 97,
+      "sec": 4.041666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.672
+    },
+    {
+      "frame": 98,
+      "sec": 4.083333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.677
+    },
+    {
+      "frame": 99,
+      "sec": 4.125,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.668
+    },
+    {
+      "frame": 100,
+      "sec": 4.166666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.681
+    },
+    {
+      "frame": 101,
+      "sec": 4.208333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.713
+    },
+    {
+      "frame": 102,
+      "sec": 4.25,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.685
+    },
+    {
+      "frame": 103,
+      "sec": 4.291666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.698
+    },
+    {
+      "frame": 104,
+      "sec": 4.333333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.682
+    },
+    {
+      "frame": 105,
+      "sec": 4.375,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.686
+    },
+    {
+      "frame": 106,
+      "sec": 4.416666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.701
+    },
+    {
+      "frame": 107,
+      "sec": 4.458333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.693
+    },
+    {
+      "frame": 108,
+      "sec": 4.5,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.698
+    },
+    {
+      "frame": 109,
+      "sec": 4.541666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.691
+    },
+    {
+      "frame": 110,
+      "sec": 4.583333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.691
+    },
+    {
+      "frame": 111,
+      "sec": 4.625,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.704
+    },
+    {
+      "frame": 112,
+      "sec": 4.666666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.707
+    },
+    {
+      "frame": 113,
+      "sec": 4.708333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.715
+    },
+    {
+      "frame": 114,
+      "sec": 4.75,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.702
+    },
+    {
+      "frame": 115,
+      "sec": 4.791666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.68
+    },
+    {
+      "frame": 116,
+      "sec": 4.833333333333333,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.698
+    },
+    {
+      "frame": 117,
+      "sec": 4.875,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.672
+    },
+    {
+      "frame": 118,
+      "sec": 4.916666666666667,
+      "cut": "P1-C02",
+      "camera": "CAM_001_ROOM",
+      "render_seconds": 1.675
+    },
+    {
+      "frame": 119,
+      "sec": 4.958333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.692
+    },
+    {
+      "frame": 120,
+      "sec": 5.0,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.717
+    },
+    {
+      "frame": 121,
+      "sec": 5.041666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.731
+    },
+    {
+      "frame": 122,
+      "sec": 5.083333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.703
+    },
+    {
+      "frame": 123,
+      "sec": 5.125,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.702
+    },
+    {
+      "frame": 124,
+      "sec": 5.166666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.728
+    },
+    {
+      "frame": 125,
+      "sec": 5.208333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.756
+    },
+    {
+      "frame": 126,
+      "sec": 5.25,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.728
+    },
+    {
+      "frame": 127,
+      "sec": 5.291666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.738
+    },
+    {
+      "frame": 128,
+      "sec": 5.333333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.718
+    },
+    {
+      "frame": 129,
+      "sec": 5.375,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.704
+    },
+    {
+      "frame": 130,
+      "sec": 5.416666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.71
+    },
+    {
+      "frame": 131,
+      "sec": 5.458333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.732
+    },
+    {
+      "frame": 132,
+      "sec": 5.5,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.713
+    },
+    {
+      "frame": 133,
+      "sec": 5.541666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.745
+    },
+    {
+      "frame": 134,
+      "sec": 5.583333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.74
+    },
+    {
+      "frame": 135,
+      "sec": 5.625,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.743
+    },
+    {
+      "frame": 136,
+      "sec": 5.666666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.755
+    },
+    {
+      "frame": 137,
+      "sec": 5.708333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.757
+    },
+    {
+      "frame": 138,
+      "sec": 5.75,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.734
+    },
+    {
+      "frame": 139,
+      "sec": 5.791666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.733
+    },
+    {
+      "frame": 140,
+      "sec": 5.833333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.709
+    },
+    {
+      "frame": 141,
+      "sec": 5.875,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.7
+    },
+    {
+      "frame": 142,
+      "sec": 5.916666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.705
+    },
+    {
+      "frame": 143,
+      "sec": 5.958333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.707
+    },
+    {
+      "frame": 144,
+      "sec": 6.0,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.702
+    },
+    {
+      "frame": 145,
+      "sec": 6.041666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.693
+    },
+    {
+      "frame": 146,
+      "sec": 6.083333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.7
+    },
+    {
+      "frame": 147,
+      "sec": 6.125,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.711
+    },
+    {
+      "frame": 148,
+      "sec": 6.166666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.723
+    },
+    {
+      "frame": 149,
+      "sec": 6.208333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.698
+    },
+    {
+      "frame": 150,
+      "sec": 6.25,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.713
+    },
+    {
+      "frame": 151,
+      "sec": 6.291666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.707
+    },
+    {
+      "frame": 152,
+      "sec": 6.333333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.728
+    },
+    {
+      "frame": 153,
+      "sec": 6.375,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.939
+    },
+    {
+      "frame": 154,
+      "sec": 6.416666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.758
+    },
+    {
+      "frame": 155,
+      "sec": 6.458333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.762
+    },
+    {
+      "frame": 156,
+      "sec": 6.5,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.753
+    },
+    {
+      "frame": 157,
+      "sec": 6.541666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.771
+    },
+    {
+      "frame": 158,
+      "sec": 6.583333333333333,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.749
+    },
+    {
+      "frame": 159,
+      "sec": 6.625,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.73
+    },
+    {
+      "frame": 160,
+      "sec": 6.666666666666667,
+      "cut": "P1-C03",
+      "camera": "CAM_002_ROOM",
+      "render_seconds": 1.746
+    },
+    {
+      "frame": 161,
+      "sec": 6.708333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.965
+    },
+    {
+      "frame": 162,
+      "sec": 6.75,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.959
+    },
+    {
+      "frame": 163,
+      "sec": 6.791666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.929
+    },
+    {
+      "frame": 164,
+      "sec": 6.833333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.948
+    },
+    {
+      "frame": 165,
+      "sec": 6.875,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.943
+    },
+    {
+      "frame": 166,
+      "sec": 6.916666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.944
+    },
+    {
+      "frame": 167,
+      "sec": 6.958333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.963
+    },
+    {
+      "frame": 168,
+      "sec": 7.0,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.968
+    },
+    {
+      "frame": 169,
+      "sec": 7.041666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.002
+    },
+    {
+      "frame": 170,
+      "sec": 7.083333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.044
+    },
+    {
+      "frame": 171,
+      "sec": 7.125,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.987
+    },
+    {
+      "frame": 172,
+      "sec": 7.166666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.996
+    },
+    {
+      "frame": 173,
+      "sec": 7.208333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 1.982
+    },
+    {
+      "frame": 174,
+      "sec": 7.25,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.004
+    },
+    {
+      "frame": 175,
+      "sec": 7.291666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.045
+    },
+    {
+      "frame": 176,
+      "sec": 7.333333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.009
+    },
+    {
+      "frame": 177,
+      "sec": 7.375,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.009
+    },
+    {
+      "frame": 178,
+      "sec": 7.416666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.023
+    },
+    {
+      "frame": 179,
+      "sec": 7.458333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.012
+    },
+    {
+      "frame": 180,
+      "sec": 7.5,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.047
+    },
+    {
+      "frame": 181,
+      "sec": 7.541666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.012
+    },
+    {
+      "frame": 182,
+      "sec": 7.583333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.012
+    },
+    {
+      "frame": 183,
+      "sec": 7.625,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.021
+    },
+    {
+      "frame": 184,
+      "sec": 7.666666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.012
+    },
+    {
+      "frame": 185,
+      "sec": 7.708333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.013
+    },
+    {
+      "frame": 186,
+      "sec": 7.75,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.021
+    },
+    {
+      "frame": 187,
+      "sec": 7.791666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.032
+    },
+    {
+      "frame": 188,
+      "sec": 7.833333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.073
+    },
+    {
+      "frame": 189,
+      "sec": 7.875,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.033
+    },
+    {
+      "frame": 190,
+      "sec": 7.916666666666667,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.05
+    },
+    {
+      "frame": 191,
+      "sec": 7.958333333333333,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.012
+    },
+    {
+      "frame": 192,
+      "sec": 8.0,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.025
+    },
+    {
+      "frame": 193,
+      "sec": 8.041666666666666,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.016
+    },
+    {
+      "frame": 194,
+      "sec": 8.083333333333334,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.03
+    },
+    {
+      "frame": 195,
+      "sec": 8.125,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.033
+    },
+    {
+      "frame": 196,
+      "sec": 8.166666666666666,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.001
+    },
+    {
+      "frame": 197,
+      "sec": 8.208333333333334,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.029
+    },
+    {
+      "frame": 198,
+      "sec": 8.25,
+      "cut": "P1-C04",
+      "camera": "CAM_003_ROOM",
+      "render_seconds": 2.018
+    }
+  ]
+}
