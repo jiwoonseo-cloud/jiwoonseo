@@ -1,0 +1,267 @@
+{
+  "duration": 157.458333,
+  "size_bytes": 20496878,
+  "sha256": "22fb0b998361a7d4076a67e91bd021d8e7c777b8552c326facc9b751916c0a56",
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "24/1",
+      "sample_rate": null
+    },
+    {
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "r_frame_rate": "0/0",
+      "sample_rate": "44100"
+    }
+  ],
+  "script_exact": true,
+  "pcm_voice_preserved_at_cut_boundaries": true,
+  "speed_adjustment": false,
+  "decode": "pass",
+  "cuts": [
+    {
+      "cut": 1,
+      "changed_native_pixels": 51851,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 2,
+      "changed_native_pixels": 76039,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 3,
+      "changed_native_pixels": 35843,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 4,
+      "changed_native_pixels": 50608,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 5,
+      "changed_native_pixels": 48272,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 6,
+      "changed_native_pixels": 48040,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 7,
+      "changed_native_pixels": 33961,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 8,
+      "changed_native_pixels": 33260,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 9,
+      "changed_native_pixels": 24093,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 10,
+      "changed_native_pixels": 38522,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 11,
+      "changed_native_pixels": 37492,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 12,
+      "changed_native_pixels": 48565,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 13,
+      "changed_native_pixels": 57365,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 14,
+      "changed_native_pixels": 37162,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 15,
+      "changed_native_pixels": 63217,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 16,
+      "changed_native_pixels": 65304,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 17,
+      "changed_native_pixels": 58713,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 18,
+      "changed_native_pixels": 68785,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 19,
+      "changed_native_pixels": 91933,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 20,
+      "changed_native_pixels": 68100,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 21,
+      "changed_native_pixels": 39344,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 22,
+      "changed_native_pixels": 57584,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 23,
+      "changed_native_pixels": 60853,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 24,
+      "changed_native_pixels": 74393,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 25,
+      "changed_native_pixels": 25001,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 26,
+      "changed_native_pixels": 58344,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 27,
+      "changed_native_pixels": 49009,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 28,
+      "changed_native_pixels": 28301,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 29,
+      "changed_native_pixels": 53902,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 30,
+      "changed_native_pixels": 68083,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 31,
+      "changed_native_pixels": 86058,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 32,
+      "changed_native_pixels": 67217,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 33,
+      "changed_native_pixels": 0,
+      "type": "정적 비교",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 34,
+      "changed_native_pixels": 17985,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 35,
+      "changed_native_pixels": 47286,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 36,
+      "changed_native_pixels": 33943,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 37,
+      "changed_native_pixels": 80015,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 38,
+      "changed_native_pixels": 37103,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 39,
+      "changed_native_pixels": 64262,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    },
+    {
+      "cut": 40,
+      "changed_native_pixels": 53973,
+      "type": "동작/상태 변화",
+      "note": "이 수치는 파일 검사이며 대사·행동 일치 판정의 대리 지표가 아님"
+    }
+  ]
+}
