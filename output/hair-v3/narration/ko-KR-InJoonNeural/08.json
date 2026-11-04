@@ -1,0 +1,266 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 5000000,
+    "text": "결국"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 6125000,
+    "duration": 4750000,
+    "text": "핵심은"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11000000,
+    "duration": 6000000,
+    "text": "흡입력이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 17125000,
+    "duration": 6000000,
+    "text": "아니라"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 24125000,
+    "duration": 7125000,
+    "text": "회전하는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31375000,
+    "duration": 6000000,
+    "text": "롤러가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 37500000,
+    "duration": 7500000,
+    "text": "머리카락을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 45125000,
+    "duration": 5125000,
+    "text": "끝단으로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 50375000,
+    "duration": 6375000,
+    "text": "미끄러지게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 56875000,
+    "duration": 2125000,
+    "text": "하는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 59125000,
+    "duration": 2875000,
+    "text": "물리"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 62125000,
+    "duration": 9500000,
+    "text": "자체예요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 80875000,
+    "duration": 6625000,
+    "text": "청소가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 87625000,
+    "duration": 5125000,
+    "text": "끝나면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 92875000,
+    "duration": 5250000,
+    "text": "브러시를"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 98250000,
+    "duration": 4500000,
+    "text": "꺼내서"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 102875000,
+    "duration": 4750000,
+    "text": "양끝"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 107750000,
+    "duration": 3750000,
+    "text": "캡을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 111625000,
+    "duration": 1625000,
+    "text": "열어"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 113375000,
+    "duration": 7875000,
+    "text": "보세요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 130125000,
+    "duration": 6250000,
+    "text": "일주일에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 136500000,
+    "duration": 1625000,
+    "text": "한"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 138250000,
+    "duration": 4500000,
+    "text": "번"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 144625000,
+    "duration": 8125000,
+    "text": "머리카락이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 152875000,
+    "duration": 5375000,
+    "text": "많거나"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 158375000,
+    "duration": 6625000,
+    "text": "반려동물이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 165125000,
+    "duration": 2375000,
+    "text": "있는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 167625000,
+    "duration": 3500000,
+    "text": "집은"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 171250000,
+    "duration": 1750000,
+    "text": "두"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 173125000,
+    "duration": 4000000,
+    "text": "번이면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 177250000,
+    "duration": 10000000,
+    "text": "충분합니다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 196875000,
+    "duration": 5250000,
+    "text": "끝단에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 202250000,
+    "duration": 3000000,
+    "text": "감겨"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 205375000,
+    "duration": 5625000,
+    "text": "있으면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 211125000,
+    "duration": 5125000,
+    "text": "가위나"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 216375000,
+    "duration": 3875000,
+    "text": "도구로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 220375000,
+    "duration": 3250000,
+    "text": "잘라"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 223750000,
+    "duration": 2250000,
+    "text": "빼는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 226125000,
+    "duration": 1750000,
+    "text": "게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 228000000,
+    "duration": 4375000,
+    "text": "모터를"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 232500000,
+    "duration": 4500000,
+    "text": "지키는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 237125000,
+    "duration": 3875000,
+    "text": "가장"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 241125000,
+    "duration": 2750000,
+    "text": "빠른"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 244000000,
+    "duration": 9250000,
+    "text": "방법입니다"
+  }
+]

@@ -1,0 +1,56 @@
+cut_id,paragraph,paragraph_start_frame,paragraph_end_frame_exclusive,start_sec,end_sec,duration_sec,linked_actions,speech_cues,continuity_rule,status
+P1-C01,1,0,55,0.000,2.292,2.292,S001; S002,로봇청소기 쓰시는 분들; 이런 적 있으시죠,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P1-C02,1,55,119,2.292,4.958,2.667,S002; S003,이런 적 있으시죠; 청소 끝나고,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P1-C03,1,119,181,4.958,7.542,2.583,S003; S004; S005,청소 끝나고; 브러시 뒤집었더니; 머리카락이 축에,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P1-C04,1,181,238,7.542,9.917,2.375,S005; S006,머리카락이 축에; 칭칭 감겨 있는 경우요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C01,2,0,56,0.000,2.333,2.333,S007; S008,고장 난 게 아닙니다; 흡입력이 약해서도 아니고요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C02,2,56,121,2.333,5.042,2.708,S008; S009,흡입력이 약해서도 아니고요; 원인은 바닥에 닿아서,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C03,2,121,181,5.042,7.542,2.500,S009; S010,원인은 바닥에 닿아서; 도는 롤러 브러시예요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C04,2,181,234,7.542,9.750,2.208,S010,도는 롤러 브러시예요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C05,2,234,289,9.750,12.042,2.292,S011; S012,실을 감는 실패처럼; 머리카락을 축 방향으로,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P2-C06,2,289,346,12.042,14.417,2.375,S012; S013,머리카락을 축 방향으로; 밀어 버리거든요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C01,3,0,60,0.000,2.500,2.500,S014; S015,롤러가 돌아가면; 긴 머리카락이 모에 걸립니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C02,3,60,123,2.500,5.125,2.625,S015; S016,긴 머리카락이 모에 걸립니다; 한 번 걸리면,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C03,3,123,187,5.125,7.792,2.667,S016; S017; S018,한 번 걸리면; 회전할 때마다 더 세게 감기고; 가운데에 머물지 않아요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C04,3,187,240,7.792,10.000,2.208,S018,가운데에 머물지 않아요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C05,3,240,294,10.000,12.250,2.250,S019; S020,저항이 적은 끝단; 베어링 쪽으로 미끄러져 모입니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C06,3,294,355,12.250,14.792,2.542,S020; S021,베어링 쪽으로 미끄러져 모입니다; 짧은 털은,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C07,3,355,413,14.792,17.208,2.417,S021; S022; S023,짧은 털은; 흡입으로 빨려 올라가지만; 길이가 긴 머리카락은,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C08,3,413,476,17.208,19.833,2.625,S023; S024,길이가 긴 머리카락은; 한 바퀴를 다 돌 수 있어서,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P3-C09,3,476,536,19.833,22.333,2.500,S024; S025,한 바퀴를 다 돌 수 있어서; 축에 남는 거예요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C01,4,0,70,0.000,2.917,2.917,S026; S027,브러시 가운데는 깨끗해 보여도; 양끝 캡을 열어 보면,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C02,4,70,136,2.917,5.667,2.750,S027; S028,양끝 캡을 열어 보면; 머리카락이 두껍게,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C03,4,136,190,5.667,7.917,2.250,S028; S029,머리카락이 두껍게; 감겨 있는 경우가 많아요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C04,4,190,251,7.917,10.458,2.542,S029; S030,감겨 있는 경우가 많아요; 로보락 같은 브랜드들도,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C05,4,251,317,10.458,13.208,2.750,S030; S031; S032,로보락 같은 브랜드들도; 끝단과 베어링을; 정기적으로 확인하라고,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C06,4,317,377,13.208,15.708,2.500,S032; S033,정기적으로 확인하라고; 너무 쌓이면 모터에 부하가,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C07,4,377,436,15.708,18.167,2.458,S033; S034,너무 쌓이면 모터에 부하가; 브러시가 손상될 수,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P4-C08,4,436,488,18.167,20.333,2.167,S034,브러시가 손상될 수,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C01,5,0,59,0.000,2.458,2.458,S035,흡입력을 더 세게 하면,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C02,5,59,121,2.458,5.042,2.583,S035; S036,흡입력을 더 세게 하면; 이미 떠 있는 먼지를,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C03,5,121,185,5.042,7.708,2.667,S036; S037,이미 떠 있는 먼지를; 빨아들이는 일이에요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C04,5,185,234,7.708,9.750,2.042,S037; S038,빨아들이는 일이에요; 한 번 감기기 시작하면,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C05,5,234,296,9.750,12.333,2.583,S038; S039,한 번 감기기 시작하면; 회전이 흡입보다 먼저,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C06,5,296,363,12.333,15.125,2.792,S039; S040,회전이 흡입보다 먼저; 축으로 밀어 넣습니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C07,5,363,417,15.125,17.375,2.250,S040; S041,축으로 밀어 넣습니다; 흡입력 숫자만 올려서는,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P5-C08,5,417,473,17.375,19.708,2.333,S041; S042,흡입력 숫자만 올려서는; 감김이 사라지지 않아요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C01,7,0,55,0.000,2.292,2.292,S047,이 구조도 완벽하진 않아요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C02,7,55,119,2.292,4.958,2.667,S047; S048,이 구조도 완벽하진 않아요; 긴 머리카락이 많거나,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C03,7,119,177,4.958,7.375,2.417,S048; S049; S050,긴 머리카락이 많거나; 반려동물이 있는 집에서는; 여전히 끝단에 쌓입니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C04,7,177,234,7.375,9.750,2.375,S050,여전히 끝단에 쌓입니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C05,7,234,288,9.750,12.000,2.250,S050; S051; S052,여전히 끝단에 쌓입니다; 줄여 줄 뿐; 없애 주지는 않거든요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C06,7,288,345,12.000,14.375,2.375,S052; S053,없애 주지는 않거든요; 회전하는 롤러 자체가,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C07,7,345,401,14.375,16.708,2.333,S053; S054,회전하는 롤러 자체가; 끝단으로 미끄러지게 하는,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C08,7,401,452,16.708,18.833,2.125,S054,끝단으로 미끄러지게 하는,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P7-C09,7,452,499,18.833,20.792,1.958,S054,끝단으로 미끄러지게 하는,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C01,8,0,60,0.000,2.500,2.500,S055; S056,결국 핵심은 흡입력이 아니라; 회전하는 롤러가,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C02,8,60,120,2.500,5.000,2.500,S056,회전하는 롤러가,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C03,8,120,184,5.000,7.667,2.667,S056,회전하는 롤러가,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C04,8,184,242,7.667,10.083,2.417,S056; S057; S058; S059,회전하는 롤러가; 청소가 끝나면; 브러시를 꺼내서; 양끝 캡을 열어 보세요,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C05,8,242,301,10.083,12.542,2.458,S059; S060,양끝 캡을 열어 보세요; 일주일에 한 번,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C06,8,301,352,12.542,14.667,2.125,S060,일주일에 한 번,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C07,8,352,404,14.667,16.833,2.167,S060; S061,일주일에 한 번; 두 번이면 충분합니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C08,8,404,457,16.833,19.042,2.208,S061; S062,두 번이면 충분합니다; 끝단에 감겨 있으면,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C09,8,457,510,19.042,21.250,2.208,S062; S063,끝단에 감겨 있으면; 가위나 도구로,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C10,8,510,563,21.250,23.458,2.208,S063; S064; S065; S066,가위나 도구로; 잘라 빼는 게; 모터를 지키는; 가장 빠른 방법입니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED
+P8-C11,8,563,622,23.458,25.917,2.458,S066,가장 빠른 방법입니다,Continue the current physical state; never restart the action at this cut,PLANNED_NOT_RENDERED

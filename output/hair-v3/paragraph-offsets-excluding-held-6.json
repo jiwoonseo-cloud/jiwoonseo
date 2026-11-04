@@ -1,0 +1,14 @@
+{
+  "voice": "ko-KR-HyunsuMultilingualNeural",
+  "timeline": "PROVISIONAL CONCATENATION EXCLUDING USER-HELD PARAGRAPH 6",
+  "offsets": {
+    "1": 0,
+    "2": 9.912,
+    "3": 24.288,
+    "4": 46.584,
+    "5": 66.888,
+    "7": 86.59200000000001,
+    "8": 107.35200000000002
+  },
+  "duration_seconds": 133.248
+}

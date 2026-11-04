@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 270
+PlayResY: 480
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Noto Sans CJK KR,16,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,1,0.5,5,10,10,0,1
+Style: Small,Noto Sans CJK KR,9,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,0.6,0,5,8,8,0,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.07,0:00:02.45,Caption,,0,0,0,,{\pos(135,317)}브러시 뒤집었더니
+Dialogue: 0,0:00:03.50,0:00:04.88,Caption,,0,0,0,,{\pos(135,317)}모에 걸립니다
+Dialogue: 0,0:00:06.10,0:00:07.43,Caption,,0,0,0,,{\pos(135,317)}짧은 털은 흡입으로
+Dialogue: 0,0:00:07.43,0:00:08.62,Caption,,0,0,0,,{\pos(135,317)}빨려 올라가지만
+Dialogue: 1,0:00:00.00,0:00:09.00,Small,,0,0,0,,{\pos(135,455)}저해상도 동작 시험 · 완성본 아님
+Dialogue: 1,0:00:03.00,0:00:06.00,Small,,0,0,0,,{\pos(135,425)}원리 설명용 저속 재현
+Dialogue: 1,0:00:06.00,0:00:09.00,Small,,0,0,0,,{\pos(135,425)}설명용 단면 · 저속 재현

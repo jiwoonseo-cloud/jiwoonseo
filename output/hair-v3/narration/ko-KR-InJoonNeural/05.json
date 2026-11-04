@@ -1,0 +1,206 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 4500000,
+    "text": "그럼"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 5625000,
+    "duration": 5500000,
+    "text": "흡입력을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11250000,
+    "duration": 2250000,
+    "text": "더"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 13625000,
+    "duration": 2625000,
+    "text": "세게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 16375000,
+    "duration": 2375000,
+    "text": "하면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 18875000,
+    "duration": 2875000,
+    "text": "되지"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 21875000,
+    "duration": 9500000,
+    "text": "않냐고요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 40125000,
+    "duration": 8250000,
+    "text": "흡입력은"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 48500000,
+    "duration": 2375000,
+    "text": "이미"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 51000000,
+    "duration": 1625000,
+    "text": "떠"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 52750000,
+    "duration": 2500000,
+    "text": "있는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55375000,
+    "duration": 4625000,
+    "text": "먼지를"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 60125000,
+    "duration": 5875000,
+    "text": "빨아들이는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66125000,
+    "duration": 9250000,
+    "text": "일이에요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 84875000,
+    "duration": 8000000,
+    "text": "머리카락이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 93000000,
+    "duration": 4125000,
+    "text": "롤러에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 97250000,
+    "duration": 1750000,
+    "text": "한"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 99125000,
+    "duration": 1875000,
+    "text": "번"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 101125000,
+    "duration": 4500000,
+    "text": "감기기"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 105750000,
+    "duration": 8250000,
+    "text": "시작하면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 115250000,
+    "duration": 6125000,
+    "text": "회전이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 121500000,
+    "duration": 5125000,
+    "text": "흡입보다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 126750000,
+    "duration": 3125000,
+    "text": "먼저"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 130000000,
+    "duration": 7250000,
+    "text": "작동해서"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 137375000,
+    "duration": 4750000,
+    "text": "축으로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 142250000,
+    "duration": 2625000,
+    "text": "밀어"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 145000000,
+    "duration": 8250000,
+    "text": "넣습니다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 162625000,
+    "duration": 5500000,
+    "text": "그래서"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 168250000,
+    "duration": 5125000,
+    "text": "흡입력"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 173500000,
+    "duration": 4500000,
+    "text": "숫자만"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 178125000,
+    "duration": 6375000,
+    "text": "올려서는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 184625000,
+    "duration": 5375000,
+    "text": "감김이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 190125000,
+    "duration": 4625000,
+    "text": "사라지지"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 194875000,
+    "duration": 8750000,
+    "text": "않아요"
+  }
+]

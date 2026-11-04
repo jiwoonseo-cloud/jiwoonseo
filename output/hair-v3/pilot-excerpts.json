@@ -1,0 +1,43 @@
+{
+  "status": "DIAGNOSTIC TEST - NOT FINAL VIDEO",
+  "shots": {
+    "flip": [
+      0,
+      3
+    ],
+    "catch": [
+      3,
+      6
+    ],
+    "suction": [
+      6,
+      9
+    ]
+  },
+  "voice_excerpts": [
+    [
+      1,
+      4.975,
+      6.35,
+      1.075,
+      "브러시 뒤집었더니"
+    ],
+    [
+      3,
+      2.5,
+      3.875,
+      3.5,
+      "모에 걸립니다"
+    ],
+    [
+      3,
+      14.425,
+      16.938,
+      6.1,
+      "짧은 털은 흡입으로 빨려 올라가지만"
+    ]
+  ],
+  "post_audio_speed_adjustment": false,
+  "frame_interpolation": false,
+  "repeated_motion_clips": false
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 4625000,
+    "text": "그런데"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 5750000,
+    "duration": 1750000,
+    "text": "이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7625000,
+    "duration": 4000000,
+    "text": "구조도"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11750000,
+    "duration": 6375000,
+    "text": "완벽하진"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 18250000,
+    "duration": 5750000,
+    "text": "않아요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 32750000,
+    "duration": 2500000,
+    "text": "긴"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 35375000,
+    "duration": 6125000,
+    "text": "머리카락이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 41625000,
+    "duration": 5250000,
+    "text": "많거나"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 47000000,
+    "duration": 8125000,
+    "text": "반려동물이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 55250000,
+    "duration": 2375000,
+    "text": "있는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57750000,
+    "duration": 9250000,
+    "text": "집에서는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 67125000,
+    "duration": 3875000,
+    "text": "여전히"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 71125000,
+    "duration": 4375000,
+    "text": "끝단에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 75625000,
+    "duration": 7375000,
+    "text": "쌓입니다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 91625000,
+    "duration": 4500000,
+    "text": "구조가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 96250000,
+    "duration": 5125000,
+    "text": "감김을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 101500000,
+    "duration": 2750000,
+    "text": "줄여"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 104375000,
+    "duration": 1500000,
+    "text": "줄"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 106000000,
+    "duration": 4000000,
+    "text": "뿐"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 111875000,
+    "duration": 3625000,
+    "text": "없애"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 115625000,
+    "duration": 3500000,
+    "text": "주지는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 119250000,
+    "duration": 7875000,
+    "text": "않거든요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 135875000,
+    "duration": 5375000,
+    "text": "회전하는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 141375000,
+    "duration": 3375000,
+    "text": "롤러"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 144875000,
+    "duration": 6375000,
+    "text": "자체가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 151375000,
+    "duration": 6750000,
+    "text": "머리카락을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 158250000,
+    "duration": 6125000,
+    "text": "끝단으로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 164500000,
+    "duration": 6750000,
+    "text": "미끄러지게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 171375000,
+    "duration": 2500000,
+    "text": "하는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 174000000,
+    "duration": 4375000,
+    "text": "원리는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 178500000,
+    "duration": 4750000,
+    "text": "그대로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 183375000,
+    "duration": 2625000,
+    "text": "남아"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 186125000,
+    "duration": 3125000,
+    "text": "있기"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 189375000,
+    "duration": 7750000,
+    "text": "때문입니다"
+  }
+]
