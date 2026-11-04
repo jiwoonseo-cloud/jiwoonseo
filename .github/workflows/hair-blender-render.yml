@@ -1,4 +1,4 @@
-# Framing revision 4: separate the robot footprint from the maintenance brush.
+# Render revision 5: explicitly initialize the evaluated camera for each cut.
 name: One-off native Blender hair film
 on:
   push:

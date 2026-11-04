@@ -6,7 +6,7 @@ import bpy,json,sys,argparse,subprocess,time
 import shutil
 from pathlib import Path
 BASE=Path(__file__).resolve().parents[1];WORK=BASE.parents[1]/'work/hair-blender-v4';WORK.mkdir(parents=True,exist_ok=True)
-a=argparse.ArgumentParser();a.add_argument('--mode',choices=['probes','test','full'],default='probes');a.add_argument('--samples',type=int,default=1);a.add_argument('--chunk',type=int,default=0);a.add_argument('--chunks',type=int,default=1);a.add_argument('--limit',type=int,default=0);a.add_argument('--benchmark-fast',action='store_true');a.add_argument('--post-dof',action='store_true');args=a.parse_args(sys.argv[sys.argv.index('--')+1:])
+a=argparse.ArgumentParser();a.add_argument('--mode',choices=['probes','test','full'],default='probes');a.add_argument('--samples',type=int,default=1);a.add_argument('--chunk',type=int,default=0);a.add_argument('--chunks',type=int,default=1);a.add_argument('--limit',type=int,default=0);a.add_argument('--start-frame',type=int,default=-1);a.add_argument('--end-frame',type=int,default=-1);a.add_argument('--benchmark-fast',action='store_true');a.add_argument('--post-dof',action='store_true');args=a.parse_args(sys.argv[sys.argv.index('--')+1:])
 sys.path.insert(0,str(BASE/'source'));from kinematics import evaluate
 plan=json.loads((BASE/'scene-plan.json').read_text());cuts=plan['cuts'];sc=bpy.context.scene;sc.eevee.taa_render_samples=args.samples
 def cut_at(f):return next((c for c in cuts if c['start_frame']<=f+1<c['end_frame_exclusive']),cuts[-1])
@@ -25,6 +25,7 @@ test_start=round((24.288+4.2125)*24);test_end=test_start+240
 if args.mode=='probes':frames=list(range(test_start,test_end,24))
 elif args.mode=='test':frames=list(range(test_start,test_end))
 else:frames=list(range(round(plan['duration_audio']*24)))
+if args.start_frame>=0:frames=list(range(args.start_frame,args.end_frame))
 frames=frames[len(frames)*args.chunk//args.chunks:len(frames)*(args.chunk+1)//args.chunks]
 if args.limit:frames=frames[:args.limit]
 if args.benchmark_fast:
@@ -61,10 +62,19 @@ if args.mode!='probes':
   f=scene.frame_current-1;sec=f/24;c=cut_at(f);path=Path(scene.render.frame_path(frame=scene.frame_current))
   ff.stdin.write(path.read_bytes())
   if (args.mode=='test' and (f-test_start)%24==0) or (args.mode=='full' and f%24==0):shutil.copyfile(path,root/f'{f:06d}.png')
-  path.unlink();stats.append({'frame':f,'sec':sec,'cut':c['id'],'camera':scene.camera.name,'render_seconds':round(time.time()-timer[0],3)})
+  path.unlink();stats.append({'frame':f,'sec':sec,'cut':c['id'],'camera':scene.camera.name,'lens':scene.camera.data.lens,'camera_location':list(scene.camera.location),'render_seconds':round(time.time()-timer[0],3)})
   if len(stats)%24==0:print('PROGRESS',args.mode,len(stats),'/',len(frames),'elapsed',round(time.time()-started),flush=True)
  bpy.app.handlers.frame_change_post.append(prepare);bpy.app.handlers.render_write.append(written)
- sc.frame_set(frames[0]+1);prepare(sc);bpy.context.view_layer.update();bpy.ops.render.render(animation=True)
+ # Render each camera run separately so EEVEE cannot retain another cut's
+ # evaluated camera projection. The frame stream remains continuous and unique.
+ import itertools
+ for camera_name,group in itertools.groupby(frames,key=lambda f:cut_at(f)['camera']):
+  run_frames=list(group);sc.frame_start=run_frames[0]+1;sc.frame_end=run_frames[-1]+1
+  sc.camera=bpy.data.objects[camera_name];sc.frame_set(run_frames[0]+1)
+  sc.camera.update_tag(refresh={'OBJECT','DATA','TIME'});sc.camera.data.update_tag()
+  prepare(sc);bpy.context.view_layer.update()
+  print('CAMERA RUN',camera_name,sc.camera.data.lens,list(sc.camera.location),sc.frame_start,sc.frame_end,flush=True)
+  bpy.ops.render.render(animation=True)
  ff.stdin.close();assert ff.wait()==0
  (BASE/f'render-log-{args.mode}-{args.chunk}.json').write_text(json.dumps({'mode':args.mode,'frames':len(stats),'native_resolution':[1080,1920],'fps':24,'elapsed_seconds':round(time.time()-started,2),'test_start_seconds':test_start/24,'stats':stats},indent=2))
  print('RENDER COMPLETE',args.mode,len(stats),round(time.time()-started,2),flush=True)
