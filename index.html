@@ -1,30 +1,9 @@
 <!doctype html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>쇼츠 영상 검토 — 클리프 센서</title>
-<style>
-:root{color-scheme:dark;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;background:#101720;color:#eef4f7}*{box-sizing:border-box}body{margin:0}main{max-width:960px;margin:auto;padding:24px 16px 40px}h1{font-size:24px;margin:8px 0}p{line-height:1.6;color:#c0ced7}video{display:block;width:100%;max-width:440px;max-height:78vh;aspect-ratio:9/16;object-fit:contain;background:#000;margin:20px auto;border-radius:10px}a{color:#8fe9d0}nav{display:flex;flex-wrap:wrap;gap:18px;justify-content:center}#status{text-align:center;min-height:24px}small{color:#a9bbc6}
-</style>
-</head>
-<body><main>
-<h1>클리프 센서 — 영상 검토</h1>
-<p>한국어 내레이션 포함 · 118.96초 · 1080×1920 · 24컷</p>
-<video id="player" controls playsinline preload="metadata" aria-label="클리프 센서 영상 샘플">
-<source src="videos/cliff-sensor/cliff-sensor-sample.mp4" type="video/mp4">
-브라우저가 동영상 재생을 지원하지 않습니다.
-</video>
-<p id="status" role="status">재생 버튼을 누르면 소리와 함께 시작합니다.</p>
-<nav>
-<a href="videos/cliff-sensor/contact-sheet.png" target="_blank" rel="noopener">프레임 모음</a>
-<a href="videos/cliff-sensor/preview.gif" target="_blank" rel="noopener">첫 10초 GIF</a>
-<a href="videos/cliff-sensor/subtitles.srt">자막 SRT</a>
-</nav>
-<p><small>이 페이지를 북마크하면 파일을 내려받지 않고 다시 시청할 수 있습니다. 플레이어의 전체 화면 버튼으로 확대할 수 있습니다.</small></p>
-</main><script>
-const player=document.getElementById('player'),status=document.getElementById('status');
-player.addEventListener('loadedmetadata',()=>{status.textContent='재생 준비 완료 · '+player.duration.toFixed(2)+'초';});
-player.addEventListener('playing',()=>{status.textContent='재생 중';});
-player.addEventListener('error',()=>{status.textContent='영상 로딩에 실패했습니다. Pages 배포 완료 여부와 네트워크 연결을 확인해 주세요.';});
-</script></body></html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>클리프 센서 v8.3 — 영상 두 버전 비교</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;background:#101923;color:#edf3f6}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:28px 18px}h1{font-size:26px}p{color:#bed0d7;line-height:1.7}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:#172832;border:1px solid #354c59;border-radius:14px;padding:16px}h2{margin:0 0 14px;font-size:21px}video{display:block;width:100%;aspect-ratio:9/16;background:#000;border-radius:8px;max-height:78vh}nav{display:flex;flex-wrap:wrap;gap:16px;margin:16px 0}a{color:#8fe5cf}small{color:#aebfc9}@media(max-width:650px){.grid{grid-template-columns:1fr}main{padding:18px 12px}}
+</style></head><body><main>
+<h1>클리프 센서 v8.3</h1><p>같은 대본·같은 한국어 음성·같은 컷 타이밍으로 만든 화면 스타일 비교입니다.<br>각 영상 168초 · 1080×1920 · 76컷. 재생 버튼을 누르면 브라우저에서 시청할 수 있습니다.</p>
+<div class="grid"><article><h2>픽셀아트</h2><video id="pixel" controls playsinline preload="metadata"><source src="videos/cliff-sensor-v83/cliff-sensor-v83-pixel.mp4" type="video/mp4"></video><nav><a href="videos/cliff-sensor-v83/representatives-pixel.png" target="_blank" rel="noopener">대표 장면 13개</a></nav></article><article><h2>2D 일러스트</h2><video id="illustration" controls playsinline preload="metadata"><source src="videos/cliff-sensor-v83/cliff-sensor-v83-illustration.mp4" type="video/mp4"></video><nav><a href="videos/cliff-sensor-v83/representatives-illustration.png" target="_blank" rel="noopener">대표 장면 13개</a></nav></article></div>
+<p id="status" role="status">한 영상을 재생하면 다른 영상은 멈춥니다. 플레이어의 전체 화면 버튼으로 확대할 수 있습니다.</p>
+<nav><a href="videos/cliff-sensor-v83/PRODUCTION_REPORT.md">제작·사용량 보고서</a><a href="videos/cliff-sensor-v83/subtitles-v83.srt">공통 자막 SRT</a><a href="videos/cliff-sensor/cliff-sensor-sample.mp4">이전 샘플</a></nav><p><small>검토용 공개 페이지입니다. 소스와 영상 파일은 shorts/cliff-sensor-sample 브랜치에 보관합니다.</small></p>
+</main><script>const videos=[...document.querySelectorAll('video')];videos.forEach(video=>{video.addEventListener('play',()=>videos.filter(v=>v!==video).forEach(v=>v.pause()));video.addEventListener('error',()=>document.getElementById('status').textContent='영상 로딩에 실패했습니다. 배포 완료 여부와 네트워크 연결을 확인해 주세요.');});</script></body></html>

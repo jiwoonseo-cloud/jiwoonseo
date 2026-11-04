@@ -1,0 +1,145 @@
+{
+  "versions": {
+    "pixel": {
+      "start_utc": "2026-11-04T04:27:19+00:00",
+      "completed_utc": "2026-11-04T04:56:09.314574+00:00",
+      "elapsed_seconds": 1730,
+      "image_generation_calls": 5,
+      "token_usage": null,
+      "mp4_bytes": 42217980,
+      "representative_images": 13,
+      "technical_and_visual_review": {
+        "variant": "pixel",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1080,
+              "height": 1920,
+              "nb_frames": "4032"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "nb_frames": "7876"
+            }
+          ],
+          "format": {
+            "duration": "168.000000",
+            "size": "42217980"
+          }
+        },
+        "audio_pcm_sha256": "969ae376f0513b8c64c9c9013e1ff55057bd37d6d8647a7963237ce8f8bab28c",
+        "full_decode": "passed",
+        "all_cut_frame_sheets": 4,
+        "cuts": 76,
+        "cut_min_seconds": 1.5,
+        "cut_max_seconds": 3.0,
+        "subtitle_cues": 75,
+        "word_boundary_events": 409,
+        "all_subtitle_words_match_script": true,
+        "source_and_notices_present": true,
+        "technical_validation_completed_utc": "2026-11-04T04:55:23.737880+00:00",
+        "visual_review_all_cuts": true,
+        "visual_review_method": "Reviewed all 76 cut midpoints in 4 chronological sheets, plus full-size hook, source-label and principle examples; checked all generated atlases.",
+        "real_time_audiovisual_watch": false,
+        "visual_review_completed_utc": "2026-11-04T04:56:09.314574+00:00"
+      }
+    },
+    "illustration": {
+      "start_utc": "2026-11-04T04:27:19+00:00",
+      "completed_utc": "2026-11-04T04:58:03.871355+00:00",
+      "elapsed_seconds": 1845,
+      "image_generation_calls": 5,
+      "token_usage": null,
+      "mp4_bytes": 27895975,
+      "representative_images": 13,
+      "technical_and_visual_review": {
+        "variant": "illustration",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1080,
+              "height": 1920,
+              "nb_frames": "4032"
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "nb_frames": "7876"
+            }
+          ],
+          "format": {
+            "duration": "168.000000",
+            "size": "27895975"
+          }
+        },
+        "audio_pcm_sha256": "969ae376f0513b8c64c9c9013e1ff55057bd37d6d8647a7963237ce8f8bab28c",
+        "full_decode": "passed",
+        "all_cut_frame_sheets": 4,
+        "cuts": 76,
+        "cut_min_seconds": 1.5,
+        "cut_max_seconds": 3.0,
+        "subtitle_cues": 75,
+        "word_boundary_events": 409,
+        "all_subtitle_words_match_script": true,
+        "source_and_notices_present": true,
+        "technical_validation_completed_utc": "2026-11-04T04:56:43.121952+00:00",
+        "visual_review_all_cuts": true,
+        "visual_review_method": "Reviewed all 76 cut midpoints in 4 chronological sheets, full-size representative examples and all generated atlases.",
+        "real_time_audiovisual_watch": false,
+        "visual_review_completed_utc": "2026-11-04T04:58:03.871355+00:00"
+      }
+    }
+  },
+  "shared_voice": {
+    "voice": "ko-KR-SunHiNeural",
+    "requests_from_code": 1,
+    "native_rate": "+40%",
+    "text_characters_including_spaces": 1720,
+    "text_characters_excluding_whitespace": 1299,
+    "utf8_bytes": 4058,
+    "boundary_count": 409,
+    "elapsed_seconds": 29.24162459373474,
+    "billing_tokens": null,
+    "charge_or_credits": null
+  },
+  "audio_pcm_identical": true,
+  "total_image_generation_calls": 10,
+  "tokens_exposed": false,
+  "additional_payment_or_credit_purchase": false,
+  "external_output_upload_or_publication": false,
+  "quality_checks": {
+    "duration": 168,
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "cuts": 76,
+    "cut_range_seconds": [
+      1.5,
+      3.0
+    ],
+    "captions": 75,
+    "source_word_timestamps": 409,
+    "whole_video_decoding": true,
+    "all_cut_midpoints_visually_reviewed": true,
+    "real_time_full_audiovisual_watch": false
+  },
+  "notes": [
+    "Token counts, actual charged credits and monetary cost are not exposed by these tools. They were not estimated.",
+    "Version times are elapsed wall times with parallel work and shared voice/setup. They must not be added as serial production time.",
+    "This was the first sample: asset corrections, motion compositing, font fixes, rendering retries and QA are included.",
+    "Media is generated artwork + camera edits + robot sprite animation + HUD, not continuous generated full-motion video."
+  ]
+}
