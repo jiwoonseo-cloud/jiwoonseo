@@ -21,11 +21,24 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      - name: Check gallery is installed on main
+        id: installed
+        shell: bash
+        run: |
+          if [[ -f scripts/update_gallery.sh && -f scripts/update_gallery.py ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Gallery scripts are not on main yet. Merge the gallery setup PR first; refresh will run on the resulting main push."
+          fi
       - name: Install ffmpeg
+        if: steps.installed.outputs.ready == 'true'
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Collect videos from immutable branch snapshots
+        if: steps.installed.outputs.ready == 'true'
         run: bash scripts/update_gallery.sh
       - name: Open gallery-only update PR
+        if: steps.installed.outputs.ready == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: gallery/automated-update
