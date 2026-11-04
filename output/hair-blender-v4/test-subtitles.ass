@@ -1,0 +1,18 @@
+[Script Info]
+Title: Robot brush hair mechanism - paragraph 6 held
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans CJK KR,64,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,2,5,50,50,0,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.93,Default,,0,0,0,,{\pos(540,1267)}한 번 걸리면
+Dialogue: 0,0:00:00.93,0:00:02.20,Default,,0,0,0,,{\pos(540,1267)}회전할 때마다 더
+Dialogue: 0,0:00:02.20,0:00:03.26,Default,,0,0,0,,{\pos(540,1267)}세게 감기고,
+Dialogue: 0,0:00:03.56,0:00:05.45,Default,,0,0,0,,{\pos(540,1267)}가운데에 머물지 않아요.
+Dialogue: 0,0:00:05.79,0:00:07.21,Default,,0,0,0,,{\pos(540,1267)}저항이 적은 끝단,
+Dialogue: 0,0:00:07.58,0:00:09.14,Default,,0,0,0,,{\pos(540,1267)}베어링 쪽으로 미끄러져
+Dialogue: 0,0:00:09.14,0:00:09.88,Default,,0,0,0,,{\pos(540,1267)}모입니다.
