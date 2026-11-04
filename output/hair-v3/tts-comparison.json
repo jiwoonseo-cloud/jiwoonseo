@@ -1,0 +1,80 @@
+{
+  "actual_short_samples": [
+    {
+      "sample": "ko-KR-HyunsuMultilingualNeural",
+      "actual_sample_duration_seconds": 11.568
+    },
+    {
+      "sample": "ko-KR-InJoonNeural",
+      "actual_sample_duration_seconds": 12.768
+    },
+    {
+      "sample": "ko-KR-SunHiNeural",
+      "actual_sample_duration_seconds": 11.472
+    },
+    {
+      "sample": "google-ko",
+      "actual_sample_duration_seconds": 13.224
+    },
+    {
+      "sample": "en-US-BrianMultilingualNeural",
+      "actual_sample_duration_seconds": 11.592
+    }
+  ],
+  "chosen_full_voice": "ko-KR-HyunsuMultilingualNeural",
+  "chosen_full_duration_seconds": 143.352,
+  "chosen_rate": "+0%",
+  "supertonic_2_duration_predictor_only": [
+    {
+      "voice": "M1",
+      "predicted_duration_1_0": 153.24008178710938,
+      "predicted_duration_1_1": 139.3091583251953
+    },
+    {
+      "voice": "M2",
+      "predicted_duration_1_0": 156.90426635742188,
+      "predicted_duration_1_1": 142.64024353027344
+    },
+    {
+      "voice": "M3",
+      "predicted_duration_1_0": 142.65484619140625,
+      "predicted_duration_1_1": 129.68621826171875
+    },
+    {
+      "voice": "M4",
+      "predicted_duration_1_0": 159.41038513183594,
+      "predicted_duration_1_1": 144.9185333251953
+    },
+    {
+      "voice": "M5",
+      "predicted_duration_1_0": 169.9892120361328,
+      "predicted_duration_1_1": 154.53564453125
+    },
+    {
+      "voice": "F1",
+      "predicted_duration_1_0": 155.59828186035156,
+      "predicted_duration_1_1": 141.45298767089844
+    },
+    {
+      "voice": "F2",
+      "predicted_duration_1_0": 151.2056884765625,
+      "predicted_duration_1_1": 137.459716796875
+    },
+    {
+      "voice": "F3",
+      "predicted_duration_1_0": 161.4051513671875,
+      "predicted_duration_1_1": 146.73194885253906
+    },
+    {
+      "voice": "F4",
+      "predicted_duration_1_0": 144.6717529296875,
+      "predicted_duration_1_1": 131.519775390625
+    },
+    {
+      "voice": "F5",
+      "predicted_duration_1_0": 158.58349609375,
+      "predicted_duration_1_1": 144.16680908203125
+    }
+  ],
+  "note": "Supertonic values are duration-model predictions only, not synthesized/listened audio. No claim of universal infeasibility."
+}

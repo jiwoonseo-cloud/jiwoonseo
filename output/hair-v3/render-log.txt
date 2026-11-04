@@ -1,0 +1,252 @@
+FILE: render_phong.log
+0 / 3440 elapsed 1.125
+24 / 3440 elapsed 11.231
+48 / 3440 elapsed 21.828
+72 / 3440 elapsed 31.873
+96 / 3440 elapsed 43.893
+120 / 3440 elapsed 60.758
+144 / 3440 elapsed 73.485
+168 / 3440 elapsed 91.611
+192 / 3440 elapsed 112.296
+216 / 3440 elapsed 140.176
+240 / 3440 elapsed 167.233
+264 / 3440 elapsed 185.866
+288 / 3440 elapsed 207.621
+312 / 3440 elapsed 238.626
+336 / 3440 elapsed 264.493
+360 / 3440 elapsed 272.761
+384 / 3440 elapsed 280.971
+408 / 3440 elapsed 288.174
+432 / 3440 elapsed 296.132
+456 / 3440 elapsed 304.561
+480 / 3440 elapsed 313.09
+504 / 3440 elapsed 320.406
+528 / 3440 elapsed 327.92
+552 / 3440 elapsed 335.3
+576 / 3440 elapsed 343.364
+600 / 3440 elapsed 350.595
+624 / 3440 elapsed 358.096
+648 / 3440 elapsed 366.078
+672 / 3440 elapsed 373.894
+696 / 3440 elapsed 381.219
+720 / 3440 elapsed 390.845
+744 / 3440 elapsed 400.884
+768 / 3440 elapsed 412.41
+792 / 3440 elapsed 424.198
+816 / 3440 elapsed 438.575
+840 / 3440 elapsed 451.669
+864 / 3440 elapsed 463.994
+888 / 3440 elapsed 475.717
+912 / 3440 elapsed 488.017
+936 / 3440 elapsed 500.088
+960 / 3440 elapsed 510.593
+984 / 3440 elapsed 520.112
+1008 / 3440 elapsed 529.623
+1032 / 3440 elapsed 552.042
+1056 / 3440 elapsed 575.918
+1080 / 3440 elapsed 599.52
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: Target page, context or browser has been closed
+    at /workspace/work/hair-v3/capture.mjs:14:81 {
+  log: []
+}
+
+Node.js v24.19.0
+
+
+FILE: render_rest.log
+1056 / 3440 elapsed 1.629
+1080 / 3440 elapsed 23.911
+1104 / 3440 elapsed 39.088
+1128 / 3440 elapsed 53.54
+1152 / 3440 elapsed 85.674
+1176 / 3440 elapsed 123.874
+1200 / 3440 elapsed 146.469
+1224 / 3440 elapsed 170.534
+1248 / 3440 elapsed 194.219
+1272 / 3440 elapsed 215.709
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: Target page, context or browser has been closed
+    at /workspace/work/hair-v3/capture.mjs:14:224 {
+  log: []
+}
+
+Node.js v24.19.0
+
+
+FILE: render_finish.log
+1248 / 3440 elapsed 1.585
+1272 / 3440 elapsed 27.125
+1296 / 3440 elapsed 58.705
+1320 / 3440 elapsed 90.326
+1344 / 3440 elapsed 114.72
+1368 / 3440 elapsed 136.976
+1392 / 3440 elapsed 168.72
+1416 / 3440 elapsed 201.084
+1440 / 3440 elapsed 230.058
+1464 / 3440 elapsed 254.934
+1488 / 3440 elapsed 267.077
+1512 / 3440 elapsed 284.985
+1536 / 3440 elapsed 300.008
+1560 / 3440 elapsed 314.839
+1584 / 3440 elapsed 332.129
+1608 / 3440 elapsed 347.554
+1632 / 3440 elapsed 359.514
+1656 / 3440 elapsed 369.109
+1680 / 3440 elapsed 378.549
+1704 / 3440 elapsed 388.401
+1728 / 3440 elapsed 398.478
+1752 / 3440 elapsed 408.121
+1776 / 3440 elapsed 419.063
+1800 / 3440 elapsed 430.414
+1824 / 3440 elapsed 440.254
+1848 / 3440 elapsed 450.257
+1872 / 3440 elapsed 461.274
+1896 / 3440 elapsed 472.744
+1920 / 3440 elapsed 483.408
+1944 / 3440 elapsed 492.018
+1968 / 3440 elapsed 500.297
+1992 / 3440 elapsed 508.71
+2016 / 3440 elapsed 516.278
+2040 / 3440 elapsed 523.7
+2064 / 3440 elapsed 531.044
+2088 / 3440 elapsed 538.357
+2112 / 3440 elapsed 546.096
+2136 / 3440 elapsed 553.738
+2160 / 3440 elapsed 561.636
+2184 / 3440 elapsed 569.343
+2208 / 3440 elapsed 576.767
+2232 / 3440 elapsed 590.77
+2256 / 3440 elapsed 605.307
+2280 / 3440 elapsed 623.845
+2304 / 3440 elapsed 640.836
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.evaluate: Target page, context or browser has been closed
+    at /workspace/work/hair-v3/capture.mjs:14:224 {
+  log: []
+}
+
+Node.js v24.19.0
+
+
+FILE: render_last.log
+2232 / 3440 elapsed 1.425
+2256 / 3440 elapsed 16.104
+2280 / 3440 elapsed 43.774
+2304 / 3440 elapsed 70.043
+2328 / 3440 elapsed 92.634
+2352 / 3440 elapsed 113.398
+2376 / 3440 elapsed 135.245
+2400 / 3440 elapsed 169.722
+2424 / 3440 elapsed 200.454
+2448 / 3440 elapsed 227.624
+2472 / 3440 elapsed 255.673
+2496 / 3440 elapsed 296.031
+2520 / 3440 elapsed 330.265
+2544 / 3440 elapsed 368.026
+2568 / 3440 elapsed 400.24
+2592 / 3440 elapsed 432.098
+2616 / 3440 elapsed 465.156
+2640 / 3440 elapsed 494.986
+2664 / 3440 elapsed 529.054
+2688 / 3440 elapsed 564.565
+2712 / 3440 elapsed 597.969
+2736 / 3440 elapsed 628.732
+2760 / 3440 elapsed 652.452
+2784 / 3440 elapsed 678.51
+2808 / 3440 elapsed 703.763
+2832 / 3440 elapsed 727.296
+2856 / 3440 elapsed 751.833
+2880 / 3440 elapsed 776.976
+2904 / 3440 elapsed 803.37
+2928 / 3440 elapsed 812.522
+2952 / 3440 elapsed 819.252
+2976 / 3440 elapsed 826.298
+3000 / 3440 elapsed 837.098
+3024 / 3440 elapsed 848.841
+3048 / 3440 elapsed 860.597
+3072 / 3440 elapsed 870.219
+3096 / 3440 elapsed 879.158
+3120 / 3440 elapsed 887.707
+3144 / 3440 elapsed 895.249
+3168 / 3440 elapsed 908.605
+3192 / 3440 elapsed 933.725
+3216 / 3440 elapsed 958.48
+3240 / 3440 elapsed 986.502
+3264 / 3440 elapsed 1017.858
+3288 / 3440 elapsed 1051.153
+3312 / 3440 elapsed 1084.956
+3336 / 3440 elapsed 1118.597
+3360 / 3440 elapsed 1149.014
+3384 / 3440 elapsed 1163.697
+3408 / 3440 elapsed 1172.765
+3432 / 3440 elapsed 1181.985
+
+
+FILE: patch-slide.log
+816 / 3440 elapsed 29.001
+
+
+FILE: patch-early.log
+96 / 3440 elapsed 8.572
+120 / 3440 elapsed 38.085
+144 / 3440 elapsed 64.858
+1080 / 3440 elapsed 76.57
+1104 / 3440 elapsed 97.782
+1128 / 3440 elapsed 119.632
+1152 / 3440 elapsed 163.265
+1176 / 3440 elapsed 204.228
+
+
+FILE: patch-caster.log
+96 / 3440 elapsed 8.991
+120 / 3440 elapsed 35.833
+144 / 3440 elapsed 61.047
+1080 / 3440 elapsed 70.782
+1104 / 3440 elapsed 91.612
+1128 / 3440 elapsed 106.941
+1152 / 3440 elapsed 141.822
+1176 / 3440 elapsed 172.842
+1944 / 3440 elapsed 204.079
+1968 / 3440 elapsed 223.184
+
+
+FILE: patch-duo.log
+1992 / 3440 elapsed 9.846
+2016 / 3440 elapsed 45.861
+2040 / 3440 elapsed 90.033
+2064 / 3440 elapsed 127.395
+2088 / 3440 elapsed 163.391
+2112 / 3440 elapsed 208.139
+2136 / 3440 elapsed 250.935
+2160 / 3440 elapsed 290.61
+2184 / 3440 elapsed 327.01
+2208 / 3440 elapsed 367.799
+
+
+FILE: stream-final.log
+encoded input 0 /3440 2026-11-04T14:50:39.271Z
+encoded input 240 /3440 2026-11-04T14:50:48.909Z
+encoded input 480 /3440 2026-11-04T14:51:06.498Z
+encoded input 720 /3440 2026-11-04T14:51:21.493Z
+encoded input 960 /3440 2026-11-04T14:51:35.881Z
+encoded input 1200 /3440 2026-11-04T14:51:51.174Z
+encoded input 1440 /3440 2026-11-04T14:51:59.075Z
+encoded input 1680 /3440 2026-11-04T14:52:11.394Z
+encoded input 1920 /3440 2026-11-04T14:52:27.184Z
+encoded input 2160 /3440 2026-11-04T14:52:40.350Z
+encoded input 2400 /3440 2026-11-04T14:52:56.471Z
+encoded input 2640 /3440 2026-11-04T14:53:12.065Z
+encoded input 2880 /3440 2026-11-04T14:53:24.174Z
+encoded input 3120 /3440 2026-11-04T14:53:39.474Z
+encoded input 3360 /3440 2026-11-04T14:53:45.563Z
+encoder finished 0

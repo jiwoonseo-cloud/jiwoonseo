@@ -1,0 +1,578 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.88125,
+    "action_start": 0,
+    "action_end": 3.7625,
+    "mode": "home",
+    "angle": 0,
+    "para": 0
+  },
+  {
+    "start": 1.88125,
+    "end": 3.7625,
+    "action_start": 0,
+    "action_end": 3.7625,
+    "mode": "home",
+    "angle": 1,
+    "para": 0
+  },
+  {
+    "start": 3.7625,
+    "end": 6.275,
+    "action_start": 3.7625,
+    "action_end": 6.275,
+    "mode": "flip",
+    "angle": 0,
+    "para": 0
+  },
+  {
+    "start": 6.275,
+    "end": 8.0105,
+    "action_start": 6.275,
+    "action_end": 9.746,
+    "mode": "reveal",
+    "angle": 0,
+    "para": 0
+  },
+  {
+    "start": 8.0105,
+    "end": 9.746,
+    "action_start": 6.275,
+    "action_end": 9.746,
+    "mode": "reveal",
+    "angle": 1,
+    "para": 0
+  },
+  {
+    "start": 9.746,
+    "end": 11.808499999999999,
+    "action_start": 9.746,
+    "action_end": 13.870999999999999,
+    "mode": "reveal",
+    "angle": 0,
+    "para": 1
+  },
+  {
+    "start": 11.808499999999999,
+    "end": 13.870999999999999,
+    "action_start": 9.746,
+    "action_end": 13.870999999999999,
+    "mode": "reveal",
+    "angle": 1,
+    "para": 1
+  },
+  {
+    "start": 13.870999999999999,
+    "end": 15.671,
+    "action_start": 13.870999999999999,
+    "action_end": 17.471,
+    "mode": "contact",
+    "angle": 0,
+    "para": 1
+  },
+  {
+    "start": 15.671,
+    "end": 17.471,
+    "action_start": 13.870999999999999,
+    "action_end": 17.471,
+    "mode": "contact",
+    "angle": 1,
+    "para": 1
+  },
+  {
+    "start": 17.471,
+    "end": 19.9205,
+    "action_start": 17.471,
+    "action_end": 22.37,
+    "mode": "wrap",
+    "angle": 0,
+    "para": 1
+  },
+  {
+    "start": 19.9205,
+    "end": 22.37,
+    "action_start": 17.471,
+    "action_end": 22.37,
+    "mode": "wrap",
+    "angle": 1,
+    "para": 1
+  },
+  {
+    "start": 22.37,
+    "end": 23.895000000000003,
+    "action_start": 22.37,
+    "action_end": 25.42,
+    "mode": "contact",
+    "angle": 0,
+    "para": 2
+  },
+  {
+    "start": 23.895000000000003,
+    "end": 25.42,
+    "action_start": 22.37,
+    "action_end": 25.42,
+    "mode": "contact",
+    "angle": 1,
+    "para": 2
+  },
+  {
+    "start": 25.42,
+    "end": 27.945,
+    "action_start": 25.42,
+    "action_end": 30.47,
+    "mode": "wrap",
+    "angle": 0,
+    "para": 2
+  },
+  {
+    "start": 27.945,
+    "end": 30.47,
+    "action_start": 25.42,
+    "action_end": 30.47,
+    "mode": "wrap",
+    "angle": 1,
+    "para": 2
+  },
+  {
+    "start": 30.47,
+    "end": 32.495,
+    "action_start": 30.47,
+    "action_end": 34.519999999999996,
+    "mode": "slide",
+    "angle": 0,
+    "para": 2
+  },
+  {
+    "start": 32.495,
+    "end": 34.519999999999996,
+    "action_start": 30.47,
+    "action_end": 34.519999999999996,
+    "mode": "slide",
+    "angle": 1,
+    "para": 2
+  },
+  {
+    "start": 34.519999999999996,
+    "end": 37.1575,
+    "action_start": 34.519999999999996,
+    "action_end": 37.1575,
+    "mode": "short",
+    "angle": 0,
+    "para": 2
+  },
+  {
+    "start": 37.1575,
+    "end": 39.723749999999995,
+    "action_start": 37.1575,
+    "action_end": 42.29,
+    "mode": "remain",
+    "angle": 0,
+    "para": 2
+  },
+  {
+    "start": 39.723749999999995,
+    "end": 42.29,
+    "action_start": 37.1575,
+    "action_end": 42.29,
+    "mode": "remain",
+    "angle": 1,
+    "para": 2
+  },
+  {
+    "start": 42.29,
+    "end": 44.8525,
+    "action_start": 42.29,
+    "action_end": 44.8525,
+    "mode": "center",
+    "angle": 0,
+    "para": 3
+  },
+  {
+    "start": 44.8525,
+    "end": 47.18375,
+    "action_start": 44.8525,
+    "action_end": 49.515,
+    "mode": "cap",
+    "angle": 0,
+    "para": 3
+  },
+  {
+    "start": 47.18375,
+    "end": 49.515,
+    "action_start": 44.8525,
+    "action_end": 49.515,
+    "mode": "cap",
+    "angle": 1,
+    "para": 3
+  },
+  {
+    "start": 49.515,
+    "end": 52.39,
+    "action_start": 49.515,
+    "action_end": 55.265,
+    "mode": "bearing",
+    "angle": 0,
+    "para": 3
+  },
+  {
+    "start": 52.39,
+    "end": 55.265,
+    "action_start": 49.515,
+    "action_end": 55.265,
+    "mode": "bearing",
+    "angle": 1,
+    "para": 3
+  },
+  {
+    "start": 55.265,
+    "end": 58.0055,
+    "action_start": 55.265,
+    "action_end": 60.745999999999995,
+    "mode": "motor",
+    "angle": 0,
+    "para": 3
+  },
+  {
+    "start": 58.0055,
+    "end": 60.745999999999995,
+    "action_start": 55.265,
+    "action_end": 60.745999999999995,
+    "mode": "motor",
+    "angle": 1,
+    "para": 3
+  },
+  {
+    "start": 60.745999999999995,
+    "end": 63.13766666666666,
+    "action_start": 60.745999999999995,
+    "action_end": 67.92099999999999,
+    "mode": "suction",
+    "angle": 0,
+    "para": 4
+  },
+  {
+    "start": 63.13766666666666,
+    "end": 65.52933333333333,
+    "action_start": 60.745999999999995,
+    "action_end": 67.92099999999999,
+    "mode": "suction",
+    "angle": 1,
+    "para": 4
+  },
+  {
+    "start": 65.52933333333333,
+    "end": 67.92099999999999,
+    "action_start": 60.745999999999995,
+    "action_end": 67.92099999999999,
+    "mode": "suction",
+    "angle": 2,
+    "para": 4
+  },
+  {
+    "start": 67.92099999999999,
+    "end": 70.721,
+    "action_start": 67.92099999999999,
+    "action_end": 70.721,
+    "mode": "pinned",
+    "angle": 0,
+    "para": 4
+  },
+  {
+    "start": 70.721,
+    "end": 72.95224999999999,
+    "action_start": 70.721,
+    "action_end": 75.1835,
+    "mode": "pinned",
+    "angle": 0,
+    "para": 4
+  },
+  {
+    "start": 72.95224999999999,
+    "end": 75.1835,
+    "action_start": 70.721,
+    "action_end": 75.1835,
+    "mode": "pinned",
+    "angle": 1,
+    "para": 4
+  },
+  {
+    "start": 75.1835,
+    "end": 77.61274999999999,
+    "action_start": 75.1835,
+    "action_end": 80.04199999999999,
+    "mode": "pinned",
+    "angle": 0,
+    "para": 4
+  },
+  {
+    "start": 77.61274999999999,
+    "end": 80.04199999999999,
+    "action_start": 75.1835,
+    "action_end": 80.04199999999999,
+    "mode": "pinned",
+    "angle": 1,
+    "para": 4
+  },
+  {
+    "start": 80.04199999999999,
+    "end": 82.8795,
+    "action_start": 80.04199999999999,
+    "action_end": 82.8795,
+    "mode": "remove",
+    "angle": 0,
+    "para": 5
+  },
+  {
+    "start": 82.8795,
+    "end": 84.62324999999998,
+    "action_start": 82.8795,
+    "action_end": 86.36699999999999,
+    "mode": "duo",
+    "angle": 0,
+    "para": 5
+  },
+  {
+    "start": 84.62324999999998,
+    "end": 86.36699999999999,
+    "action_start": 82.8795,
+    "action_end": 86.36699999999999,
+    "mode": "duo",
+    "angle": 1,
+    "para": 5
+  },
+  {
+    "start": 86.36699999999999,
+    "end": 89.19824999999999,
+    "action_start": 86.36699999999999,
+    "action_end": 92.02949999999998,
+    "mode": "duoflow",
+    "angle": 0,
+    "para": 5
+  },
+  {
+    "start": 89.19824999999999,
+    "end": 92.02949999999998,
+    "action_start": 86.36699999999999,
+    "action_end": 92.02949999999998,
+    "mode": "duoflow",
+    "angle": 1,
+    "para": 5
+  },
+  {
+    "start": 92.02949999999998,
+    "end": 94.03783333333332,
+    "action_start": 92.02949999999998,
+    "action_end": 98.05449999999999,
+    "mode": "cut",
+    "angle": 0,
+    "para": 5
+  },
+  {
+    "start": 94.03783333333332,
+    "end": 96.04616666666665,
+    "action_start": 92.02949999999998,
+    "action_end": 98.05449999999999,
+    "mode": "cut",
+    "angle": 1,
+    "para": 5
+  },
+  {
+    "start": 96.04616666666665,
+    "end": 98.05449999999999,
+    "action_start": 92.02949999999998,
+    "action_end": 98.05449999999999,
+    "mode": "cut",
+    "angle": 2,
+    "para": 5
+  },
+  {
+    "start": 98.05449999999999,
+    "end": 100.32825,
+    "action_start": 98.05449999999999,
+    "action_end": 102.60199999999999,
+    "mode": "path",
+    "angle": 0,
+    "para": 5
+  },
+  {
+    "start": 100.32825,
+    "end": 102.60199999999999,
+    "action_start": 98.05449999999999,
+    "action_end": 102.60199999999999,
+    "mode": "path",
+    "angle": 1,
+    "para": 5
+  },
+  {
+    "start": 102.60199999999999,
+    "end": 105.08949999999999,
+    "action_start": 102.60199999999999,
+    "action_end": 105.08949999999999,
+    "mode": "center",
+    "angle": 0,
+    "para": 6
+  },
+  {
+    "start": 105.08949999999999,
+    "end": 107.78949999999999,
+    "action_start": 105.08949999999999,
+    "action_end": 110.48949999999999,
+    "mode": "accumulate",
+    "angle": 0,
+    "para": 6
+  },
+  {
+    "start": 107.78949999999999,
+    "end": 110.48949999999999,
+    "action_start": 105.08949999999999,
+    "action_end": 110.48949999999999,
+    "mode": "accumulate",
+    "angle": 1,
+    "para": 6
+  },
+  {
+    "start": 110.48949999999999,
+    "end": 112.25824999999999,
+    "action_start": 110.48949999999999,
+    "action_end": 114.02699999999999,
+    "mode": "bearing",
+    "angle": 0,
+    "para": 6
+  },
+  {
+    "start": 112.25824999999999,
+    "end": 114.02699999999999,
+    "action_start": 110.48949999999999,
+    "action_end": 114.02699999999999,
+    "mode": "bearing",
+    "angle": 1,
+    "para": 6
+  },
+  {
+    "start": 114.02699999999999,
+    "end": 116.39466666666665,
+    "action_start": 114.02699999999999,
+    "action_end": 121.12999999999998,
+    "mode": "accumulate",
+    "angle": 0,
+    "para": 6
+  },
+  {
+    "start": 116.39466666666665,
+    "end": 118.76233333333332,
+    "action_start": 114.02699999999999,
+    "action_end": 121.12999999999998,
+    "mode": "accumulate",
+    "angle": 1,
+    "para": 6
+  },
+  {
+    "start": 118.76233333333332,
+    "end": 121.12999999999998,
+    "action_start": 114.02699999999999,
+    "action_end": 121.12999999999998,
+    "mode": "accumulate",
+    "angle": 2,
+    "para": 6
+  },
+  {
+    "start": 121.12999999999998,
+    "end": 122.69874999999999,
+    "action_start": 121.12999999999998,
+    "action_end": 124.26749999999998,
+    "mode": "overview",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 122.69874999999999,
+    "end": 124.26749999999998,
+    "action_start": 121.12999999999998,
+    "action_end": 124.26749999999998,
+    "mode": "overview",
+    "angle": 1,
+    "para": 7
+  },
+  {
+    "start": 124.26749999999998,
+    "end": 127.19249999999998,
+    "action_start": 124.26749999999998,
+    "action_end": 127.19249999999998,
+    "mode": "slide",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 127.19249999999998,
+    "end": 129.59249999999997,
+    "action_start": 127.19249999999998,
+    "action_end": 129.59249999999997,
+    "mode": "remove",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 129.59249999999997,
+    "end": 131.67999999999998,
+    "action_start": 129.59249999999997,
+    "action_end": 131.67999999999998,
+    "mode": "cap",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 131.67999999999998,
+    "end": 134.27374999999998,
+    "action_start": 131.67999999999998,
+    "action_end": 136.86749999999998,
+    "mode": "bearing",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 134.27374999999998,
+    "end": 136.86749999999998,
+    "action_start": 131.67999999999998,
+    "action_end": 136.86749999999998,
+    "mode": "bearing",
+    "angle": 1,
+    "para": 7
+  },
+  {
+    "start": 136.86749999999998,
+    "end": 138.53625,
+    "action_start": 136.86749999999998,
+    "action_end": 140.20499999999998,
+    "mode": "snip",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 138.53625,
+    "end": 140.20499999999998,
+    "action_start": 136.86749999999998,
+    "action_end": 140.20499999999998,
+    "mode": "snip",
+    "angle": 1,
+    "para": 7
+  },
+  {
+    "start": 140.20499999999998,
+    "end": 141.77849999999998,
+    "action_start": 140.20499999999998,
+    "action_end": 143.35199999999998,
+    "mode": "assemble",
+    "angle": 0,
+    "para": 7
+  },
+  {
+    "start": 141.77849999999998,
+    "end": 143.35199999999998,
+    "action_start": 140.20499999999998,
+    "action_end": 143.35199999999998,
+    "mode": "assemble",
+    "angle": 1,
+    "para": 7
+  }
+]
