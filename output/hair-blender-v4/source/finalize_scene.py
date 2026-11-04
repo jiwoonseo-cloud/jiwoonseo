@@ -47,7 +47,7 @@ dg=bpy.context.evaluated_depsgraph_get()
 def camera(cam,target,offset3,lens):
  target=Vector(target);cam.location=target+Vector(offset3);cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=lens;cam.data.dof.focus_distance=Vector(offset3).length
 def project(cam,p):
- world=Matrix.LocRotScale(cam.location,cam.rotation_euler.to_quaternion(),Vector((1,1,1)));proj=cam.calc_matrix_camera(dg,x=1080,y=1920);q=proj@world.inverted()@Vector((*p,1));return (q.x/q.w*.5+.5,q.y/q.w*.5+.5)
+ world=Matrix.LocRotScale(cam.location,cam.rotation_euler.to_quaternion(),Vector((1,1,1)));q=world.inverted()@Vector(p);fr=cam.data.view_frame(scene=S);fx=max(v.x/-v.z for v in fr);fy=max(v.y/-v.z for v in fr);return (.5+.5*q.x/(-q.z*fx),.5+.5*q.y/(-q.z*fy))
 def fit(cam,points):
  for _ in range(16):
   uv=[project(cam,p) for p in points]
@@ -58,7 +58,10 @@ short=cue(3,'짧은 털은');long=cue(3,'길이가 긴');air=cue(5,'흡입력은
 for c in cuts:
  p=c['paragraph'];cam=bpy.data.objects[c['camera']];a,b=c['start'],c['end'];idx=int(cam.name.split('_')[1])
  if p==3 and a<short-.02:continue
+ if c['set']=='ROOM' and a<6.35:
+  focus=(0,0,1.0);off=[(4,-7.5,5),(0,-8,4),(4,-5,5.5)][min(idx,2)];camera(cam,focus,Vector(off)-Vector(focus),40);fit(cam,bbox(-2.5,2.5,-2.5,2.5,.10,3.1))
  if c['set']=='MECHANISM':
+  cam.data.lens=58
   floor=(p==3 and short-.02<=a<long-.02) or (p==5 and air-.02<=a<hook-.02)
   if floor:
    camera(cam,(0,-.60,.23),(.25,-2.65,2.65),35);fit(cam,bbox(-.62,.62,-1.82,.56,.002,.70))
@@ -75,6 +78,8 @@ for c in cuts:
 # Actual 3D dust grains share the already keyframed floor-to-intake paths.
 col=bpy.data.collections['MECHANISM'];refs=[o for o in col.objects if o.name.startswith('Short hair - floor to intake')]
 dust=bpy.data.materials.new('Matte household dust grains');dust.use_nodes=True;n=dust.node_tree.nodes.get('Principled BSDF');n.inputs['Base Color'].default_value=(.31,.25,.18,1);n.inputs['Roughness'].default_value=.85
+for old in list(col.objects):
+ if old.name.startswith('Animated household dust grain'):bpy.data.objects.remove(old,do_unlink=True)
 for i,ref in enumerate(refs):
  bpy.ops.mesh.primitive_uv_sphere_add(segments=10,ring_count=6,radius=.006,location=(.008*(i%3),.02,.006));o=bpy.context.object;o.name='Animated household dust grain'
  for cc in list(o.users_collection):cc.objects.unlink(o)

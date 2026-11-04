@@ -33,6 +33,7 @@ def labels():
  s=(BASE/'subtitles.base.ass').read_text()
  header,events=s.split('[Events]',1)
  header+='Style: Small,Noto Sans CJK KR,29,&H00EEEEEE,&H00EEEEEE,&H00101010,&H80000000,0,0,0,0,100,100,0,0,1,1.4,1,5,35,35,0,1\n'
+ header+='Style: Number,Noto Sans CJK KR,80,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,3,2,5,35,35,0,1\nStyle: RedLabel,Noto Sans CJK KR,33,&H00FFFFFF,&H00FFFFFF,&H00322AD1,&H00322AD1,-1,0,0,0,100,100,0,0,3,9,0,5,35,35,0,1\n'
  s=header+'[Events]'+events
  def line(a,b,text,y=1730):return f'Dialogue: 1,{stamp(a)},{stamp(b)},Small,,0,0,0,,{{\\pos(540,{y})}}{text}\n'
  for c in P['cuts']:
@@ -41,6 +42,9 @@ def labels():
  s+=line(36.075,41.488,'반투명 단면',1650)
  s+=line(54.509,61.234,'원리 시각화 연출, 특정 제품 아님',1650)
  s+=line(119.889,126.377,'관리 주기는 기종 설명서와 오염 상태에 따라 달라집니다',1670)
+ for aa,bb,txt in [(119.89,121.40,'일주일에 한 번'),(123.99,126.0,'일주일에 두 번')]:
+  s+=f'Dialogue: 1,{stamp(aa)},{stamp(bb)},Number,,0,0,0,,{{\\pos(540,320)}}{txt}\n'
+  s+=f'Dialogue: 1,{stamp(aa)},{stamp(bb)},RedLabel,,0,0,0,,{{\\pos(540,230)}}관리 주기 예시\n'
  (BASE/'subtitles.ass').write_text(s)
 def contact(video,out,seconds=None):
  tmp=W/(out.stem+'-frames');tmp.mkdir(exist_ok=True)

@@ -1,3 +1,4 @@
+# Framing revision 2: native actor bounds and rounded glove geometry.
 name: One-off native Blender hair film
 on:
   push:
