@@ -30,11 +30,11 @@
             "time_base": "1/12288",
             "start_pts": 0,
             "start_time": "0.000000",
-            "duration_ts": 1636864,
-            "duration": "133.208333",
-            "bit_rate": "3554908",
+            "duration_ts": 1637376,
+            "duration": "133.250000",
+            "bit_rate": "3530946",
             "bits_per_raw_sample": "8",
-            "nb_frames": "3197",
+            "nb_frames": "3198",
             "extradata_size": 48,
             "disposition": {
                 "default": 1,
@@ -54,13 +54,14 @@
                 "descriptions": 0,
                 "metadata": 0,
                 "dependent": 0,
-                "still_image": 0
+                "still_image": 0,
+                "multilayer": 0
             },
             "tags": {
                 "language": "und",
                 "handler_name": "VideoHandler",
                 "vendor_id": "[0][0][0][0]",
-                "encoder": "Lavc60.31.102 libx264"
+                "encoder": "Lavc61.19.101 libx264"
             }
         },
         {
@@ -85,7 +86,7 @@
             "start_time": "0.000000",
             "duration_ts": 3197952,
             "duration": "133.248000",
-            "bit_rate": "103209",
+            "bit_rate": "103208",
             "nb_frames": "3124",
             "extradata_size": 5,
             "disposition": {
@@ -106,7 +107,8 @@
                 "descriptions": 0,
                 "metadata": 0,
                 "dependent": 0,
-                "still_image": 0
+                "still_image": 0,
+                "multilayer": 0
             },
             "tags": {
                 "language": "und",
@@ -119,18 +121,19 @@
         "filename": "output/hair-blender-v4/robot-hair-blender.mp4",
         "nb_streams": 2,
         "nb_programs": 0,
+        "nb_stream_groups": 0,
         "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
         "format_long_name": "QuickTime / MOV",
         "start_time": "0.000000",
-        "duration": "133.248000",
-        "size": "60990963",
-        "bit_rate": "3661801",
+        "duration": "133.250000",
+        "size": "60610372",
+        "bit_rate": "3638896",
         "probe_score": 100,
         "tags": {
             "major_brand": "isom",
             "minor_version": "512",
             "compatible_brands": "isomiso2avc1mp41",
-            "encoder": "Lavf60.16.100"
+            "encoder": "Lavf61.7.103"
         }
     }
 }

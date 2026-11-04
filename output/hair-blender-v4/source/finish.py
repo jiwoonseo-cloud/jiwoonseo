@@ -65,7 +65,7 @@ def make_test():
  contact(BASE/'test-10s.mp4',BASE/'test-contact-sheet.jpg')
 def make_full(chunks=5):
  join_video('full',chunks);labels()
- run(['ffmpeg','-v','error','-y','-i',str(W/'full-joined.mp4'),'-i',str(W/'narration-mix.wav'),'-vf',f'ass={BASE}/subtitles.ass','-map','0:v','-map','1:a','-c:v','libx264','-preset','medium','-crf','20','-maxrate','5M','-bufsize','10M','-g','48','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-shortest','-movflags','+faststart',str(BASE/'robot-hair-blender.mp4')])
+ run(['ffmpeg','-v','error','-y','-i',str(W/'full-joined.mp4'),'-i',str(W/'narration-mix.wav'),'-vf',f'ass={BASE}/subtitles.ass','-map','0:v','-map','1:a','-c:v','libx264','-preset','medium','-crf','20','-maxrate','5M','-bufsize','10M','-g','48','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-movflags','+faststart',str(BASE/'robot-hair-blender.mp4')])
  contact(BASE/'robot-hair-blender.mp4',BASE/'contact-sheet.jpg')
 if __name__=='__main__':
  import argparse
