@@ -1,7 +1,7 @@
 name: Update video gallery
 on:
   push:
-    branches: [main, 'codex/**']
+    branches: ['**']
   pull_request:
     types: [opened, synchronize, reopened, closed]
   workflow_dispatch:
@@ -14,7 +14,7 @@ concurrency:
 jobs:
   gallery:
     # Never execute code from an untrusted PR, or write to its branch.
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    if: (github.event_name != 'push' || !startsWith(github.ref, 'refs/heads/gallery/')) && (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -35,6 +35,8 @@ jobs:
         if: steps.installed.outputs.ready == 'true'
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - name: Collect videos from immutable branch snapshots
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: steps.installed.outputs.ready == 'true'
         run: bash scripts/update_gallery.sh
       - name: Open gallery-only update PR
@@ -46,6 +48,7 @@ jobs:
           add-paths: |
             docs/index.html
             docs/gallery.json
+            docs/provenance.json
             docs/.nojekyll
             docs/videos/
             docs/reports/

@@ -1,0 +1,397 @@
+{
+  "repository": "jiwoonseo-cloud/jiwoonseo",
+  "videos": {
+    "0a894e6f6b61db47f1fef2fdf1526c43b681d57e": {
+      "commit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+      "method": "file-commit-pr",
+      "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4",
+      "prs": [
+        {
+          "branch": "deliver/hair-pixel-2026-11-04",
+          "createdAt": "2026-11-04T13:18:50Z",
+          "number": 5,
+          "state": "closed",
+          "title": "머리카락 감김 픽셀아트 영상과 제작 보고서 추가",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/5"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/hair-pixel-v2-2026-11-04",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/hair-v3-cgi",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "deliver/hair-pixel-2026-11-04",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "main",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "render/hair-native-41870390971",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "render/hair-native-41871347144",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "render/hair-native-41872120755",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        }
+      ],
+      "timestamp": 1793798290
+    },
+    "23b6b4c101e519d8267efe1661a87bebbe2b9cea": {
+      "commit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+      "method": "file-commit-pr",
+      "path": "output/hair/robot_brush_165s_NARRATED.mp4",
+      "prs": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "createdAt": "2026-11-04T10:48:14Z",
+          "number": 2,
+          "state": "open",
+          "title": "로봇청소기 머리카락 감김 릴스: 한국어 TTS·MP4·자막 납품",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/2"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "fileCommit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+          "path": "output/hair/robot_brush_165s_NARRATED.mp4"
+        }
+      ],
+      "timestamp": 1793789245
+    },
+    "30461b7c6796fa76e3165dfae775efce6f6860d9": {
+      "commit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
+      "method": "file-commit-no-pr",
+      "path": "output/hair-blender-v4/test-10s.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
+          "path": "output/hair-blender-v4/test-10s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41870390971",
+          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
+          "path": "output/hair-blender-v4/test-10s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41871347144",
+          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
+          "path": "output/hair-blender-v4/test-10s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41872120755",
+          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
+          "path": "output/hair-blender-v4/test-10s.mp4"
+        }
+      ],
+      "timestamp": 1793810620
+    },
+    "4630fe19dc0ecd9b0686ff225070233180a60e37": {
+      "commit": "c9ab223f4000bc5495a74341a4e623feb9cba333",
+      "method": "file-commit-pr",
+      "path": "output/hair-pixel-v2-2026-11-04/hair_pixel.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-pixel-v2-2026-11-04",
+          "createdAt": "2026-11-04T14:34:51Z",
+          "number": 9,
+          "state": "open",
+          "title": "머리카락 감김 픽셀아트 v2: 대사에 맞춘 동작으로 재제작",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/9"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-pixel-v2-2026-11-04",
+          "fileCommit": "c9ab223f4000bc5495a74341a4e623feb9cba333",
+          "path": "output/hair-pixel-v2-2026-11-04/hair_pixel.mp4"
+        }
+      ],
+      "timestamp": 1793802837
+    },
+    "4714b902b074b1519200dde51481e68adb92d749": {
+      "commit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+      "method": "file-commit-pr",
+      "path": "output/hair/robot_brush_165s_VOICE_TEST.mp4",
+      "prs": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "createdAt": "2026-11-04T10:48:14Z",
+          "number": 2,
+          "state": "open",
+          "title": "로봇청소기 머리카락 감김 릴스: 한국어 TTS·MP4·자막 납품",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/2"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "fileCommit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+          "path": "output/hair/robot_brush_165s_VOICE_TEST.mp4"
+        }
+      ],
+      "timestamp": 1793789245
+    },
+    "522692d4da42b86c4b14adcdac89c88550f4266d": {
+      "commit": "53da5a54d89262002b6ce6e12863a07b5c156e60",
+      "method": "file-commit-pr",
+      "path": "output/hair-v3/motion-test_270x480.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-v3-cgi",
+          "createdAt": "2026-11-04T14:00:22Z",
+          "number": 7,
+          "state": "open",
+          "title": "[초안] hair-v3 CGI 제작 준비·자연속도 음성 비교·핵심 동작 시험",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/7"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-v3-cgi",
+          "fileCommit": "53da5a54d89262002b6ce6e12863a07b5c156e60",
+          "path": "output/hair-v3/motion-test_270x480.mp4"
+        }
+      ],
+      "timestamp": 1793800677
+    },
+    "604e3a2d1af67ee307c2eccfa31baf81591e3070": {
+      "commit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+      "method": "file-commit-no-pr",
+      "path": "roborock-s8/Roborock_S8_36s.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "add-agents-instructions",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/agents-production-guidelines-v3",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/hair-pixel-v2-2026-11-04",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/hair-v3-cgi",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/robot-brush-hair-v2",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/robot-brush-hair-v3",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "deliver/hair-pixel-2026-11-04",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "main",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41870390971",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41871347144",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "render/hair-native-41872120755",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        }
+      ],
+      "timestamp": 1793772156
+    },
+    "874950dda46d314a8c79e531c1e099ffb7939019": {
+      "commit": "b306c78cc5673591af384cbe1d17725013bb89b2",
+      "method": "file-commit-no-pr",
+      "path": "videos/cliff-sensor-v83-realistic/cliff-sensor-v83-realistic-A.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "shorts/cliff-sensor-sample",
+          "fileCommit": "b306c78cc5673591af384cbe1d17725013bb89b2",
+          "path": "videos/cliff-sensor-v83-realistic/cliff-sensor-v83-realistic-A.mp4"
+        }
+      ],
+      "timestamp": 1793773489
+    },
+    "9b02edc6349d2b6b9df4a1e28305bfc62b7f1aae": {
+      "commit": "90fb234e5bda270380863200ae43ba12a6437732",
+      "method": "file-commit-pr",
+      "path": "output/hair-v2/robot_brush_hair_v2.mp4",
+      "prs": [
+        {
+          "branch": "codex/robot-brush-hair-v2",
+          "createdAt": "2026-11-04T11:58:13Z",
+          "number": 3,
+          "state": "open",
+          "title": "브러시 감김 v2: 부품 애니메이션과 자연 속도 한국어 내레이션",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/3"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/robot-brush-hair-v2",
+          "fileCommit": "90fb234e5bda270380863200ae43ba12a6437732",
+          "path": "output/hair-v2/robot_brush_hair_v2.mp4"
+        }
+      ],
+      "timestamp": 1793793438
+    },
+    "ac15694b289b2a1ff92ca6312f566a1b0ab15b44": {
+      "commit": "ef63cf767b3817eef1b0e8c689851f826767c71a",
+      "method": "file-commit-no-pr",
+      "path": "videos/cliff-sensor-v83/cliff-sensor-v83-illustration.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "shorts/cliff-sensor-sample",
+          "fileCommit": "ef63cf767b3817eef1b0e8c689851f826767c71a",
+          "path": "videos/cliff-sensor-v83/cliff-sensor-v83-illustration.mp4"
+        }
+      ],
+      "timestamp": 1793768852
+    },
+    "b01c40657fdf6d6cca307490e81e745386a293a9": {
+      "commit": "efd30243175b5cce5dfd85834b55da119fb394f8",
+      "method": "file-commit-no-pr",
+      "path": "videos/cliff-sensor/cliff-sensor-sample.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "shorts/cliff-sensor-sample",
+          "fileCommit": "efd30243175b5cce5dfd85834b55da119fb394f8",
+          "path": "videos/cliff-sensor/cliff-sensor-sample.mp4"
+        }
+      ],
+      "timestamp": 1793119259
+    },
+    "c2771607cc83c5d719067288efc1b8ba5203b778": {
+      "commit": "1093799206f448070e993ed4677e113a53509b41",
+      "method": "file-commit-pr",
+      "path": "output/hair-v3/hair-v3-review.mp4",
+      "prs": [
+        {
+          "branch": "codex/robot-brush-hair-v3",
+          "createdAt": "2026-11-04T14:59:52Z",
+          "number": 10,
+          "state": "open",
+          "title": "브러시 감김 v3 검토본: 대사에 맞춘 3D 동작·풀 자막",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/10"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/robot-brush-hair-v3",
+          "fileCommit": "1093799206f448070e993ed4677e113a53509b41",
+          "path": "output/hair-v3/hair-v3-review.mp4"
+        }
+      ],
+      "timestamp": 1793804330
+    },
+    "cfcab973974a32c3d0588fd77e1c362106363e52": {
+      "commit": "ef63cf767b3817eef1b0e8c689851f826767c71a",
+      "method": "file-commit-no-pr",
+      "path": "videos/cliff-sensor-v83/cliff-sensor-v83-pixel.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "shorts/cliff-sensor-sample",
+          "fileCommit": "ef63cf767b3817eef1b0e8c689851f826767c71a",
+          "path": "videos/cliff-sensor-v83/cliff-sensor-v83-pixel.mp4"
+        }
+      ],
+      "timestamp": 1793768852
+    },
+    "d27e968344a9e53e4ba2eea29499437165d6fead": {
+      "commit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+      "method": "file-commit-pr",
+      "path": "output/hair/robot_brush_165s_VISUAL.mp4",
+      "prs": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "createdAt": "2026-11-04T10:48:14Z",
+          "number": 2,
+          "state": "open",
+          "title": "로봇청소기 머리카락 감김 릴스: 한국어 TTS·MP4·자막 납품",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/2"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/robot-brush-hair-reel",
+          "fileCommit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
+          "path": "output/hair/robot_brush_165s_VISUAL.mp4"
+        }
+      ],
+      "timestamp": 1793789245
+    },
+    "ded5f14f887b3e26fafc15b60e523a1eaf1e3380": {
+      "commit": "b306c78cc5673591af384cbe1d17725013bb89b2",
+      "method": "file-commit-no-pr",
+      "path": "videos/cliff-sensor-v83-realistic/cliff-sensor-v83-realistic-B.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "shorts/cliff-sensor-sample",
+          "fileCommit": "b306c78cc5673591af384cbe1d17725013bb89b2",
+          "path": "videos/cliff-sensor-v83-realistic/cliff-sensor-v83-realistic-B.mp4"
+        }
+      ],
+      "timestamp": 1793773489
+    }
+  }
+}
