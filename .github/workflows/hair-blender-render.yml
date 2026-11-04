@@ -1,4 +1,4 @@
-# Framing revision 2: native actor bounds and rounded glove geometry.
+# Framing revision 3: unobstructed shear contact and native gripping hand.
 name: One-off native Blender hair film
 on:
   push:
@@ -49,7 +49,7 @@ jobs:
           XDG_RUNTIME_DIR: ${{ github.workspace }}/work/hair-blender-v4/runtime
           MESA_SHADER_CACHE_DIR: ${{ github.workspace }}/work/hair-blender-v4/shader-cache
         run: |
-          work/blender-4.3.2-linux-x64/blender -b output/hair-blender-v4/hair-animation.blend -t 4 --python output/hair-blender-v4/source/render.py -- --mode full --chunk ${{ matrix.chunk }} --chunks 16
+          work/blender-4.3.2-linux-x64/blender -b output/hair-blender-v4/hair-animation.blend -t 4 --python-exit-code 1 --python output/hair-blender-v4/source/render.py -- --mode full --chunk ${{ matrix.chunk }} --chunks 16
       - name: Store chunk on the temporary branch without Actions artifact storage
         env:
           RENDER_CHUNK: ${{ matrix.chunk }}

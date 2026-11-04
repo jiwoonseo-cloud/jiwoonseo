@@ -4,7 +4,7 @@ from pathlib import Path
 from mathutils import Vector
 B=Path(__file__).resolve().parents[1];S=bpy.context.scene;P=json.loads((B/'scene-plan.json').read_text())
 for o in bpy.data.objects:
- if not o.name.startswith('Articulated glove finger'):continue
+ if not o.name.startswith('Articulated glove finger') or o.data.name.startswith('Rounded articulated'):continue
  old=o.data;vs0=old.vertices;x=sum(v.co.x for v in vs0[:10])/10
  # Preserve each finger's length but use a perpendicular rounded cross section.
  L=vs0[30].co.y-.30;L=L/.72
@@ -22,5 +22,19 @@ for o in bpy.data.objects:
 # Keep the bearing and blade contact together, with two genuinely different views.
 for c in P['cuts']:
  if c['id'] not in ['P8-C09','P8-C10']:continue
- cam=bpy.data.objects[c['camera']];target=Vector((1.5,-.20,.62));off=Vector((.45,-3.3,1.5) if c['id']=='P8-C09' else (-.8,-3.1,2.1));cam.location=target+off;cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=45;cam.data.dof.focus_distance=off.length
+ cam=bpy.data.objects[c['camera']];target=Vector((1.55,-.35,.42));off=Vector((1,-3.0,1.4) if c['id']=='P8-C09' else (.5,-2.8,2.4));cam.location=target+off;cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.lens=50;cam.data.dof.focus_distance=off.length
+h=bpy.data.objects['Hand lifts roller and removes hair']
+def key(path,t,v):
+ setattr(h,path,v);h.keyframe_insert(path,frame=round(t*24)+1)
+key('rotation_euler',0,(0,0,math.pi/2));key('rotation_euler',126.377,(0,0,math.pi/2));key('rotation_euler',127.84,(0,0,-math.pi/2));key('rotation_euler',133.248,(0,0,-math.pi/2))
+# Remove the old palm position that obscured the shear contact.
+for fc in h.animation_data.action.fcurves:
+ if fc.data_path=='location':
+  for i in range(len(fc.keyframe_points)-1,-1,-1):
+   kp=fc.keyframe_points[i]
+   if 127.0*24+1<=kp.co.x<=133.248*24+2:fc.keyframe_points.remove(kp,fast=True)
+  fc.update()
+key('location',127.84,(.15,-.35,.65));key('location',129.20,(.15,-.35,.65));key('location',133.248,(2,-1,1.17))
+for fc in h.animation_data.action.fcurves:
+ for kp in fc.keyframe_points:kp.interpolation='LINEAR'
 S.frame_set(1);bpy.ops.wm.save_as_mainfile(filepath=str(B/'hair-animation.blend'),compress=True)
