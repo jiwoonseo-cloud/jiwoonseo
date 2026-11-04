@@ -1,0 +1,62 @@
+[
+  {
+    "file": "01.png",
+    "size": [
+      1300,
+      1300
+    ],
+    "bbox": [
+      176,
+      394,
+      1120,
+      921
+    ],
+    "sha256": "d481cd70e94fb2f74a97b53c33c2a64d9caa55f3b86206b67b18e4bb5f72feaf",
+    "url": "https://kr.roborock.com/cdn/shop/t/55/assets/s8Plus_section-14-machine-img-new.png?v=81939075694682256271729827200"
+  },
+  {
+    "file": "feature-2.png",
+    "size": [
+      2000,
+      2001
+    ],
+    "bbox": [
+      125,
+      173,
+      2000,
+      1921
+    ],
+    "sha256": "d5e2400212cc2ebf87aa033f9fab52213fc381c23ca40eb784a2edead4a73357",
+    "url": "https://cdn.shopifycdn.net/s/files/1/0082/3666/2902/t/86/assets/s8Plus_section-2-item-2.png"
+  },
+  {
+    "file": "feature-3.png",
+    "size": [
+      2000,
+      2001
+    ],
+    "bbox": [
+      144,
+      498,
+      2000,
+      1883
+    ],
+    "sha256": "aab1acd0a6bd0c53b85088ba52a9909e1c71b0e9a2672619bc1a3d19a18ef328",
+    "url": "https://cdn.shopifycdn.net/s/files/1/0082/3666/2902/t/86/assets/s8Plus_section-2-item-3.png"
+  },
+  {
+    "file": "feature-5.png",
+    "size": [
+      2000,
+      2000
+    ],
+    "bbox": [
+      322,
+      60,
+      1824,
+      1940
+    ],
+    "sha256": "21ea26b6c933a571a4e234ae9aadd956d763ba6ab415b63117fc30846919f7b2",
+    "url": "https://cdn.shopifycdn.net/s/files/1/0082/3666/2902/t/86/assets/s8Plus_section-2-item-5.png"
+  }
+]
