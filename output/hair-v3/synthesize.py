@@ -23,6 +23,6 @@ async def main():
      elif e['type']=='WordBoundary':
       events.append(e);sub.feed(e)
    (out/f'{i:02d}.json').write_text(json.dumps(events,ensure_ascii=False,indent=2))
-   (out/f'{i:02d}.srt').write_text(sub.get_srt())
+   (out/f'{i:02d}.srt').write_text(sub.get_srt().strip()+'\n')
    print(voice,i,'complete',flush=True)
 asyncio.run(main())

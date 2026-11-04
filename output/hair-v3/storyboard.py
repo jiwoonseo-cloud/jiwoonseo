@@ -72,6 +72,6 @@ rows=[
 (8,'가장 빠른 방법입니다','재조립 완료','손을 떼고 정지 상태로 마침','관리 완료; 회전 클립 반복 없음','생활'),
 ]
 with (BASE/'storyboard.csv').open('w',newline='') as f:
- w=csv.writer(f);w.writerow(['shot_id','paragraph','speech_cue','subject_start','actual_action','result','shot_type','speech_start_sec','speech_end_sec','status'])
+ w=csv.writer(f,lineterminator='\n');w.writerow(['shot_id','paragraph','speech_cue','subject_start','actual_action','result','shot_type','speech_start_sec','speech_end_sec','status'])
  for i,(p,c,s,act,e,typ) in enumerate(rows,1):w.writerow([f'S{i:03d}',p,c,s,act,e,typ,'','', 'USER_HOLD' if p==6 else 'AWAITING_FULL_NARRATION_ALIGNMENT'])
 print(len(rows),'semantic action units; absolute times intentionally unset until measured narration')

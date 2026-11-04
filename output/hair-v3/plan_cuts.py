@@ -28,5 +28,5 @@ for p in [1,2,3,4,5,7,8]:
   if not relevant or relevant[0]!=inherited:relevant=[inherited]+relevant
   out.append({'cut_id':f'P{p}-C{k:02}','paragraph':p,'paragraph_start_frame':a,'paragraph_end_frame_exclusive':b,'start_sec':f'{a/24:.3f}','end_sec':f'{b/24:.3f}','duration_sec':f'{(b-a)/24:.3f}','linked_actions':'; '.join(r['shot_id'] for r in relevant),'speech_cues':'; '.join(r['speech_cue'] for r in relevant),'continuity_rule':'Continue the current physical state; never restart the action at this cut','status':'PLANNED_NOT_RENDERED'})
 with (BASE/'cut-plan-excluding-held-6.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=out[0].keys());w.writeheader();w.writerows(out)
+ w=csv.DictWriter(f,fieldnames=out[0].keys(),lineterminator='\n');w.writeheader();w.writerows(out)
 print(len(out),'planned cuts; all durations within 1.5–3 seconds; none represented as finished video.')

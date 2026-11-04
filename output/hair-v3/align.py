@@ -52,7 +52,7 @@ for row in rows:
  row['speech_start_sec']=f'{matches[0][2]:.3f}';row['speech_end_sec']=f'{matches[-1][3]:.3f}'
  row['status']='MEASURED_PARAGRAPH_LOCAL_TIME__NOT_FINAL_CUT_DURATION'
 with (BASE/'storyboard-aligned.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
+ w=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator='\n');w.writeheader();w.writerows(rows)
 srt='\n\n'.join(f'{i}\n{stamp(a)} --> {stamp(b)}\n{txt}' for i,(a,b,txt) in enumerate(caps,1))+'\n'
 (BASE/'narration-excluding-held-6.srt').write_text(srt)
 ass='''[Script Info]
