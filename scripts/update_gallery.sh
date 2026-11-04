@@ -5,3 +5,4 @@ if [[ "${1:-}" != "--no-fetch" ]]; then
   git fetch --prune origin '+refs/heads/*:refs/remotes/origin/*'
 fi
 python3 scripts/update_gallery.py
+python3 scripts/update_provenance.py
