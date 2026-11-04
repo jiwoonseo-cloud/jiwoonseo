@@ -6,7 +6,7 @@ import bpy,json,sys,argparse,subprocess,time
 import shutil
 from pathlib import Path
 BASE=Path(__file__).resolve().parents[1];WORK=BASE.parents[1]/'work/hair-blender-v4';WORK.mkdir(parents=True,exist_ok=True)
-a=argparse.ArgumentParser();a.add_argument('--mode',choices=['probes','test','full'],default='probes');a.add_argument('--samples',type=int,default=1);a.add_argument('--chunk',type=int,default=0);a.add_argument('--chunks',type=int,default=1);a.add_argument('--limit',type=int,default=0);a.add_argument('--start-frame',type=int,default=-1);a.add_argument('--end-frame',type=int,default=-1);a.add_argument('--benchmark-fast',action='store_true');a.add_argument('--post-dof',action='store_true');args=a.parse_args(sys.argv[sys.argv.index('--')+1:])
+a=argparse.ArgumentParser();a.add_argument('--mode',choices=['probes','test','full'],default='probes');a.add_argument('--samples',type=int,default=1);a.add_argument('--chunk',type=int,default=0);a.add_argument('--chunks',type=int,default=1);a.add_argument('--limit',type=int,default=0);a.add_argument('--output-prefix',default='');a.add_argument('--start-frame',type=int,default=-1);a.add_argument('--end-frame',type=int,default=-1);a.add_argument('--benchmark-fast',action='store_true');a.add_argument('--post-dof',action='store_true');args=a.parse_args(sys.argv[sys.argv.index('--')+1:])
 sys.path.insert(0,str(BASE/'source'));from kinematics import evaluate
 plan=json.loads((BASE/'scene-plan.json').read_text());cuts=plan['cuts'];sc=bpy.context.scene;sc.eevee.taa_render_samples=args.samples
 def cut_at(f):return next((c for c in cuts if c['start_frame']<=f+1<c['end_frame_exclusive']),cuts[-1])
@@ -35,7 +35,7 @@ if args.benchmark_fast:
   if o.type=='MESH' and ('Rubber core' in o.name or 'rubber core' in o.name or 'Spiral rubber vane' in o.name):o.data.materials[0]=bpy.data.materials['EPDM soft rubber']
 ff=None
 if args.mode!='probes':
- out=WORK/(f'{args.mode}-silent-{args.chunk}.mp4')
+ out=WORK/(f'{args.output_prefix or args.mode}-silent-{args.chunk}.mp4')
  ff=subprocess.Popen(['ffmpeg','-v','error','-y','-threads','1','-f','image2pipe','-framerate','24','-i','-','-an','-c:v','libx264','-threads','1','-preset','veryfast','-crf','19','-pix_fmt','yuv420p','-movflags','+faststart',str(out)],stdin=subprocess.PIPE)
 started=time.time();last=None;stats=[]
 if args.mode!='probes':
@@ -76,7 +76,7 @@ if args.mode!='probes':
   print('CAMERA RUN',camera_name,sc.camera.data.lens,list(sc.camera.location),sc.frame_start,sc.frame_end,flush=True)
   bpy.ops.render.render(animation=True)
  ff.stdin.close();assert ff.wait()==0
- (BASE/f'render-log-{args.mode}-{args.chunk}.json').write_text(json.dumps({'mode':args.mode,'frames':len(stats),'native_resolution':[1080,1920],'fps':24,'elapsed_seconds':round(time.time()-started,2),'test_start_seconds':test_start/24,'stats':stats},indent=2))
+ (BASE/f'render-log-{args.output_prefix or args.mode}-{args.chunk}.json').write_text(json.dumps({'mode':args.mode,'frames':len(stats),'native_resolution':[1080,1920],'fps':24,'elapsed_seconds':round(time.time()-started,2),'test_start_seconds':test_start/24,'stats':stats},indent=2))
  print('RENDER COMPLETE',args.mode,len(stats),round(time.time()-started,2),flush=True)
  sys.exit(0)
 for i,f in enumerate(frames):
@@ -91,5 +91,5 @@ for i,f in enumerate(frames):
  stats.append({'frame':f,'sec':sec,'camera':sc.camera.name,'cut':cut['id'],'render_seconds':round(time.time()-before,3)})
  if i%12==0:print('PROGRESS',args.mode,i+1,'/',len(frames),'elapsed',round(time.time()-started),flush=True)
 if ff:ff.stdin.close();assert ff.wait()==0,'FFmpeg encoding failed'
-(BASE/f'render-log-{args.mode}-{args.chunk}.json').write_text(json.dumps({'mode':args.mode,'frames':len(frames),'native_resolution':[1080,1920],'fps':24,'elapsed_seconds':round(time.time()-started,2),'test_start_seconds':test_start/24,'stats':stats},indent=2))
+(BASE/f'render-log-{args.output_prefix or args.mode}-{args.chunk}.json').write_text(json.dumps({'mode':args.mode,'frames':len(frames),'native_resolution':[1080,1920],'fps':24,'elapsed_seconds':round(time.time()-started,2),'test_start_seconds':test_start/24,'stats':stats},indent=2))
 print('RENDER COMPLETE',args.mode,len(frames),round(time.time()-started,2),flush=True)

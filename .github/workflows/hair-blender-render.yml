@@ -1,4 +1,4 @@
-# Render revision 5: explicitly initialize the evaluated camera for each cut.
+# Resume completed native frame ranges; rerender only missing chunks and dust clarity chunk 8.
 name: One-off native Blender hair film
 on:
   push:
@@ -13,13 +13,20 @@ env:
   RENDER_BRANCH: render/hair-native-${{ github.run_id }}
 jobs:
   prepare:
+    outputs:
+      chunks: ${{ steps.seed.outputs.chunks }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Create temporary chunk branch
-        run: git push origin "${GITHUB_SHA}:refs/heads/${RENDER_BRANCH}"
+      - name: Seed completed native chunks and select missing ranges
+        id: seed
+        run: |
+          git fetch origin render/hair-native-41874440207 --depth=48
+          git push origin "FETCH_HEAD:refs/heads/${RENDER_BRANCH}"
+          render_needed=$(git ls-tree -r --name-only FETCH_HEAD render_chunks | python -c 'import sys,re,json; ids={int(m.group(1)) for s in sys.stdin if (m:=re.search(r"full-silent-(\d+)[.]mp4",s))}; print(json.dumps(sorted((set(range(16))-ids)|{8})))')
+          echo "chunks=${render_needed}" >> "$GITHUB_OUTPUT"
   render:
     needs: prepare
     runs-on: ubuntu-24.04
@@ -30,7 +37,7 @@ jobs:
       fail-fast: false
       max-parallel: 16
       matrix:
-        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+        chunk: ${{ fromJSON(needs.prepare.outputs.chunks) }}
     steps:
       - uses: actions/checkout@v4
       - name: Install native renderer dependencies
@@ -54,9 +61,13 @@ jobs:
         env:
           RENDER_CHUNK: ${{ matrix.chunk }}
         run: |
+          cp "output/hair-blender-v4/render-log-full-${RENDER_CHUNK}.json" work/hair-blender-v4/
+          git fetch origin "${RENDER_BRANCH}" --depth=48
+          git reset --hard
+          git checkout --detach FETCH_HEAD
           mkdir -p render_chunks
           cp "work/hair-blender-v4/full-silent-${RENDER_CHUNK}.mp4" render_chunks/
-          cp "output/hair-blender-v4/render-log-full-${RENDER_CHUNK}.json" render_chunks/
+          cp "work/hair-blender-v4/render-log-full-${RENDER_CHUNK}.json" render_chunks/
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add "render_chunks/full-silent-${RENDER_CHUNK}.mp4" "render_chunks/render-log-full-${RENDER_CHUNK}.json"

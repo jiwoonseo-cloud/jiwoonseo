@@ -16,7 +16,8 @@ Rebuild native scene in this order (each Blender invocation uses --python-exit-c
 4. source/finalize_scene.py
 5. source/polish_hands.py
 6. source/bench_layout.py
-7. source/render.py -- --mode full --chunk N --chunks 16
-8. python source/finish.py --mode audio, then --mode full --chunks 16
+7. source/clarify_dust.py
+8. source/render.py -- --mode full --chunk N --chunks 16
+9. python source/finish.py --mode audio, then --mode full --chunks 16
 
 Scripts resolve the output folder relative to their location. Render intermediates live in repository work/hair-blender-v4. The .blend itself contains native shape keys and does not require a custom deformation callback to play.
