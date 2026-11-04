@@ -1,0 +1,112 @@
+[
+  {
+    "file": "main_hair_pixel.mp4",
+    "branch": "main",
+    "source": "output/hair-pixel-2026-11-04/hair_pixel.mp4",
+    "blob": "0a894e6f6b61db47f1fef2fdf1526c43b681d57e",
+    "encoding_version": 1,
+    "duration": 129.837098,
+    "timestamp": 1793798290,
+    "report": "reports/main_hair_pixel.mp4.html",
+    "title": "hair_pixel"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-v2_robot_brush_hair_v2.mp4",
+    "branch": "codex/robot-brush-hair-v2",
+    "source": "output/hair-v2/robot_brush_hair_v2.mp4",
+    "blob": "9b02edc6349d2b6b9df4a1e28305bfc62b7f1aae",
+    "encoding_version": 1,
+    "duration": 141.125,
+    "timestamp": 1793793438,
+    "report": "reports/codex%2Frobot-brush-hair-v2_robot_brush_hair_v2.mp4.html",
+    "title": "robot_brush_hair_v2"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-reel_robot_brush_165s_NARRATED.mp4",
+    "branch": "codex/robot-brush-hair-reel",
+    "source": "output/hair/robot_brush_165s_NARRATED.mp4",
+    "blob": "23b6b4c101e519d8267efe1661a87bebbe2b9cea",
+    "encoding_version": 1,
+    "duration": 165.0,
+    "timestamp": 1793789245,
+    "report": "reports/codex%2Frobot-brush-hair-reel_robot_brush_165s_NARRATED.mp4.html",
+    "title": "robot_brush_165s_NARRATED"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-reel_robot_brush_165s_VISUAL.mp4",
+    "branch": "codex/robot-brush-hair-reel",
+    "source": "output/hair/robot_brush_165s_VISUAL.mp4",
+    "blob": "d27e968344a9e53e4ba2eea29499437165d6fead",
+    "encoding_version": 1,
+    "duration": 165.0,
+    "timestamp": 1793789245,
+    "report": "reports/codex%2Frobot-brush-hair-reel_robot_brush_165s_VISUAL.mp4.html",
+    "title": "robot_brush_165s_VISUAL"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-reel_robot_brush_165s_VOICE_TEST.mp4",
+    "branch": "codex/robot-brush-hair-reel",
+    "source": "output/hair/robot_brush_165s_VOICE_TEST.mp4",
+    "blob": "4714b902b074b1519200dde51481e68adb92d749",
+    "encoding_version": 1,
+    "duration": 165.0,
+    "timestamp": 1793789245,
+    "report": "reports/codex%2Frobot-brush-hair-reel_robot_brush_165s_VOICE_TEST.mp4.html",
+    "title": "robot_brush_165s_VOICE_TEST"
+  },
+  {
+    "file": "codex%2Fagents-production-guidelines-v3_Roborock_S8_36s.mp4",
+    "branch": "codex/agents-production-guidelines-v3",
+    "source": "roborock-s8/Roborock_S8_36s.mp4",
+    "blob": "604e3a2d1af67ee307c2eccfa31baf81591e3070",
+    "encoding_version": 1,
+    "duration": 36.0,
+    "timestamp": 1793772156,
+    "report": "reports/codex%2Fagents-production-guidelines-v3_Roborock_S8_36s.mp4.html",
+    "title": "Roborock_S8_36s"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-reel_Roborock_S8_36s.mp4",
+    "branch": "codex/robot-brush-hair-reel",
+    "source": "roborock-s8/Roborock_S8_36s.mp4",
+    "blob": "604e3a2d1af67ee307c2eccfa31baf81591e3070",
+    "encoding_version": 1,
+    "duration": 36.0,
+    "timestamp": 1793772156,
+    "report": "reports/codex%2Frobot-brush-hair-reel_Roborock_S8_36s.mp4.html",
+    "title": "Roborock_S8_36s"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-v2_Roborock_S8_36s.mp4",
+    "branch": "codex/robot-brush-hair-v2",
+    "source": "roborock-s8/Roborock_S8_36s.mp4",
+    "blob": "604e3a2d1af67ee307c2eccfa31baf81591e3070",
+    "encoding_version": 1,
+    "duration": 36.0,
+    "timestamp": 1793772156,
+    "report": "reports/codex%2Frobot-brush-hair-v2_Roborock_S8_36s.mp4.html",
+    "title": "Roborock_S8_36s"
+  },
+  {
+    "file": "codex%2Frobot-brush-hair-v3_Roborock_S8_36s.mp4",
+    "branch": "codex/robot-brush-hair-v3",
+    "source": "roborock-s8/Roborock_S8_36s.mp4",
+    "blob": "604e3a2d1af67ee307c2eccfa31baf81591e3070",
+    "encoding_version": 1,
+    "duration": 36.0,
+    "timestamp": 1793772156,
+    "report": "reports/codex%2Frobot-brush-hair-v3_Roborock_S8_36s.mp4.html",
+    "title": "Roborock_S8_36s"
+  },
+  {
+    "file": "main_Roborock_S8_36s.mp4",
+    "branch": "main",
+    "source": "roborock-s8/Roborock_S8_36s.mp4",
+    "blob": "604e3a2d1af67ee307c2eccfa31baf81591e3070",
+    "encoding_version": 1,
+    "duration": 36.0,
+    "timestamp": 1793772156,
+    "report": "reports/main_Roborock_S8_36s.mp4.html",
+    "title": "Roborock_S8_36s"
+  }
+]
