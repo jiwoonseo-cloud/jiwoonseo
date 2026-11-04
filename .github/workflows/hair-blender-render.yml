@@ -1,4 +1,4 @@
-# Framing revision 3: unobstructed shear contact and native gripping hand.
+# Framing revision 4: separate the robot footprint from the maintenance brush.
 name: One-off native Blender hair film
 on:
   push:
