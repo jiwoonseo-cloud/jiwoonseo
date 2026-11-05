@@ -1,6 +1,52 @@
 {
   "repository": "jiwoonseo-cloud/jiwoonseo",
   "videos": {
+    "0282af4aa5dfb28377005dcf52b6ace08dc38cc9": {
+      "commit": "21ecbc56209bb8cc4884728770f6de92122cc81e",
+      "method": "file-commit-pr",
+      "path": "api-leak-b/API_Leak_B_Final.mp4",
+      "prs": [
+        {
+          "branch": "codex/api-leak-b",
+          "createdAt": "2026-11-05T02:34:01Z",
+          "number": 13,
+          "state": "open",
+          "title": "완성된 API 유출 설명 영상 B와 제작 보고서 등록",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/13"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/api-leak-b",
+          "fileCommit": "21ecbc56209bb8cc4884728770f6de92122cc81e",
+          "path": "api-leak-b/API_Leak_B_Final.mp4"
+        }
+      ],
+      "timestamp": 1793845081
+    },
+    "0a362234a2e1f6608efcf96012da4177a1cbba75": {
+      "commit": "2c22eb4703d1b179a2b2d77423b65325b29fdc11",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-optics-preview-2026-11-05-0834/humidifier_optics_18s_narrated.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-optics-preview",
+          "createdAt": "2026-11-05T09:08:07Z",
+          "number": 18,
+          "state": "open",
+          "title": "가습기 광학 센서 18초 시안 보관",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/18"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-optics-preview",
+          "fileCommit": "2c22eb4703d1b179a2b2d77423b65325b29fdc11",
+          "path": "output/humidifier-optics-preview-2026-11-05-0834/humidifier_optics_18s_narrated.mp4"
+        }
+      ],
+      "timestamp": 1793869335
+    },
     "0a894e6f6b61db47f1fef2fdf1526c43b681d57e": {
       "commit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
       "method": "file-commit-pr",
@@ -17,7 +63,22 @@
       ],
       "sources": [
         {
+          "branch": "codex/api-leak-b",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
           "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/hair-blender-v3-2026-11-05",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/hair-blender-v4",
           "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
           "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
         },
@@ -32,7 +93,57 @@
           "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
         },
         {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-mist-preview",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-optics-preview",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-full-v3",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-v5",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/papermorph-tech-complete-v3",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "codex/publish-paper-gallery",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
           "branch": "deliver/hair-pixel-2026-11-04",
+          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
+          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
+        },
+        {
+          "branch": "fix/gallery-ffmpeg-timeout",
           "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
           "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
         },
@@ -40,24 +151,55 @@
           "branch": "main",
           "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
           "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
-        },
-        {
-          "branch": "render/hair-native-41870390971",
-          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
-          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
-        },
-        {
-          "branch": "render/hair-native-41871347144",
-          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
-          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
-        },
-        {
-          "branch": "render/hair-native-41872120755",
-          "fileCommit": "6771f467dcb9b7ff4db90139881e9692ca45879b",
-          "path": "output/hair-pixel-2026-11-04/hair_pixel.mp4"
         }
       ],
       "timestamp": 1793798290
+    },
+    "11a715d2a02c485b7cacd617c4a1d3996dc292fd": {
+      "commit": "4e8c689c8cdba729ef7dba47094a0c459e1ae3a4",
+      "method": "file-commit-pr",
+      "path": "output/hair-blender-v3-2026-11-05/hair_pixel.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-blender-v3-2026-11-05",
+          "createdAt": "2026-11-05T03:46:10Z",
+          "number": 14,
+          "state": "open",
+          "title": "Blender 3D 머리카락 감김 영상 재제작: 단어별 동작 동기화와 자체 검수",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/14"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-v3-2026-11-05",
+          "fileCommit": "4e8c689c8cdba729ef7dba47094a0c459e1ae3a4",
+          "path": "output/hair-blender-v3-2026-11-05/hair_pixel.mp4"
+        }
+      ],
+      "timestamp": 1793850317
+    },
+    "1288eae6191f37b72e395eaae1843334165a8aee": {
+      "commit": "710eea60908560d7c58723e3d45121d97ee0a6da",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-pixel-extra-scenes-2026-11-05/pixel_evaporation.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "createdAt": "2026-11-05T09:03:45Z",
+          "number": 16,
+          "state": "open",
+          "title": "가습기 픽셀 시안 3개 — 센서와 추가 원리 장면",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/16"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "710eea60908560d7c58723e3d45121d97ee0a6da",
+          "path": "output/humidifier-pixel-extra-scenes-2026-11-05/pixel_evaporation.mp4"
+        }
+      ],
+      "timestamp": 1793872332
     },
     "23b6b4c101e519d8267efe1661a87bebbe2b9cea": {
       "commit": "2dc283e3c5b3ce5e75a35782bd865790fd5ad1bd",
@@ -82,34 +224,89 @@
       ],
       "timestamp": 1793789245
     },
-    "30461b7c6796fa76e3165dfae775efce6f6860d9": {
-      "commit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
-      "method": "file-commit-no-pr",
-      "path": "output/hair-blender-v4/test-10s.mp4",
-      "prs": [],
-      "sources": [
+    "37cfcca6779d11305e26b7d0b95daf4e81e65dd1": {
+      "commit": "5810b94c6928d82893f03171b4feb74de36c9194",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-paper-v5/paper_full_v5.mp4",
+      "prs": [
         {
-          "branch": "codex/hair-blender-rebuild",
-          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
-          "path": "output/hair-blender-v4/test-10s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41870390971",
-          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
-          "path": "output/hair-blender-v4/test-10s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41871347144",
-          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
-          "path": "output/hair-blender-v4/test-10s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41872120755",
-          "fileCommit": "61b2da7627fefc0625684bb988c75e64a6f6e83c",
-          "path": "output/hair-blender-v4/test-10s.mp4"
+          "branch": "codex/humidifier-paper-v5",
+          "createdAt": "2026-11-05T14:01:33Z",
+          "number": 24,
+          "state": "closed",
+          "title": "가습기 종이 영상 v5: 동작·표시등·자막·물자국 개선",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/24"
         }
       ],
-      "timestamp": 1793810620
+      "sources": [
+        {
+          "branch": "codex/humidifier-paper-v5",
+          "fileCommit": "5810b94c6928d82893f03171b4feb74de36c9194",
+          "path": "output/humidifier-paper-v5/paper_full_v5.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "be1518a442a394a674aebdd044d628d8dacb5d3b",
+          "path": "output/humidifier-paper-v5/paper_full_v5.mp4"
+        },
+        {
+          "branch": "fix/gallery-ffmpeg-timeout",
+          "fileCommit": "be1518a442a394a674aebdd044d628d8dacb5d3b",
+          "path": "output/humidifier-paper-v5/paper_full_v5.mp4"
+        },
+        {
+          "branch": "main",
+          "fileCommit": "be1518a442a394a674aebdd044d628d8dacb5d3b",
+          "path": "output/humidifier-paper-v5/paper_full_v5.mp4"
+        }
+      ],
+      "timestamp": 1793887271
+    },
+    "39ba9787d13b9688300ea3ce8337c0cb3a98f788": {
+      "commit": "283bc8b07176979c71634179a97b900b6475e5f6",
+      "method": "file-commit-pr",
+      "path": "output/hair-blender-v4/hair-blender-v4.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-blender-v4",
+          "createdAt": "2026-11-05T03:54:48Z",
+          "number": 15,
+          "state": "open",
+          "title": "Blender로 머리카락 감김 원리 영상 재제작",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/15"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-v4",
+          "fileCommit": "283bc8b07176979c71634179a97b900b6475e5f6",
+          "path": "output/hair-blender-v4/hair-blender-v4.mp4"
+        }
+      ],
+      "timestamp": 1793850837
+    },
+    "3a6b34c13040eae4fc5fc1aa2f11ce5be312657a": {
+      "commit": "0e933e0c68fab727b26e42f43b564414ae963ffd",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-pixel-compare-30s/midnight-lab/pixel_midnight_lab_30s.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "createdAt": "2026-11-05T14:09:29Z",
+          "number": 25,
+          "state": "open",
+          "title": "가습기 픽셀 30초 비교 시안 2종",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/25"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "0e933e0c68fab727b26e42f43b564414ae963ffd",
+          "path": "output/humidifier-pixel-compare-30s/midnight-lab/pixel_midnight_lab_30s.mp4"
+        }
+      ],
+      "timestamp": 1793887758
     },
     "4630fe19dc0ecd9b0686ff225070233180a60e37": {
       "commit": "c9ab223f4000bc5495a74341a4e623feb9cba333",
@@ -197,7 +394,22 @@
           "path": "roborock-s8/Roborock_S8_36s.mp4"
         },
         {
+          "branch": "codex/api-leak-b",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
           "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/hair-blender-v3-2026-11-05",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/hair-blender-v4",
           "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
           "path": "roborock-s8/Roborock_S8_36s.mp4"
         },
@@ -208,6 +420,51 @@
         },
         {
           "branch": "codex/hair-v3-cgi",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-mist-preview",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-optics-preview",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-full-v3",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-v5",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/papermorph-tech-complete-v3",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
+          "branch": "codex/publish-paper-gallery",
           "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
           "path": "roborock-s8/Roborock_S8_36s.mp4"
         },
@@ -232,27 +489,40 @@
           "path": "roborock-s8/Roborock_S8_36s.mp4"
         },
         {
+          "branch": "fix/gallery-ffmpeg-timeout",
+          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
+          "path": "roborock-s8/Roborock_S8_36s.mp4"
+        },
+        {
           "branch": "main",
-          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
-          "path": "roborock-s8/Roborock_S8_36s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41870390971",
-          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
-          "path": "roborock-s8/Roborock_S8_36s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41871347144",
-          "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
-          "path": "roborock-s8/Roborock_S8_36s.mp4"
-        },
-        {
-          "branch": "render/hair-native-41872120755",
           "fileCommit": "6d7fb524fad2c9ed54924ab59652aeb9519b10bb",
           "path": "roborock-s8/Roborock_S8_36s.mp4"
         }
       ],
       "timestamp": 1793772156
+    },
+    "7c20596fc5fad0ee85327b4ff7bc712e7cb6475e": {
+      "commit": "4bfe231880a53de04556c663c127a7bca5fdfb15",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-cinematic-full-v4/papermorph_cinematic_v4.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "createdAt": "2026-11-05T12:05:34Z",
+          "number": 23,
+          "state": "open",
+          "title": "Add cinematic v4 action edit and iPhone-compatible v3",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/23"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "fileCommit": "4bfe231880a53de04556c663c127a7bca5fdfb15",
+          "path": "output/humidifier-cinematic-full-v4/papermorph_cinematic_v4.mp4"
+        }
+      ],
+      "timestamp": 1793887361
     },
     "874950dda46d314a8c79e531c1e099ffb7939019": {
       "commit": "b306c78cc5673591af384cbe1d17725013bb89b2",
@@ -267,6 +537,75 @@
         }
       ],
       "timestamp": 1793773489
+    },
+    "88a747b8c48924669b66e9ab82a8fa6c6577047a": {
+      "commit": "cd859cca677d7eb0ae1fa6b323cef1fdcd85faba",
+      "method": "file-commit-pr",
+      "path": "output/hair-blender-v4/test-10s.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "createdAt": "2026-11-04T18:05:19Z",
+          "number": 12,
+          "state": "open",
+          "title": "Blender 3D로 로봇청소기 모발 감김 영상 재제작",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/12"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "cd859cca677d7eb0ae1fa6b323cef1fdcd85faba",
+          "path": "output/hair-blender-v4/test-10s.mp4"
+        }
+      ],
+      "timestamp": 1793811587
+    },
+    "90d86d4bdb5ed98fae318489be0b619824c4d4c6": {
+      "commit": "283bc8b07176979c71634179a97b900b6475e5f6",
+      "method": "file-commit-pr",
+      "path": "output/hair-blender-v4/pilot-10s.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-blender-v4",
+          "createdAt": "2026-11-05T03:54:48Z",
+          "number": 15,
+          "state": "open",
+          "title": "Blender로 머리카락 감김 원리 영상 재제작",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/15"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-v4",
+          "fileCommit": "283bc8b07176979c71634179a97b900b6475e5f6",
+          "path": "output/hair-blender-v4/pilot-10s.mp4"
+        }
+      ],
+      "timestamp": 1793850837
+    },
+    "91dd08360d61dc317cea64f8450a603724f568aa": {
+      "commit": "710eea60908560d7c58723e3d45121d97ee0a6da",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-pixel-extra-scenes-2026-11-05/pixel_ultrasonic.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "createdAt": "2026-11-05T09:03:45Z",
+          "number": 16,
+          "state": "open",
+          "title": "가습기 픽셀 시안 3개 — 센서와 추가 원리 장면",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/16"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "710eea60908560d7c58723e3d45121d97ee0a6da",
+          "path": "output/humidifier-pixel-extra-scenes-2026-11-05/pixel_ultrasonic.mp4"
+        }
+      ],
+      "timestamp": 1793872332
     },
     "9b02edc6349d2b6b9df4a1e28305bfc62b7f1aae": {
       "commit": "90fb234e5bda270380863200ae43ba12a6437732",
@@ -290,6 +629,29 @@
         }
       ],
       "timestamp": 1793793438
+    },
+    "9e14659cc7d6b0c990763c904d80cbe054f544c4": {
+      "commit": "fb2de8d91aa263535ac90a74be35372014114889",
+      "method": "file-commit-pr",
+      "path": "output/hair-blender-v4/robot-hair-blender.mp4",
+      "prs": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "createdAt": "2026-11-04T18:05:19Z",
+          "number": 12,
+          "state": "open",
+          "title": "Blender 3D로 로봇청소기 모발 감김 영상 재제작",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/12"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-rebuild",
+          "fileCommit": "fb2de8d91aa263535ac90a74be35372014114889",
+          "path": "output/hair-blender-v4/robot-hair-blender.mp4"
+        }
+      ],
+      "timestamp": 1793815463
     },
     "ac15694b289b2a1ff92ca6312f566a1b0ab15b44": {
       "commit": "ef63cf767b3817eef1b0e8c689851f826767c71a",
@@ -318,6 +680,29 @@
         }
       ],
       "timestamp": 1793119259
+    },
+    "bda5ba9d040d334739dcbc0f28b5b4374c073a1a": {
+      "commit": "0e933e0c68fab727b26e42f43b564414ae963ffd",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-pixel-compare-30s/reference-method/pixel_A_reference_method_30s.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "createdAt": "2026-11-05T14:09:29Z",
+          "number": 25,
+          "state": "open",
+          "title": "가습기 픽셀 30초 비교 시안 2종",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/25"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "0e933e0c68fab727b26e42f43b564414ae963ffd",
+          "path": "output/humidifier-pixel-compare-30s/reference-method/pixel_A_reference_method_30s.mp4"
+        }
+      ],
+      "timestamp": 1793887758
     },
     "c2771607cc83c5d719067288efc1b8ba5203b778": {
       "commit": "1093799206f448070e993ed4677e113a53509b41",
@@ -379,6 +764,52 @@
       ],
       "timestamp": 1793789245
     },
+    "d4188be4c89a6a4cf0395f4d75804ce7b257899f": {
+      "commit": "5f89be52223aefb032dc2c7cd2144cf6ab0156d7",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-mist-alternative-2026-11-05/Mist_Alternative_3Scenes_1080x1920.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-mist-preview",
+          "createdAt": "2026-11-05T09:08:00Z",
+          "number": 17,
+          "state": "open",
+          "title": "가습기 물방울·광학 센서 3장면 대안 시안",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/17"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-mist-preview",
+          "fileCommit": "5f89be52223aefb032dc2c7cd2144cf6ab0156d7",
+          "path": "output/humidifier-mist-alternative-2026-11-05/Mist_Alternative_3Scenes_1080x1920.mp4"
+        }
+      ],
+      "timestamp": 1793869334
+    },
+    "db1057739c05fc450daa60e892a6811e9acf9e3b": {
+      "commit": "40fa013b0ef7be6ff9945d7d426c69c2c8ccd508",
+      "method": "file-commit-pr",
+      "path": "output/papermorph-tech-complete-v3/papermorph_tech_complete_v3.mp4",
+      "prs": [
+        {
+          "branch": "codex/papermorph-tech-complete-v3",
+          "createdAt": "2026-11-05T12:03:08Z",
+          "number": 21,
+          "state": "open",
+          "title": "가습기·공기청정기 기술 도표 전체 시안 (98초)",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/21"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/papermorph-tech-complete-v3",
+          "fileCommit": "40fa013b0ef7be6ff9945d7d426c69c2c8ccd508",
+          "path": "output/papermorph-tech-complete-v3/papermorph_tech_complete_v3.mp4"
+        }
+      ],
+      "timestamp": 1793880154
+    },
     "ded5f14f887b3e26fafc15b60e523a1eaf1e3380": {
       "commit": "b306c78cc5673591af384cbe1d17725013bb89b2",
       "method": "file-commit-no-pr",
@@ -392,6 +823,144 @@
         }
       ],
       "timestamp": 1793773489
+    },
+    "e98531fdf4e6a154fe0e1858ccde2ade2e6604ef": {
+      "commit": "fa3e33fe34cc72e7365da8452a257819d7c3b3fa",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-cinematic-full-v3/papermorph_full_complete_v3_review.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "createdAt": "2026-11-05T12:05:34Z",
+          "number": 23,
+          "state": "open",
+          "title": "Add cinematic v4 action edit and iPhone-compatible v3",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/23"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "fileCommit": "fa3e33fe34cc72e7365da8452a257819d7c3b3fa",
+          "path": "output/humidifier-cinematic-full-v3/papermorph_full_complete_v3_review.mp4"
+        }
+      ],
+      "timestamp": 1793884910
+    },
+    "ebda846d6fe9479a9a233d2ab7305c023c136c04": {
+      "commit": "b4f04a73703691a082bfa033da34dd29bbaccb2b",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-paper-full-v3/paper_full_v3.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-paper-full-v3",
+          "createdAt": "2026-11-05T11:58:02Z",
+          "number": 19,
+          "state": "open",
+          "title": "가습기 종이 스타일 전체 영상 134초",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/19"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-paper-full-v3",
+          "fileCommit": "b4f04a73703691a082bfa033da34dd29bbaccb2b",
+          "path": "output/humidifier-paper-full-v3/paper_full_v3.mp4"
+        }
+      ],
+      "timestamp": 1793879873
+    },
+    "ede89254ae12cec8f23d8f20b9367ccdfbb32e6a": {
+      "commit": "0d66df54e2981bb210574c4fc072533cd599112c",
+      "method": "file-commit-no-pr",
+      "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4",
+      "prs": [],
+      "sources": [
+        {
+          "branch": "codex/hair-blender-v4",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-cinematic-full-20261105",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-mist-preview",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-optics-preview",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-full-v3",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-paper-v5",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-compare-30s",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/papermorph-tech-complete-v3",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "codex/publish-paper-gallery",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "fix/gallery-ffmpeg-timeout",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        },
+        {
+          "branch": "main",
+          "fileCommit": "0d66df54e2981bb210574c4fc072533cd599112c",
+          "path": "output/robot-brush-hair-cgi-v2-2026-11-05/roller_explainer_v2.mp4"
+        }
+      ],
+      "timestamp": 1793849253
+    },
+    "f0552c3bfb6c11376b634124d5faf825e2106941": {
+      "commit": "1828171e4baab972a6d53829cf4c583af3d25091",
+      "method": "file-commit-pr",
+      "path": "output/humidifier-pixel-preview-2026-11-05/pixel_sensor_third.mp4",
+      "prs": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "createdAt": "2026-11-05T09:03:45Z",
+          "number": 16,
+          "state": "open",
+          "title": "가습기 픽셀 시안 3개 — 센서와 추가 원리 장면",
+          "url": "https://github.com/jiwoonseo-cloud/jiwoonseo/pull/16"
+        }
+      ],
+      "sources": [
+        {
+          "branch": "codex/humidifier-pixel-preview",
+          "fileCommit": "1828171e4baab972a6d53829cf4c583af3d25091",
+          "path": "output/humidifier-pixel-preview-2026-11-05/pixel_sensor_third.mp4"
+        }
+      ],
+      "timestamp": 1793869322
     }
   }
 }
