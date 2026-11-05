@@ -1,5 +1,16 @@
 [
   {
+    "file": "codex%2Fhumidifier-paper-v5_paper_full_v5.mp4",
+    "branch": "codex/humidifier-paper-v5",
+    "source": "output/humidifier-paper-v5/paper_full_v5.mp4",
+    "blob": "37cfcca6779d11305e26b7d0b95daf4e81e65dd1",
+    "encoding_version": 1,
+    "duration": 109.375,
+    "timestamp": 1793887152,
+    "report": "reports/codex%2Fhumidifier-paper-v5_paper_full_v5.mp4.html",
+    "title": "paper_full_v5"
+  },
+  {
     "file": "codex%2Fpapermorph-tech-complete-v3_papermorph_tech_complete_v3.mp4",
     "branch": "codex/papermorph-tech-complete-v3",
     "source": "output/papermorph-tech-complete-v3/papermorph_tech_complete_v3.mp4",

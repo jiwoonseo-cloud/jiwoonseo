@@ -1,0 +1,72 @@
+[
+  {
+    "paragraph": 1,
+    "character_match_ratio": 1.0,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "초음파가습기를켰더니공기청정기가빨갛게변합니다맑은물만넣었는데먼지는대체어디서나온걸까요",
+    "asr": "초음파가습기를켰더니공기청정기가빨갛게변합니다맑은물만넣었는데먼지는대체어디서나온걸까요"
+  },
+  {
+    "paragraph": 2,
+    "character_match_ratio": 0.9565217391304348,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "먼저저하얀분무를확대해보죠초음파가습기는물을진동시켜아주작은물방울로쪼개날려보냅니다눈앞에떠있는건기체인수증기가아니라작은액체방울들이에요",
+    "asr": "먼저저하얀분물을확대해보죠초음파가습기는물을진동시켜아주작은물방울로쪼개날려보냅니다눈앞에떠있는건기체인수준기가아니라작은액체방울들이에요"
+  },
+  {
+    "paragraph": 3,
+    "character_match_ratio": 0.9523809523809523,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "이물방울이공기청정기의먼지센서로들어갑니다",
+    "asr": "이물방울이공기청정기에먼지센서로들어갑니다"
+  },
+  {
+    "paragraph": 4,
+    "character_match_ratio": 1.0,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "광학식센서안에는빛이지나가는통로가있습니다먼지같은입자가그빛을지나면빛이사방으로흩어지고센서는그신호를이용해먼지농도를계산하죠",
+    "asr": "광학식센서안에는빛이지나가는통로가있습니다먼지같은입자가그빛을지나면빛이사방으로흩어지고센서는그신호를이용해먼지농도를계산하죠"
+  },
+  {
+    "paragraph": 5,
+    "character_match_ratio": 0.9692307692307692,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "그런데물방울도빛을흩뜨립니다센서가그성분까지검사하는건아니거든요그래서가습기가내보낸물방울때문에표시창의먼지수치가올라갈수있습니다",
+    "asr": "그런데물방울도빛을흩들입니다센서가그성분까지검사하는건아니거든요그래서가습기가내보낸물방울때문에표시창의먼지수치가올라갈수있습니다"
+  },
+  {
+    "paragraph": 6,
+    "character_match_ratio": 1.0,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "그럼물방울이마르면전부사라질까요여기서물속에녹아있던성분이등장합니다",
+    "asr": "그럼물방울이마르면전부사라질까요여기서물속에녹아있던성분이등장합니다"
+  },
+  {
+    "paragraph": 7,
+    "character_match_ratio": 1.0,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "수돗물에는칼슘같은미네랄이녹아있어요초음파가습기는물만골라내보내지않습니다물방울에실린미네랄도함께공기중으로나갈수있죠",
+    "asr": "수돗물에는칼슘같은미네랄이녹아있어요초음파가습기는물만골라내보내지않습니다물방울에실린미네랄도함께공기중으로나갈수있죠"
+  },
+  {
+    "paragraph": 8,
+    "character_match_ratio": 1.0,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "이때물이증발하면미네랄은작은고체입자로남을수있습니다젖어있을땐안보이던물자국이마르고나면하얗게남는것처럼요",
+    "asr": "이때물이증발하면미네랄은작은고체입자로남을수있습니다젖어있을땐안보이던물자국이마르고나면하얗게남는것처럼요"
+  },
+  {
+    "paragraph": 9,
+    "character_match_ratio": 0.9861111111111112,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "처음의빨간불로돌아가보죠물방울자체가센서에잡히는것과물이마른뒤입자가남는것은서로다른과정입니다표시창의숫자만으로그성분이나위험성까지알수는없어요",
+    "asr": "처음에빨간불로돌아가보죠물방울자체가센서에잡히는것과물이마른뒤입자가남는것은서로다른과정입니다표시창의숫자만으로그성분이나위험성까지알수는없어요"
+  },
+  {
+    "paragraph": 10,
+    "character_match_ratio": 0.9538461538461539,
+    "source": "provided paragraph boundaries + local ASR word timing",
+    "reference": "하지만두기기가왜충돌하는것처럼보이는지는분명해집니다하나는물을작은방울로만들어내보내고다른하나는그방울이흩뜨린빛을읽고있었던겁니다",
+    "asr": "하지만두기기가왜충돌하는것처럼보이는지는분명해집니다하나는물을작은방울로만들어내보내고다른하나는그방울이흩들인빛을잃고있었던겁니다"
+  }
+]
