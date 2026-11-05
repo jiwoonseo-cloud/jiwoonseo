@@ -1,0 +1,95 @@
+{
+  "checked_utc": "2026-11-04T21:10:07.236828+00:00",
+  "required_actions": [
+    {
+      "checked_utc": "2026-11-04T20:18:14.422053+00:00",
+      "native_frames": 240,
+      "fps": 24,
+      "duration": 10,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "viewed_samples_seconds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        9.958333333333334
+      ],
+      "additional_motion_strip_seconds": [
+        1.6666666666666667,
+        1.7916666666666667,
+        1.9166666666666667,
+        2.0416666666666665,
+        2.1666666666666665,
+        2.2916666666666665
+      ],
+      "observations": [
+        "Separate fine strands approach bristles, winding visibly increases.",
+        "Continuous object rotation and changes of hair coordinates are visible independently of camera movement.",
+        "At the two middle views the hair remains visible after camera-target correction.",
+        "Overhead view includes both roller ends and the migration path.",
+        "Final macro shows the same bundle arriving on the end axle beside the bearing.",
+        "Original 24 fps states; no time stretching or synthesized intermediate frames."
+      ],
+      "scope": "Pass of core visual-mechanics test; not a claim of validated friction physics or equality with all reference production values.",
+      "source_sha256": {
+        "blender_pilot.py": "8f05bf09562758811005e5ccb7b4fec41ad18f24114e632b117a7993dae9aedc",
+        "render_pilot.py": "bd69c6863080ae2fd5309785732e1c564daeec0d662c658ae6dc313e526a860e"
+      }
+    },
+    {
+      "checked_utc": "2026-11-04T20:30:59.434336+00:00",
+      "mode": "short",
+      "first_frame": 754,
+      "last_frame": 810,
+      "native_fps": 24,
+      "observations": [
+        "Light fine pet-fur strands are visible on the floor and against the dark roller.",
+        "Successive native frames show them leaving the floor, rising past the roller into the cutaway duct, then disappearing.",
+        "The last frames show an emptied pickup path."
+      ],
+      "evidence": "critical-review/short-contact.jpg and short.mp4"
+    },
+    {
+      "checked_utc": "2026-11-04T20:50:17.555200+00:00",
+      "mode": "duo_flow",
+      "first_frame": 1884,
+      "last_frame": 2007,
+      "native_fps": 24,
+      "observations": [
+        "Both starting hair bundles and the short roller pair are visible in the first wide view.",
+        "Opposed roller rotation continues while the two bundles travel from the outer sides toward the center.",
+        "The second view follows the same progress into the intake; the bundles narrow and disappear inside the duct.",
+        "The final frames show the central gap and intake without the bundle."
+      ],
+      "scope": "Generic illustrative opposed-roller mechanism; not verification of the actual Roborock rotation direction.",
+      "evidence": "critical-review/duo_flow-contact.jpg and duo_flow.mp4"
+    },
+    {
+      "checked_utc": "2026-11-04T21:10:07.236388+00:00",
+      "mode": "snip",
+      "first_frame": 2987,
+      "last_frame": 3058,
+      "native_fps": 24,
+      "observations": [
+        "The scissors now approach the bundle during the first shot rather than remaining static.",
+        "The open blades close at the word 잘라, and the separated curve groups move away at 빼는.",
+        "The last native frame shows the end axle and bearing without the wrapped bundle."
+      ],
+      "evidence": "critical-review/snip-contact.jpg and snip.mp4"
+    }
+  ],
+  "native_priority_frames": 253,
+  "additional_subject_check": "Native frame1351 shows airborne dust aggregates, distinct from pet fur, in the suction counterargument.",
+  "renderer_sha256": "a8e450cbd61b38621c8373fd0768655f74c7b620d5dff9aaf1f9f17213ad9365",
+  "scope": "Visual action and timing review, not certification of friction physics, actual product designs or all factual narration.",
+  "source_updates_preserving_accepted_frames": "Dust stream and faster cap/brush handling affect only unrendered non-priority scenes; native short/duo poses were retained. Only the 19 opening snip frames were replaced to add approach motion."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "voice": "ko-KR-HyunsuMultilingualNeural",
+    "rate": "+0%",
+    "duration": 11.568,
+    "scope": "동일 짧은 비교 문구의 기존 v3 실제 음원. 이번 전체 길이의 측정값으로 사용하지 않음."
+  },
+  {
+    "voice": "ko-KR-InJoonNeural",
+    "rate": "+0%",
+    "duration": 12.768,
+    "scope": "동일 짧은 비교 문구의 기존 v3 실제 음원. 이번 전체 길이의 측정값으로 사용하지 않음."
+  },
+  {
+    "voice": "ko-KR-SunHiNeural",
+    "rate": "+0%",
+    "duration": 11.472,
+    "scope": "동일 짧은 비교 문구의 기존 v3 실제 음원. 이번 전체 길이의 측정값으로 사용하지 않음."
+  },
+  {
+    "voice": "ko-KR-HyunsuMultilingualNeural",
+    "rate": "+10%",
+    "duration": 130.32,
+    "scope": "이번 8개 문단 전체 실제 합성 음원. 후처리 배속 없음."
+  }
+]
