@@ -68,3 +68,15 @@ Library의 artifact_repair_v2_sources.zip 및 papermorph_8styles_sources.zip을 
 최종 H.264/AAC MP4 전체 디코딩 오류 0건, 실제 출력 프레임 8개 픽셀 확인, 음성/영상 종료 차이 0.015초 미만을 확인했습니다. 이 검사는 실제 청취나 정상 속도 재생 관찰을 대신하지 않습니다.
 
 `tts_comparison.mp3`에는 동일 문장의 기존 시안 음성 → 1초 간격 → 새 MeloTTS 음성 순으로 담았습니다. 비교용 파일 제공이며 청취 평가 결과는 없습니다.
+
+## iPhone 호환성 수정 — 2026-11-05
+
+PR #23의 기존 MP4만 H.264 High level 6.2 표기에서 level 4.1로 변경했습니다. iPhone 재생 불가의 유력 원인을 제거하는 조치이며, 실제 기기에서 원인과 해결 여부를 확정한 것은 아닙니다.
+
+수정 명령: `ffmpeg -i INPUT -map 0 -c copy -bsf:v h264_metadata=level=4.1 -movflags +faststart OUTPUT`
+
+재인코딩·전체 재렌더·음성 교체·배속 없이 SPS 레벨 표기와 MP4 컨테이너를 정리했습니다. 호환본은 1080×1920, 24fps, H.264 High level 4.1, AAC-LC입니다. 영상 길이 표기는 129.124989초, 오디오 129.069초이며 원본과 동일한 3,099 영상 프레임과 6,048 AAC 패킷을 유지합니다. 기존 본문의 129.083초는 수정 전 컨테이너 표기입니다.
+
+이 실행 환경에서 원본과 호환본의 3,099개 디코딩 프레임 픽셀 해시 및 ADTS로 추출한 AAC payload SHA-256 동일성을 검사했습니다. 호환본 전체 디코딩 오류는 0건입니다. 이 검사는 iPhone 실기기 재생 검증을 대신하지 않습니다. 기존 청취 검수 미완료 상태도 그대로입니다.
+
+저장소 renderer에는 level 6.2를 지정하는 옵션이 없어서 renderer는 변경하지 않았습니다. 원본 MP4는 작업 환경의 `/workspace/ios_compat_review/original.mp4` 및 이전 Git 커밋에 보존했습니다. 같은 PR/브랜치의 동일 MP4 경로만 교체하며, main 병합·다른 영상 변경은 하지 않습니다.
