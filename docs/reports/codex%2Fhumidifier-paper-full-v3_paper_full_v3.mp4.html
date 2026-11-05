@@ -1,0 +1,62 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>종이 스타일 전체 영상 제작 보고서</title><style>body{max-width:850px;margin:32px auto;padding:20px;font:16px/1.7 system-ui}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><a href="../index.html">← 갤러리</a><pre># 가습기와 공기청정기 종이 스타일 전체 영상 v3
+
+승인 대본 전체를 포함한 제작본. 한국어 TTS 청취 검수는 이 환경에 오디오를 실제로 청취하는 도구가 없어 미완료이며, 자연스러운 음성으로 검수 통과했다고 주장하지 않는다.
+
+## 제작
+
+- 1080×1920, 24fps, H.264/AAC. 대본 26개 발화 구간, 134.625초.
+- 내레이션: MeloTTS Korean 기본 KR 화자, speed=1.0. 음성 복제·모델 훈련·파인튜닝 없음. 후처리 배속, 음성 길이 맞추기를 위한 무음 삭제 없음. 문장 사이 0.28초 여유를 더했다.
+- 명료성을 위해 배경음악을 넣지 않았다. 최종 음성은 FFmpeg loudnorm 목표 -16 LUFS / -1.5 dBTP로 처리했다.
+- 원본 ZIP 두 개를 Library에서 이 소비자 환경의 `/workspace/paper_sources`로 명시적으로 내려받아 ZIP CRC 검사와 읽기를 완료했다. 원본 파일은 수정하지 않았다.
+- 실제 재사용: artifact_repair_v2_sources.zip의 paper/paper_base.py, paper/render_extensions.py. 수정된 열린 물통 테두리, 종이 색상·질감·제품 도형·센서 챔버를 유지했다. 기존 MP4를 늘이거나 반복하지 않고 모든 프레임을 새 시간축에서 직접 그렸다.
+- papermorph_8styles_sources.zip도 읽기와 압축 무결성을 검증했다. 선택한 paper 폴더가 우선이므로 다른 스타일 자산은 최종 영상에 섞지 않았다.
+- 기존 54초 부분 영상에 도입·표시 상승·미네랄 도입·두 과정 비교·결론을 보강했다. 편집 장면 16구간 중 동작 장면 15구간, 결론의 표시 한계 설명 1구간은 정적인 비교 화면이다. 자막 경계 26개는 컷 수와 다르다.
+- 자막은 승인 대본을 문장별로 그대로 표시한다. 선택된 paper 스타일의 어두운 글자/크림색 바탕과 하단 위치를 유지했다. 단어별 강제 정렬 자막은 아니다.
+- 에셋은 원본 Python/Pillow 절차적 종이 일러스트. 새 실사·3D·생성형 영상 자산 없음. Veo, 유료 API, 새 이미지 생성 호출 없음.
+
+## 과학 검수
+
+- 물방울과 먼지는 공기 통로 중앙을 통과한다. 물질의 경로와 비스듬한 빛 검출기 위치가 떨어져 있어 물리적 접촉으로 인식하는 그림이 아니다.
+- 산란선은 물방울/먼지가 광선과 겹치는 동안에만 표시한다. 광원, 주 광선, 사선 검출기, 전기적 표시 피드백을 구분한다.
+- 분무는 액체 방울이며 보이는 기체 수증기처럼 표현하지 않는다. 초음파 진동판과 수면에서의 방울 생성은 실제 배율·속도가 아닌 개념 연출임을 화면에 표시한다.
+- 물속 미네랄은 설명용 점으로 표시한다. 물이 증발한 뒤 고체 잔류물로 바뀐다. 결론에서 물방울 산란과 고체 잔류를 두 경로로 분리한다.
+- 특정 제품의 수치나 위험도를 조작해 표시하지 않는다. 실제 제품 동작을 촬영한 영상이 아니다.
+
+근거: [Sensirion 광산란 센서 원리](https://sensirion.com/products/product-insights/specialist-articles/particulate-matter-sensing-for-air-quality-measurements), [EPA 가습기와 미네랄 분산](https://www.epa.gov/sites/default/files/2014-08/documents/humidifier_factsheet.pdf), [Washington Ecology PM 센서 절차의 물방울/안개 간섭](https://apps.ecology.wa.gov/publications/documents/2302088.pdf). 모두 2026-11-05 확인. EPA 자료의 건강위험 결론을 최신 의학 권고로 확장하지 않았다.
+
+## 무료 한국어 TTS 비교
+
+| 방법 | 확인한 사용 조건과 특성 | 이번 선택 |
+| --- | --- | --- |
+| MeloTTS Korean 로컬 | 공식 코드와 Korean 모델 카드에 MIT 표기, 한국어 지원, 기본 화자로 로컬 추론 | 사용. API 결제·음성 복제 없음 |
+| eSpeak NG 로컬 | 공식 저장소 GPL-3.0, 경량 formant 합성, 공개 코드 | 조사만 수행. 이번 자연스러운 한국어 청취 비교를 통과한 것으로 간주하지 않음 |
+| edge-tts | Edge 온라인 서비스에 접근하는 오픈소스 클라이언트. 클라이언트 라이선스가 서비스 산출물 이용권을 자동 보장하지 않음 | 서비스 이용 조건을 충분히 확정하지 못해 실행하지 않음 |
+| Kokoro 82M | 공식 저장소의 공개 모델. 이번 조사에서 한국어 공식 지원을 확정하지 못함 | 한국어용으로 선택하지 않음 |
+
+출처: [MeloTTS](https://github.com/myshell-ai/MeloTTS), [Korean 모델 카드](https://huggingface.co/myshell-ai/MeloTTS-Korean), [eSpeak NG](https://github.com/espeak-ng/espeak-ng), [edge-tts](https://github.com/rany2/edge-tts), [Kokoro](https://github.com/hexgrad/kokoro).
+
+## 실제 검수와 남은 제한
+
+- 원본 종이 스타일 연락 시트와 수정 후 전체 장면 이미지를 실제 픽셀로 확인했다. 핵심 물방울 산란 시험 MP4를 인코딩하고 디코딩한 이미지도 확인했다.
+- 렌더 규격, 전체 디코딩, 대본/자막 문자열 일치, 문장별 오디오 길이, 음성 파형 피크를 점검했다. 26개 발화 원문과 자막이 일치하고, 원본 WAV에서 클리핑된 샘플은 0개다. 수치 검사는 청취 평가와 구분한다.
+- TTS 실제 청취: 미완료. 발음, 억양, 문장 경계 자연스러움에 대한 주관적 합격 판정 없음. 이것은 사용자가 요청한 최종 품질 보증의 남은 장애물이다.
+- 문장 시작/종료에 맞춘 장면 배치는 생성 WAV 길이를 기준으로 한다. 단어 발화별 산란 타이밍은 강제 정렬하거나 청취로 검증하지 않았으므로 세밀한 동기화가 남아 있다.
+- 새 소스의 센서 카메라는 고정이다. 빛·입자·피드백만 움직인다. 장면 전환에는 0.25초 크로스페이드가 사용된다.
+- 외부 Instagram 레퍼런스 영상의 직접 재생 검수는 수행하지 않았다. 이번 스타일 기준은 사용자가 지정한 실제 paper 수정 소스와 그 이미지다.
+- 유료 API 실행 비용 0. 플랫폼 컴퓨팅·토큰 비용은 표시되지 않아 확인 불가. 라이선스 표기는 공식 페이지에서 확인했으며 법률 자문이 아니다.
+
+## 재현
+
+`script.txt`는 원문, `timing.json`은 음성 파일로 실측한 구간, `captions.ko.srt`는 전체 자막이다. `render_full.py`와 두 원본 기반 모듈로 영상을 렌더한다. `generate_tts.py`는 별도 설치한 MeloTTS를 사용한다. 모델 가중치와 Python 가상환경은 전달 ZIP이나 공개 저장소에 넣지 않는다. `narration.wav`가 포함되어 음성 모델 설치 없이 영상 재렌더가 가능하다.
+
+## 핵심 타임코드
+
+- 0.35–12.67초: 도입과 빨간 표시
+- 12.95–29.70초: 분무 확대와 수면에서 방울 생성
+- 29.98–49.25초: 센서 진입과 먼지의 빛 산란
+- 49.53–65.18초: 물방울 산란과 표시 피드백
+- 65.46–87.67초: 녹아 있는 성분과 방울 이동
+- 87.95–101.87초: 증발 후 입자 잔류와 물자국 비유
+- 102.15–119.15초: 빨간불 복귀와 두 과정 구분
+- 119.43–133.94초: 분무 생성과 광학 검출 결론
+</pre></html>
