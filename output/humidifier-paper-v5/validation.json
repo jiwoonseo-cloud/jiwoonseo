@@ -1,0 +1,16 @@
+{
+  "script_exact_ignoring_whitespace": true,
+  "sentence_count": 26,
+  "caption_count": 71,
+  "video_duration": 109.375,
+  "narration_duration": 109.37,
+  "narration_clipped_samples": 0,
+  "original_v3_sha256": "e2e2d7ec57b7d0c136be42ff65df8f40b3ae5ea386e4d94ce472058720e97c37",
+  "v5_sha256": "582c7deecd18136f5e5a1e57cbabc18dc013d7f546650d00806c6d9c00b62167",
+  "watermark_same_outline": true,
+  "caption_safe_y": 1535,
+  "diagram_bottom_y": 1430,
+  "max_caption_width_px": 739,
+  "actual_listening_verified": false,
+  "postproduction_speed_change": false
+}
