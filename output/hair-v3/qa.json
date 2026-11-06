@@ -1,0 +1,16 @@
+{
+  "decode_exit_code": 0,
+  "decode_error_log_bytes": 0,
+  "all_3440_input_frames_1080x1920": true,
+  "full_caption_matches_locked_script": true,
+  "post_speed_up": false,
+  "frame_interpolation": false,
+  "duration_seconds": 143.352,
+  "visual_quality_approved": false,
+  "publish_ready": false,
+  "unmet": [
+    "90–115 second duration",
+    "reference-level photorealism and motion quality",
+    "brand-specific factual verification"
+  ]
+}
