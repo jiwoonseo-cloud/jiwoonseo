@@ -1,0 +1,140 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 3750000,
+    "text": "고장"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 4875000,
+    "duration": 2250000,
+    "text": "난"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 7250000,
+    "duration": 1625000,
+    "text": "게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 9000000,
+    "duration": 7250000,
+    "text": "아닙니다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 24875000,
+    "duration": 6125000,
+    "text": "흡입력이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31125000,
+    "duration": 5500000,
+    "text": "약해서도"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 36750000,
+    "duration": 7250000,
+    "text": "아니고요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 52625000,
+    "duration": 5000000,
+    "text": "원인은"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57750000,
+    "duration": 4500000,
+    "text": "바닥에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 62375000,
+    "duration": 3875000,
+    "text": "닿아서"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 66375000,
+    "duration": 3625000,
+    "text": "도는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 70125000,
+    "duration": 3375000,
+    "text": "롤러"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 73625000,
+    "duration": 8125000,
+    "text": "브러시예요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 90375000,
+    "duration": 1750000,
+    "text": "이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 92250000,
+    "duration": 4125000,
+    "text": "롤러가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 96500000,
+    "duration": 2500000,
+    "text": "실을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 99125000,
+    "duration": 2750000,
+    "text": "감는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 102000000,
+    "duration": 6875000,
+    "text": "실패처럼"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 109000000,
+    "duration": 7875000,
+    "text": "머리카락을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 117000000,
+    "duration": 2000000,
+    "text": "축"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 119125000,
+    "duration": 5750000,
+    "text": "방향으로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 125000000,
+    "duration": 2750000,
+    "text": "밀어"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 127875000,
+    "duration": 8125000,
+    "text": "버리거든요"
+  }
+]

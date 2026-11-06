@@ -1,0 +1,206 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 3875000,
+    "text": "그래서"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 5000000,
+    "duration": 3625000,
+    "text": "브러시"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 8750000,
+    "duration": 6250000,
+    "text": "가운데는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 15125000,
+    "duration": 4500000,
+    "text": "깨끗해"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 19750000,
+    "duration": 5250000,
+    "text": "보여도"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 26875000,
+    "duration": 4000000,
+    "text": "양끝"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 31000000,
+    "duration": 3500000,
+    "text": "캡을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 34625000,
+    "duration": 2125000,
+    "text": "열어"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 36875000,
+    "duration": 3875000,
+    "text": "보면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 40875000,
+    "duration": 8625000,
+    "text": "머리카락이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 49625000,
+    "duration": 5000000,
+    "text": "두껍게"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 54750000,
+    "duration": 3750000,
+    "text": "감겨"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 58625000,
+    "duration": 2625000,
+    "text": "있는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 61375000,
+    "duration": 4000000,
+    "text": "경우가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 65500000,
+    "duration": 6500000,
+    "text": "많아요"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 80625000,
+    "duration": 4500000,
+    "text": "로보락"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 85250000,
+    "duration": 3000000,
+    "text": "같은"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 88375000,
+    "duration": 7250000,
+    "text": "브랜드들도"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 95750000,
+    "duration": 4125000,
+    "text": "브러시"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 100000000,
+    "duration": 5875000,
+    "text": "끝단과"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 106000000,
+    "duration": 5875000,
+    "text": "베어링을"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 112000000,
+    "duration": 6875000,
+    "text": "정기적으로"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 119000000,
+    "duration": 6750000,
+    "text": "확인하라고"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 125875000,
+    "duration": 8375000,
+    "text": "안내합니다"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 142875000,
+    "duration": 2750000,
+    "text": "너무"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 145750000,
+    "duration": 5375000,
+    "text": "쌓이면"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 151250000,
+    "duration": 5000000,
+    "text": "모터에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 156375000,
+    "duration": 4250000,
+    "text": "부하가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 160750000,
+    "duration": 4375000,
+    "text": "걸리고"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 165250000,
+    "duration": 5250000,
+    "text": "브러시가"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 170625000,
+    "duration": 5250000,
+    "text": "손상될"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 176000000,
+    "duration": 1500000,
+    "text": "수"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 177625000,
+    "duration": 4000000,
+    "text": "있다고"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 181750000,
+    "duration": 4125000,
+    "text": "해요"
+  }
+]

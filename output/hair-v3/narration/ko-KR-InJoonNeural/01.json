@@ -1,0 +1,98 @@
+[
+  {
+    "type": "WordBoundary",
+    "offset": 1000000,
+    "duration": 9875000,
+    "text": "로봇청소기"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 11000000,
+    "duration": 4250000,
+    "text": "쓰시는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 15375000,
+    "duration": 6375000,
+    "text": "분들"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 22750000,
+    "duration": 3875000,
+    "text": "이런"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 26750000,
+    "duration": 2000000,
+    "text": "적"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 28875000,
+    "duration": 8625000,
+    "text": "있으시죠"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 47125000,
+    "duration": 5625000,
+    "text": "청소"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 52875000,
+    "duration": 4375000,
+    "text": "끝나고"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 57375000,
+    "duration": 4250000,
+    "text": "브러시"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 61750000,
+    "duration": 10000000,
+    "text": "뒤집었더니"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 72875000,
+    "duration": 8750000,
+    "text": "머리카락이"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 81750000,
+    "duration": 3500000,
+    "text": "축에"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 85375000,
+    "duration": 3875000,
+    "text": "칭칭"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 89375000,
+    "duration": 3000000,
+    "text": "감겨"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 92500000,
+    "duration": 2125000,
+    "text": "있는"
+  },
+  {
+    "type": "WordBoundary",
+    "offset": 94750000,
+    "duration": 8875000,
+    "text": "경우요"
+  }
+]
