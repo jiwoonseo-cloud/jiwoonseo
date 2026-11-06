@@ -1,0 +1,44 @@
+{
+  "checked_utc": "2026-11-04T20:18:14.422053+00:00",
+  "native_frames": 240,
+  "fps": 24,
+  "duration": 10,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "viewed_samples_seconds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    9.958333333333334
+  ],
+  "additional_motion_strip_seconds": [
+    1.6666666666666667,
+    1.7916666666666667,
+    1.9166666666666667,
+    2.0416666666666665,
+    2.1666666666666665,
+    2.2916666666666665
+  ],
+  "observations": [
+    "Separate fine strands approach bristles, winding visibly increases.",
+    "Continuous object rotation and changes of hair coordinates are visible independently of camera movement.",
+    "At the two middle views the hair remains visible after camera-target correction.",
+    "Overhead view includes both roller ends and the migration path.",
+    "Final macro shows the same bundle arriving on the end axle beside the bearing.",
+    "Original 24 fps states; no time stretching or synthesized intermediate frames."
+  ],
+  "scope": "Pass of core visual-mechanics test; not a claim of validated friction physics or equality with all reference production values.",
+  "source_sha256": {
+    "blender_pilot.py": "8f05bf09562758811005e5ccb7b4fec41ad18f24114e632b117a7993dae9aedc",
+    "render_pilot.py": "bd69c6863080ae2fd5309785732e1c564daeec0d662c658ae6dc313e526a860e"
+  }
+}
