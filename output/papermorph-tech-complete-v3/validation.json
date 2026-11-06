@@ -1,0 +1,26 @@
+{
+  "video": {
+    "duration": "98.041667",
+    "width": 1080,
+    "height": 1920,
+    "fps": "24/1",
+    "frames": "2353",
+    "codec": "h264"
+  },
+  "audio": {
+    "codec": "aac",
+    "duration": "98.040998"
+  },
+  "script_lines": 26,
+  "all_captions_match_approved_script_file": true,
+  "decode_errors": false,
+  "actual_audio_listening_completed": false,
+  "word_alignment": "estimated by character count, not forced alignment",
+  "sensor_particle_right_edge": 454,
+  "detector_left_edge": 584,
+  "horizontal_clearance_svg_units": 130,
+  "paid_api_calls": 0,
+  "veo_calls": 0,
+  "voice_cloning": false,
+  "sha256": "355c9f79b0b8876b75715376506b2abf739a0ce7e2bcda8ceeec6fe5224aee9a"
+}

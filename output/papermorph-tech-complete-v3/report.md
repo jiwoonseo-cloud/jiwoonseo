@@ -1,0 +1,23 @@
+# 가습기와 공기청정기 — 기술 도표 전체 시안
+
+98.04초, 1080×1920, 24fps. 승인된 한국어 대본 26줄을 모두 내레이션과 자막에 담았습니다.
+
+고정된 실내 구도를 유지하고, 센서 안에서 물방울/먼지가 빛을 산란시키는 과정을 구분해 표현했습니다. 입자는 수직 경로로 통과하며, 노란 산란광만 측면 수광부에 도달합니다. 용존 미네랄은 기호로 표시하고 증발 뒤 잔류물과 구분했습니다. 실제 제품 구조·크기·속도를 재현한 영상은 아닙니다.
+
+## 검증과 제한
+
+- 2,353프레임 전체 디코드 오류 없음. 대본과 풀 자막 일치 확인.
+- 음성: 공개 기본 화자 Mimic3 Korean KSS, 로컬 CPU 합성, speed=1.0. 후처리 배속·보이스 복제 없음.
+- **실제 청취 검수를 하지 못했으므로 한국어 발음·억양·자연스러움은 검증되지 않았습니다.** 품질 승인 최종본이 아닌 검토 시안입니다.
+- 자막 구절 타이밍은 글자수 기반 추정이며 정확한 단어별 음성 정렬은 미검증입니다.
+- Veo·유료 API·학습·파인튜닝을 사용하지 않았습니다.
+
+## 출처
+
+- [Sensirion 광학 입자 검출 원리](https://sensirion.com/products/product-insights/specialist-articles/particulate-matter-sensing-for-air-quality-measurements)
+- [EPA 가습기와 미네랄](https://www.epa.gov/indoor-air-quality-iaq/use-and-care-home-humidifiers)
+- [Mimic3 한국어 모델](https://github.com/MycroftAI/mimic3-voices/tree/master/voices/ko_KO/kss_low): 모델별 CC0 라이선스 포함.
+
+## 렌더링 코드
+
+source/에는 이 영상의 SVG 장면·타이밍·승인 대본·Papermorph 엔진과 MIT 라이선스만 포함했습니다. Node.js, Sharp, FFmpeg가 필요합니다. source/audio/narration.wav에 내레이션을 놓고 source/에서 `node render.js tech`를 실행합니다. 전달 MP4에서 음성을 추출할 수도 있지만 AAC 재압축에 따른 음질 손실이 있으므로 원음과 비트 단위로 동일하지는 않습니다.
