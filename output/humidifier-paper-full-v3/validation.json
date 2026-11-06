@@ -1,0 +1,14 @@
+{
+  "script_lines": 26,
+  "script_sha256": "d9c7d19a9504f3f2a523b8408ebf5ceecb302b0d726485b2944016b1dad759a4",
+  "all_lines_match": true,
+  "narration_seconds": 134.22299319727892,
+  "narration_peak": 0.7998046875,
+  "clipped_samples": 0,
+  "actual_listening_verified": false,
+  "paid_api_calls": 0,
+  "source_archives": {
+    "papermorph_8styles_sources.zip": "0b08aed23fa19dc7945631adfc3a5e337b7bb0df4424dd36e1c17e665299fb4a",
+    "artifact_repair_v2_sources.zip": "0f8817b7c17bb1839936a921f19e11ccdf9d3f6d3674a533f620de703ec85473"
+  }
+}
