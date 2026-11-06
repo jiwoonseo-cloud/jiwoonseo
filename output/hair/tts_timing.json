@@ -1,0 +1,68 @@
+[
+  {
+    "section": 1,
+    "native_seconds": 10.032,
+    "slot_seconds": 7,
+    "tempo": 1.458139534883721
+  },
+  {
+    "section": 2,
+    "native_seconds": 22.248,
+    "slot_seconds": 9,
+    "tempo": 2.5054054054054054
+  },
+  {
+    "section": 3,
+    "native_seconds": 28.656,
+    "slot_seconds": 16,
+    "tempo": 1.8045340050377832
+  },
+  {
+    "section": 4,
+    "native_seconds": 30.528,
+    "slot_seconds": 14,
+    "tempo": 2.1994236311239193
+  },
+  {
+    "section": 5,
+    "native_seconds": 19.44,
+    "slot_seconds": 16,
+    "tempo": 1.2241813602015112
+  },
+  {
+    "section": 6,
+    "native_seconds": 24.888,
+    "slot_seconds": 20,
+    "tempo": 1.2519114688128774
+  },
+  {
+    "section": 7,
+    "native_seconds": 25.488,
+    "slot_seconds": 16,
+    "tempo": 1.6050377833753147
+  },
+  {
+    "section": 8,
+    "native_seconds": 22.44,
+    "slot_seconds": 18,
+    "tempo": 1.25503355704698
+  },
+  {
+    "section": 9,
+    "native_seconds": 24.816,
+    "slot_seconds": 20,
+    "tempo": 1.2482897384305836
+  },
+  {
+    "section": 10,
+    "native_seconds": 18.672,
+    "slot_seconds": 16,
+    "tempo": 1.1758186397984887
+  },
+  {
+    "section": 11,
+    "native_seconds": 17.592,
+    "slot_seconds": 13,
+    "tempo": 1.36583850931677
+  }
+]
