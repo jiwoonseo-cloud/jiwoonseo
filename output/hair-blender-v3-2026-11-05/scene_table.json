@@ -1,0 +1,4078 @@
+[
+  {
+    "cut": 1,
+    "narration": "로봇청소기 쓰시는 분들, 이런 적 있으시죠?",
+    "subject": "거실 바닥의 원형 청소기와 가는 머리카락",
+    "words": [
+      {
+        "word": "로봇청소기",
+        "start": 0.441,
+        "end": 1.2027,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.112
+      },
+      {
+        "word": "쓰시는",
+        "start": 1.2227,
+        "end": 1.6437,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.071
+      },
+      {
+        "word": "분들,",
+        "start": 1.6838,
+        "end": 2.0245,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.066
+      },
+      {
+        "word": "이런",
+        "start": 2.1448,
+        "end": 2.3252,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.304
+      },
+      {
+        "word": "적",
+        "start": 2.3453,
+        "end": 2.4455,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.064
+      },
+      {
+        "word": "있으시죠?",
+        "start": 2.4856,
+        "end": 2.9065,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.102
+      }
+    ],
+    "start": 0,
+    "cue_start": 1.2227,
+    "cue_end": 1.6437,
+    "initial_state": "거실에 놓인 청소기와 느슨한 바닥 가닥",
+    "action": "바닥에 펼쳐진 개별 가닥 위로 본체가 전진하며 설치 롤러 회전",
+    "end_state": "본체와 구동륜·롤러가 전진",
+    "end": 3.2916666666666665,
+    "start_frame": 1,
+    "end_frame": 79,
+    "camera": {
+      "position": [
+        1.5,
+        -2.4,
+        0.48
+      ],
+      "target": [
+        0,
+        -0.1,
+        -0.03
+      ],
+      "lens": 55
+    },
+    "spoken_cues": [
+      {
+        "word": "로봇청소기",
+        "start": 0.441,
+        "end": 1.2027,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.112
+      }
+    ]
+  },
+  {
+    "cut": 2,
+    "narration": "청소 끝나고 브러시 뒤집었더니,",
+    "subject": "손으로 들어 뒤집는 본체",
+    "words": [
+      {
+        "word": "청소",
+        "start": 3.3676,
+        "end": 3.6682,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.035
+      },
+      {
+        "word": "끝나고",
+        "start": 3.6883,
+        "end": 4.1092,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.379
+      },
+      {
+        "word": "브러시",
+        "start": 4.2095,
+        "end": 4.5903,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.232
+      },
+      {
+        "word": "뒤집었더니,",
+        "start": 4.6905,
+        "end": 5.352,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.053
+      }
+    ],
+    "start": 3.2916666666666665,
+    "cue_start": 4.6905,
+    "cue_end": 5.352,
+    "initial_state": "정방향 본체를 양손으로 잡음",
+    "action": "손이 본체를 들어 실제 뒤집음",
+    "end_state": "하부 브러시가 위를 향함",
+    "end": 5.791666666666667,
+    "start_frame": 80,
+    "end_frame": 139,
+    "camera": {
+      "position": [
+        4,
+        -6,
+        3.4
+      ],
+      "target": [
+        0,
+        0,
+        0.85
+      ],
+      "lens": 48
+    },
+    "spoken_cues": [
+      {
+        "word": "뒤집었더니,",
+        "start": 4.6905,
+        "end": 5.352,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.053
+      }
+    ]
+  },
+  {
+    "cut": 3,
+    "narration": "머리카락이 축에 칭칭 감겨 있는 경우요.",
+    "subject": "끝단 축에 감긴 여러 가닥",
+    "words": [
+      {
+        "word": "머리카락이",
+        "start": 5.8732,
+        "end": 6.4545,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.03
+      },
+      {
+        "word": "축에",
+        "start": 6.5347,
+        "end": 6.7953,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.004
+      },
+      {
+        "word": "칭칭",
+        "start": 6.8955,
+        "end": 7.3565,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.186
+      },
+      {
+        "word": "감겨",
+        "start": 7.3766,
+        "end": 7.6372,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.031
+      },
+      {
+        "word": "있는",
+        "start": 7.6772,
+        "end": 7.8576,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.143
+      },
+      {
+        "word": "경우요.",
+        "start": 7.8777,
+        "end": 8.1984,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      }
+    ],
+    "start": 5.791666666666667,
+    "cue_start": 7.3766,
+    "cue_end": 7.6372,
+    "initial_state": "축 끝에 여러 가닥이 감겨 있음",
+    "action": "개별 가닥이 노출 축에 여러 겹 감긴 상태를 낮은 매크로로 관찰",
+    "end_state": "가닥이 축에 남아 있음",
+    "end": 9.708333333333334,
+    "start_frame": 140,
+    "end_frame": 233,
+    "camera": {
+      "position": [
+        1.4,
+        3.0,
+        1.45
+      ],
+      "target": [
+        0.95,
+        0,
+        0.75
+      ],
+      "lens": 100
+    },
+    "spoken_cues": [
+      {
+        "word": "축에",
+        "start": 6.5347,
+        "end": 6.7953,
+        "paragraph": 0,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.004
+      }
+    ]
+  },
+  {
+    "cut": 4,
+    "narration": "고장 난 게 아닙니다.",
+    "subject": "상단의 녹색 상태 램프",
+    "words": [
+      {
+        "word": "고장",
+        "start": 9.781,
+        "end": 10.0614,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      },
+      {
+        "word": "난",
+        "start": 10.0814,
+        "end": 10.2016,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.134
+      },
+      {
+        "word": "게",
+        "start": 10.2416,
+        "end": 10.3017,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "아닙니다.",
+        "start": 10.3618,
+        "end": 10.7824,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      }
+    ],
+    "start": 9.708333333333334,
+    "cue_start": 10.3618,
+    "cue_end": 10.7824,
+    "initial_state": "정상 상태 램프가 켜짐",
+    "action": "정상 녹색 램프가 켜진 청소기가 계속 주행",
+    "end_state": "정상 동작이 계속됨",
+    "end": 11.166666666666666,
+    "start_frame": 234,
+    "end_frame": 268,
+    "camera": {
+      "position": [
+        3,
+        -4.8,
+        1.6
+      ],
+      "target": [
+        0,
+        0,
+        0.2
+      ],
+      "lens": 57
+    },
+    "spoken_cues": [
+      {
+        "word": "고장",
+        "start": 9.781,
+        "end": 10.0614,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      }
+    ]
+  },
+  {
+    "cut": 5,
+    "narration": "흡입력이 약해서도 아니고요.",
+    "subject": "투명 흡입구와 상승하는 먼지",
+    "words": [
+      {
+        "word": "흡입력이",
+        "start": 11.243,
+        "end": 11.7838,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.165
+      },
+      {
+        "word": "약해서도",
+        "start": 11.8439,
+        "end": 12.4247,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.239
+      },
+      {
+        "word": "아니고요.",
+        "start": 12.4847,
+        "end": 12.9254,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ],
+    "start": 11.166666666666666,
+    "cue_start": 12.4847,
+    "cue_end": 12.9254,
+    "initial_state": "입자가 흡입구 아래에 떠 있음",
+    "action": "떠 있는 먼지 입자가 실제 흡입관을 따라 상승",
+    "end_state": "입자가 관 안으로 올라감",
+    "end": 13.333333333333334,
+    "start_frame": 269,
+    "end_frame": 320,
+    "camera": {
+      "position": [
+        2.7,
+        4,
+        1.9
+      ],
+      "target": [
+        0,
+        0,
+        0.7
+      ],
+      "lens": 78
+    },
+    "spoken_cues": [
+      {
+        "word": "흡입력이",
+        "start": 11.243,
+        "end": 11.7838,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.165
+      }
+    ]
+  },
+  {
+    "cut": 6,
+    "narration": "원인은 바닥에 닿아서 도는 롤러 브러시예요.",
+    "subject": "바닥에 닿아 회전하는 모와 핀",
+    "words": [
+      {
+        "word": "원인은",
+        "start": 13.4261,
+        "end": 13.8667,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.035
+      },
+      {
+        "word": "바닥에",
+        "start": 13.9268,
+        "end": 14.3273,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.004
+      },
+      {
+        "word": "닿아서",
+        "start": 14.3674,
+        "end": 14.7679,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.135
+      },
+      {
+        "word": "도는",
+        "start": 14.9081,
+        "end": 15.2085,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.007
+      },
+      {
+        "word": "롤러",
+        "start": 15.2686,
+        "end": 15.509,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.019
+      },
+      {
+        "word": "브러시예요.",
+        "start": 15.549,
+        "end": 16.1098,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.893
+      }
+    ],
+    "start": 13.333333333333334,
+    "cue_start": 14.9081,
+    "cue_end": 15.2085,
+    "initial_state": "모 끝이 바닥에 닿아 있음",
+    "action": "롤러 모 끝이 실제 바닥에 닿은 채 회전",
+    "end_state": "접촉 상태로 회전 지속",
+    "end": 16.5,
+    "start_frame": 321,
+    "end_frame": 396,
+    "camera": {
+      "position": [
+        2,
+        4,
+        0.7
+      ],
+      "target": [
+        0,
+        0,
+        0.24
+      ],
+      "lens": 60
+    },
+    "spoken_cues": [
+      {
+        "word": "도는",
+        "start": 14.9081,
+        "end": 15.2085,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.007
+      }
+    ]
+  },
+  {
+    "cut": 7,
+    "narration": "이 롤러가 실을 감는 실패처럼",
+    "subject": "실을 감는 나무 실패",
+    "words": [
+      {
+        "word": "이",
+        "start": 16.5905,
+        "end": 16.6105,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "롤러가",
+        "start": 16.6706,
+        "end": 17.0311,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.107
+      },
+      {
+        "word": "실을",
+        "start": 17.1112,
+        "end": 17.3715,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.093
+      },
+      {
+        "word": "감는",
+        "start": 17.4116,
+        "end": 17.692,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.508
+      },
+      {
+        "word": "실패처럼",
+        "start": 17.712,
+        "end": 18.3529,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.185
+      }
+    ],
+    "start": 16.5,
+    "cue_start": 17.712,
+    "cue_end": 18.3529,
+    "initial_state": "실제 롤러가 회전 중이며 비유용 실패에 실 끝이 걸림",
+    "action": "실제 롤러 회전에서 시작해 실을 발화 때 나무 실패로 전환; 실패가 가는 실을 감음",
+    "end_state": "실의 자유 길이가 줄고 실패에 감김",
+    "end": 18.458333333333332,
+    "start_frame": 397,
+    "end_frame": 443,
+    "camera_events": [
+      {
+        "time": 16.5,
+        "position": [
+          2.2,
+          5,
+          2
+        ],
+        "target": [
+          0,
+          0,
+          0.75
+        ],
+        "lens": 45
+      },
+      {
+        "time": 17.1112,
+        "position": [
+          5.3,
+          4.8,
+          1.6
+        ],
+        "target": [
+          3.4,
+          0,
+          0.7
+        ],
+        "lens": 70
+      }
+    ],
+    "camera": {
+      "position": [
+        2.2,
+        5,
+        2
+      ],
+      "target": [
+        0,
+        0,
+        0.75
+      ],
+      "lens": 45
+    },
+    "spoken_cues": [
+      {
+        "word": "롤러가",
+        "start": 16.6706,
+        "end": 17.0311,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.107
+      },
+      {
+        "word": "실을",
+        "start": 17.1112,
+        "end": 17.3715,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.093
+      },
+      {
+        "word": "실패처럼",
+        "start": 17.712,
+        "end": 18.3529,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.185
+      }
+    ]
+  },
+  {
+    "cut": 8,
+    "narration": "머리카락을 축 방향으로 밀어 버리거든요.",
+    "subject": "나선형 핀을 따라 이동하는 가닥",
+    "words": [
+      {
+        "word": "머리카락을",
+        "start": 18.5532,
+        "end": 19.1941,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.035
+      },
+      {
+        "word": "축",
+        "start": 19.2742,
+        "end": 19.4745,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.008
+      },
+      {
+        "word": "방향으로",
+        "start": 19.6147,
+        "end": 20.0953,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.089
+      },
+      {
+        "word": "밀어",
+        "start": 20.1755,
+        "end": 20.3557,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.155
+      },
+      {
+        "word": "버리거든요.",
+        "start": 20.3958,
+        "end": 20.9766,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.077
+      }
+    ],
+    "start": 18.458333333333332,
+    "cue_start": 20.1755,
+    "cue_end": 20.3557,
+    "initial_state": "가닥이 롤러 중앙에 있음",
+    "action": "위에서 본 가닥 다발이 회전 축 방향으로 이동",
+    "end_state": "다발이 축 방향으로 옮겨짐",
+    "end": 22.166666666666668,
+    "start_frame": 444,
+    "end_frame": 532,
+    "camera": {
+      "position": [
+        -0.2,
+        0.6,
+        6
+      ],
+      "target": [
+        0.3,
+        0,
+        0.75
+      ],
+      "lens": 68
+    },
+    "spoken_cues": [
+      {
+        "word": "축",
+        "start": 19.2742,
+        "end": 19.4745,
+        "paragraph": 1,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.008
+      }
+    ]
+  },
+  {
+    "cut": 9,
+    "narration": "롤러가 돌아가면 긴 머리카락이 모에 걸립니다.",
+    "subject": "모에 닿아 걸리는 긴 가닥",
+    "words": [
+      {
+        "word": "롤러가",
+        "start": 22.2776,
+        "end": 22.5977,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.082
+      },
+      {
+        "word": "돌아가면",
+        "start": 22.6377,
+        "end": 23.198,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.131
+      },
+      {
+        "word": "긴",
+        "start": 23.358,
+        "end": 23.5581,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.009
+      },
+      {
+        "word": "머리카락이",
+        "start": 23.6182,
+        "end": 24.1384,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.033
+      },
+      {
+        "word": "모에",
+        "start": 24.1784,
+        "end": 24.3785,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.072
+      },
+      {
+        "word": "걸립니다.",
+        "start": 24.4185,
+        "end": 24.8987,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.047
+      }
+    ],
+    "start": 22.166666666666668,
+    "cue_start": 24.4185,
+    "cue_end": 24.8987,
+    "initial_state": "긴 자유단이 전면 모 앞에서 접근할 준비",
+    "action": "돌아가면 발화에 스핀들이 먼저 한 바퀴 회전; 모에 발화에 가닥 접근; 걸립니다에 모에 걸려 감김 시작",
+    "end_state": "몇 가닥이 모에 걸려 감기기 시작",
+    "end": 25.291666666666668,
+    "start_frame": 533,
+    "end_frame": 607,
+    "camera": {
+      "position": [
+        2,
+        5,
+        2.5
+      ],
+      "target": [
+        0,
+        0,
+        0.6
+      ],
+      "lens": 45
+    },
+    "spoken_cues": [
+      {
+        "word": "돌아가면",
+        "start": 22.6377,
+        "end": 23.198,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.131
+      },
+      {
+        "word": "모에",
+        "start": 24.1784,
+        "end": 24.3785,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.072
+      },
+      {
+        "word": "걸립니다.",
+        "start": 24.4185,
+        "end": 24.8987,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.047
+      }
+    ]
+  },
+  {
+    "cut": 10,
+    "narration": "한 번 걸리면 회전할 때마다 더 세게 감기고,",
+    "subject": "회전에 따라 둘레를 감는 가닥",
+    "words": [
+      {
+        "word": "한",
+        "start": 25.3789,
+        "end": 25.4989,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.037
+      },
+      {
+        "word": "번",
+        "start": 25.539,
+        "end": 25.659,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.031
+      },
+      {
+        "word": "걸리면",
+        "start": 25.699,
+        "end": 26.1392,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.062
+      },
+      {
+        "word": "회전할",
+        "start": 26.1992,
+        "end": 26.5794,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.077
+      },
+      {
+        "word": "때마다",
+        "start": 26.5794,
+        "end": 26.9996,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.031
+      },
+      {
+        "word": "더",
+        "start": 27.3397,
+        "end": 27.4398,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.018
+      },
+      {
+        "word": "세게",
+        "start": 27.5798,
+        "end": 27.8399,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.006
+      },
+      {
+        "word": "감기고,",
+        "start": 27.8999,
+        "end": 28.3001,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      }
+    ],
+    "start": 25.291666666666668,
+    "cue_start": 26.1992,
+    "cue_end": 26.5794,
+    "initial_state": "조금 감긴 채 자유단이 늘어짐",
+    "action": "같은 가닥의 늘어진 자유 길이가 줄어들며 두 바퀴 감김",
+    "end_state": "자유 길이가 줄고 감긴 길이가 늘어남",
+    "end": 28.541666666666668,
+    "start_frame": 608,
+    "end_frame": 685,
+    "camera": {
+      "position": [
+        3.2,
+        3.1,
+        3.2
+      ],
+      "target": [
+        0.1,
+        0,
+        0.75
+      ],
+      "lens": 75
+    },
+    "spoken_cues": [
+      {
+        "word": "회전할",
+        "start": 26.1992,
+        "end": 26.5794,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.077
+      }
+    ]
+  },
+  {
+    "cut": 11,
+    "narration": "가운데에 머물지 않아요.",
+    "subject": "중앙에서 이동을 시작하는 다발",
+    "words": [
+      {
+        "word": "가운데에",
+        "start": 28.6202,
+        "end": 29.1405,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.122
+      },
+      {
+        "word": "머물지",
+        "start": 29.2205,
+        "end": 29.6007,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.004
+      },
+      {
+        "word": "않아요.",
+        "start": 29.6807,
+        "end": 30.0008,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.165
+      }
+    ],
+    "start": 28.541666666666668,
+    "cue_start": 28.6202,
+    "cue_end": 29.1405,
+    "initial_state": "두 바퀴가량 감긴 다발이 중앙에 있음",
+    "action": "위에서 본 다발이 중앙에서 끝단 방향으로 떠남",
+    "end_state": "다발이 중앙에서 벗어남",
+    "end": 30.416666666666668,
+    "start_frame": 686,
+    "end_frame": 730,
+    "camera": {
+      "position": [
+        -0.2,
+        0.8,
+        6.5
+      ],
+      "target": [
+        0.25,
+        0,
+        0.75
+      ],
+      "lens": 75
+    },
+    "spoken_cues": [
+      {
+        "word": "가운데에",
+        "start": 28.6202,
+        "end": 29.1405,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.122
+      }
+    ]
+  },
+  {
+    "cut": 12,
+    "narration": "저항이 적은 끝단, 베어링 쪽으로 미끄러져 모입니다.",
+    "subject": "반투명 롤러 속 축과 끝단 베어링",
+    "words": [
+      {
+        "word": "저항이",
+        "start": 30.501,
+        "end": 30.8612,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.034
+      },
+      {
+        "word": "적은",
+        "start": 30.9212,
+        "end": 31.2013,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.033
+      },
+      {
+        "word": "끝단,",
+        "start": 31.2213,
+        "end": 31.6615,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.316
+      },
+      {
+        "word": "베어링",
+        "start": 31.9416,
+        "end": 32.3018,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.092
+      },
+      {
+        "word": "쪽으로",
+        "start": 32.3018,
+        "end": 32.6419,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.029
+      },
+      {
+        "word": "미끄러져",
+        "start": 32.702,
+        "end": 33.1421,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.124
+      },
+      {
+        "word": "모입니다.",
+        "start": 33.1822,
+        "end": 33.6424,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.004
+      }
+    ],
+    "start": 30.416666666666668,
+    "cue_start": 31.2213,
+    "cue_end": 31.6615,
+    "initial_state": "중앙을 벗어난 다발과 노출 축",
+    "action": "반투명 롤러 바깥에서 다발이 이동한 뒤 노출 축·베어링 홈으로 모임",
+    "end_state": "끝단 베어링 앞 홈에 모임",
+    "end": 34.0,
+    "start_frame": 731,
+    "end_frame": 816,
+    "camera": {
+      "position": [
+        3,
+        4.2,
+        2.4
+      ],
+      "target": [
+        0.5,
+        0,
+        0.75
+      ],
+      "lens": 62
+    },
+    "spoken_cues": [
+      {
+        "word": "끝단,",
+        "start": 31.2213,
+        "end": 31.6615,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.316
+      },
+      {
+        "word": "베어링",
+        "start": 31.9416,
+        "end": 32.3018,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.092
+      }
+    ]
+  },
+  {
+    "cut": 13,
+    "narration": "짧은 털은 흡입으로 빨려 올라가지만,",
+    "subject": "흡입되는 짧은 털",
+    "words": [
+      {
+        "word": "짧은",
+        "start": 34.0825,
+        "end": 34.4627,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.232
+      },
+      {
+        "word": "털은",
+        "start": 34.5027,
+        "end": 34.7828,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.125
+      },
+      {
+        "word": "흡입으로",
+        "start": 34.8629,
+        "end": 35.3031,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.031
+      },
+      {
+        "word": "빨려",
+        "start": 35.3231,
+        "end": 35.6632,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.112
+      },
+      {
+        "word": "올라가지만,",
+        "start": 35.7232,
+        "end": 36.3435,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.029
+      }
+    ],
+    "start": 34.0,
+    "cue_start": 35.3231,
+    "cue_end": 35.6632,
+    "initial_state": "짧은 털이 흡입구 아래에 있음",
+    "action": "짧은 개별 털이 흡입관으로 상승",
+    "end_state": "털이 관 안으로 올라감",
+    "end": 36.666666666666664,
+    "start_frame": 817,
+    "end_frame": 880,
+    "camera": {
+      "position": [
+        -2.7,
+        4,
+        1.7
+      ],
+      "target": [
+        0,
+        0,
+        0.7
+      ],
+      "lens": 78
+    },
+    "spoken_cues": [
+      {
+        "word": "짧은",
+        "start": 34.0825,
+        "end": 34.4627,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.232
+      },
+      {
+        "word": "빨려",
+        "start": 35.3231,
+        "end": 35.6632,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.112
+      }
+    ]
+  },
+  {
+    "cut": 14,
+    "narration": "길이가 긴 머리카락은 한 바퀴를 다 돌 수 있어서 축에 남는 거예요.",
+    "subject": "한 바퀴 이상 감긴 긴 머리카락",
+    "words": [
+      {
+        "word": "길이가",
+        "start": 36.7637,
+        "end": 37.0838,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.602
+      },
+      {
+        "word": "긴",
+        "start": 37.1838,
+        "end": 37.4039,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.006
+      },
+      {
+        "word": "머리카락은",
+        "start": 37.464,
+        "end": 38.0442,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.082
+      },
+      {
+        "word": "한",
+        "start": 38.3843,
+        "end": 38.5044,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.053
+      },
+      {
+        "word": "바퀴를",
+        "start": 38.5444,
+        "end": 38.9446,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.357
+      },
+      {
+        "word": "다",
+        "start": 38.9846,
+        "end": 39.1247,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.354
+      },
+      {
+        "word": "돌",
+        "start": 39.2647,
+        "end": 39.4248,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.003
+      },
+      {
+        "word": "수",
+        "start": 39.4648,
+        "end": 39.5648,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "있어서",
+        "start": 39.6049,
+        "end": 39.925,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.04
+      },
+      {
+        "word": "축에",
+        "start": 40.1851,
+        "end": 40.4452,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.011
+      },
+      {
+        "word": "남는",
+        "start": 40.5052,
+        "end": 40.8054,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.537
+      },
+      {
+        "word": "거예요.",
+        "start": 40.8454,
+        "end": 41.1855,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.564
+      }
+    ],
+    "start": 36.666666666666664,
+    "cue_start": 38.3843,
+    "cue_end": 38.5044,
+    "initial_state": "긴 가닥 끝이 모에 걸림",
+    "action": "긴 가닥이 한 바퀴를 넘게 돌아도 흡입되지 않고 축에 잔류",
+    "end_state": "한 바퀴를 넘게 감긴 가닥이 잔류",
+    "end": 42.166666666666664,
+    "start_frame": 881,
+    "end_frame": 1012,
+    "camera": {
+      "position": [
+        -2.4,
+        3,
+        3.0
+      ],
+      "target": [
+        0,
+        0,
+        0.75
+      ],
+      "lens": 70
+    },
+    "spoken_cues": [
+      {
+        "word": "한",
+        "start": 38.3843,
+        "end": 38.5044,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.053
+      },
+      {
+        "word": "축에",
+        "start": 40.1851,
+        "end": 40.4452,
+        "paragraph": 2,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.011
+      }
+    ]
+  },
+  {
+    "cut": 15,
+    "narration": "그래서 브러시 가운데는 깨끗해 보여도,",
+    "subject": "깨끗한 브러시 중앙",
+    "words": [
+      {
+        "word": "그래서",
+        "start": 42.2662,
+        "end": 42.5666,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.009
+      },
+      {
+        "word": "브러시",
+        "start": 42.6266,
+        "end": 42.987,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.249
+      },
+      {
+        "word": "가운데는",
+        "start": 43.0471,
+        "end": 43.6078,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.022
+      },
+      {
+        "word": "깨끗해",
+        "start": 43.6478,
+        "end": 44.1083,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.394
+      },
+      {
+        "word": "보여도,",
+        "start": 44.1484,
+        "end": 44.4888,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.025
+      }
+    ],
+    "start": 42.166666666666664,
+    "cue_start": 43.6478,
+    "cue_end": 44.1083,
+    "initial_state": "가운데는 깨끗하고 끝단은 감겨 있음",
+    "action": "가닥이 끝단에 남아 있는 상태에서 깨끗한 중앙 브러시가 회전",
+    "end_state": "가운데는 계속 깨끗해 보임",
+    "end": 44.875,
+    "start_frame": 1013,
+    "end_frame": 1077,
+    "camera": {
+      "position": [
+        -0.2,
+        0.4,
+        5.5
+      ],
+      "target": [
+        0.1,
+        0,
+        0.75
+      ],
+      "lens": 75
+    },
+    "spoken_cues": [
+      {
+        "word": "가운데는",
+        "start": 43.0471,
+        "end": 43.6078,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.022
+      }
+    ]
+  },
+  {
+    "cut": 16,
+    "narration": "양끝 캡을 열어 보면 머리카락이 두껍게 감겨 있는 경우가 많아요.",
+    "subject": "캡을 빼면서 드러나는 감긴 축",
+    "words": [
+      {
+        "word": "양끝",
+        "start": 44.9693,
+        "end": 45.3297,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.498
+      },
+      {
+        "word": "캡을",
+        "start": 45.3698,
+        "end": 45.6101,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.155
+      },
+      {
+        "word": "열어",
+        "start": 45.6301,
+        "end": 45.8303,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.858
+      },
+      {
+        "word": "보면",
+        "start": 45.8303,
+        "end": 46.1907,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.314
+      },
+      {
+        "word": "머리카락이",
+        "start": 46.2708,
+        "end": 46.9116,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.058
+      },
+      {
+        "word": "두껍게",
+        "start": 47.0517,
+        "end": 47.5323,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.027
+      },
+      {
+        "word": "감겨",
+        "start": 47.5723,
+        "end": 47.8727,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.024
+      },
+      {
+        "word": "있는",
+        "start": 47.8927,
+        "end": 48.0929,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.048
+      },
+      {
+        "word": "경우가",
+        "start": 48.1129,
+        "end": 48.4133,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.061
+      },
+      {
+        "word": "많아요.",
+        "start": 48.4733,
+        "end": 48.8738,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.009
+      }
+    ],
+    "start": 44.875,
+    "cue_start": 45.6301,
+    "cue_end": 45.8303,
+    "initial_state": "양끝 캡이 닫힘",
+    "action": "양쪽 캡과 손이 축 방향으로 빠지며 안쪽 베어링 감김을 노출; 머리카락 발화에서 열린 끝단의 감긴 가닥으로 확대 컷",
+    "end_state": "손과 캡이 빠져 베어링·가닥 노출",
+    "end": 49.375,
+    "start_frame": 1078,
+    "end_frame": 1185,
+    "camera_events": [
+      {
+        "time": 44.875,
+        "position": [
+          1,
+          7,
+          3
+        ],
+        "target": [
+          0,
+          0,
+          0.75
+        ],
+        "lens": 36
+      },
+      {
+        "time": 46.2708,
+        "position": [
+          1.5,
+          3.2,
+          1.5
+        ],
+        "target": [
+          0.97,
+          0,
+          0.75
+        ],
+        "lens": 100
+      }
+    ],
+    "camera": {
+      "position": [
+        1,
+        7,
+        3
+      ],
+      "target": [
+        0,
+        0,
+        0.75
+      ],
+      "lens": 36
+    },
+    "spoken_cues": [
+      {
+        "word": "캡을",
+        "start": 45.3698,
+        "end": 45.6101,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.155
+      },
+      {
+        "word": "열어",
+        "start": 45.6301,
+        "end": 45.8303,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.858
+      },
+      {
+        "word": "머리카락이",
+        "start": 46.2708,
+        "end": 46.9116,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.058
+      }
+    ]
+  },
+  {
+    "cut": 17,
+    "narration": "로보락 같은 브랜드들도 브러시 끝단과 베어링을 정기적으로 확인하라고 안내합니다.",
+    "subject": "끝단을 가리키는 손가락",
+    "words": [
+      {
+        "word": "로보락",
+        "start": 49.4545,
+        "end": 49.7949,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.071
+      },
+      {
+        "word": "같은",
+        "start": 49.8349,
+        "end": 50.1152,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "브랜드들도",
+        "start": 50.1753,
+        "end": 50.8761,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.39
+      },
+      {
+        "word": "브러시",
+        "start": 51.2766,
+        "end": 51.637,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.189
+      },
+      {
+        "word": "끝단과",
+        "start": 51.677,
+        "end": 52.2977,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.246
+      },
+      {
+        "word": "베어링을",
+        "start": 52.3778,
+        "end": 52.9585,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.084
+      },
+      {
+        "word": "정기적으로",
+        "start": 53.0586,
+        "end": 53.7394,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.073
+      },
+      {
+        "word": "확인하라고",
+        "start": 53.7794,
+        "end": 54.4202,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.044
+      },
+      {
+        "word": "안내합니다.",
+        "start": 54.5403,
+        "end": 55.121,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.129
+      }
+    ],
+    "start": 49.375,
+    "cue_start": 53.7794,
+    "cue_end": 54.4202,
+    "initial_state": "이전 컷에서 연 캡 안쪽 베어링",
+    "action": "손가락으로 끝단 베어링을 잡고 돌려 상태 확인",
+    "end_state": "손이 열린 베어링을 잡고 점검",
+    "end": 55.541666666666664,
+    "start_frame": 1186,
+    "end_frame": 1333,
+    "camera": {
+      "position": [
+        2.8,
+        3,
+        2.1
+      ],
+      "target": [
+        0.91,
+        0,
+        0.75
+      ],
+      "lens": 90
+    },
+    "spoken_cues": [
+      {
+        "word": "베어링을",
+        "start": 52.3778,
+        "end": 52.9585,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.084
+      },
+      {
+        "word": "확인하라고",
+        "start": 53.7794,
+        "end": 54.4202,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.044
+      }
+    ]
+  },
+  {
+    "cut": 18,
+    "narration": "너무 쌓이면 모터에 부하가 걸리고",
+    "subject": "구리 코일 모터의 열 변화",
+    "words": [
+      {
+        "word": "너무",
+        "start": 55.6215,
+        "end": 55.8418,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.122
+      },
+      {
+        "word": "쌓이면",
+        "start": 55.8618,
+        "end": 56.4225,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.541
+      },
+      {
+        "word": "모터에",
+        "start": 56.5226,
+        "end": 56.903,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.379
+      },
+      {
+        "word": "부하가",
+        "start": 56.9831,
+        "end": 57.3435,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.182
+      },
+      {
+        "word": "걸리고",
+        "start": 57.3836,
+        "end": 57.8041,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.069
+      }
+    ],
+    "start": 55.541666666666664,
+    "cue_start": 56.9831,
+    "cue_end": 57.3435,
+    "initial_state": "다발이 축에 감겨 모터와 연결됨",
+    "action": "끝단 다발에 막혀 회전이 느려지고 연결 모터 권선 온도가 올라감",
+    "end_state": "회전이 느려지고 권선이 따뜻한 색으로 변함",
+    "end": 58.0,
+    "start_frame": 1334,
+    "end_frame": 1392,
+    "camera": {
+      "position": [
+        3,
+        5.5,
+        3
+      ],
+      "target": [
+        1.45,
+        0,
+        0.75
+      ],
+      "lens": 62
+    },
+    "spoken_cues": [
+      {
+        "word": "모터에",
+        "start": 56.5226,
+        "end": 56.903,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.379
+      },
+      {
+        "word": "부하가",
+        "start": 56.9831,
+        "end": 57.3435,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.182
+      }
+    ]
+  },
+  {
+    "cut": 19,
+    "narration": "브러시가 손상될 수 있다고 해요.",
+    "subject": "압박으로 휘어지는 모",
+    "words": [
+      {
+        "word": "브러시가",
+        "start": 58.0844,
+        "end": 58.645,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.175
+      },
+      {
+        "word": "손상될",
+        "start": 58.7652,
+        "end": 59.2858,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.033
+      },
+      {
+        "word": "수",
+        "start": 59.3258,
+        "end": 59.4259,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "있다고",
+        "start": 59.486,
+        "end": 59.8264,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "해요.",
+        "start": 59.8664,
+        "end": 60.0666,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.064
+      }
+    ],
+    "start": 58.0,
+    "cue_start": 58.7652,
+    "cue_end": 59.2858,
+    "initial_state": "모와 고무 핀이 원래 형상을 유지",
+    "action": "손상될 발화에 앞쪽 고무 핀 외곽이 실제 셰이프키로 접히고, 개별 나일론 모가 휘어 손상 상태가 드러남",
+    "end_state": "앞쪽 고무 핀이 접히고 개별 모 끝이 휨",
+    "end": 61.041666666666664,
+    "start_frame": 1393,
+    "end_frame": 1465,
+    "camera": {
+      "position": [
+        -2.5,
+        3.5,
+        2.4
+      ],
+      "target": [
+        0.6,
+        0,
+        0.75
+      ],
+      "lens": 90
+    },
+    "spoken_cues": [
+      {
+        "word": "손상될",
+        "start": 58.7652,
+        "end": 59.2858,
+        "paragraph": 3,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.033
+      }
+    ]
+  },
+  {
+    "cut": 20,
+    "narration": "그럼 흡입력을 더 세게 하면 되지 않냐고요?",
+    "subject": "손으로 돌리는 흡입력 다이얼",
+    "words": [
+      {
+        "word": "그럼",
+        "start": 61.1273,
+        "end": 61.3674,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.115
+      },
+      {
+        "word": "흡입력을",
+        "start": 61.4074,
+        "end": 62.0077,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.097
+      },
+      {
+        "word": "더",
+        "start": 62.0678,
+        "end": 62.1678,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.084
+      },
+      {
+        "word": "세게",
+        "start": 62.2879,
+        "end": 62.548,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.005
+      },
+      {
+        "word": "하면",
+        "start": 62.588,
+        "end": 62.8081,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.06
+      },
+      {
+        "word": "되지",
+        "start": 62.8282,
+        "end": 63.0283,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.017
+      },
+      {
+        "word": "않냐고요?",
+        "start": 63.0883,
+        "end": 63.5085,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.768
+      }
+    ],
+    "start": 61.041666666666664,
+    "cue_start": 62.0678,
+    "cue_end": 62.1678,
+    "initial_state": "손이 흡입 조절기를 잡음",
+    "action": "손이 실제 흡입력 조절 다이얼을 돌림",
+    "end_state": "조절기 포인터가 올라감",
+    "end": 63.875,
+    "start_frame": 1466,
+    "end_frame": 1533,
+    "camera": {
+      "position": [
+        1.6,
+        2,
+        3
+      ],
+      "target": [
+        0.1,
+        0,
+        0.12
+      ],
+      "lens": 85
+    },
+    "spoken_cues": [
+      {
+        "word": "세게",
+        "start": 62.2879,
+        "end": 62.548,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.005
+      }
+    ]
+  },
+  {
+    "cut": 21,
+    "narration": "흡입력은 이미 떠 있는 먼지를 빨아들이는 일이에요.",
+    "subject": "공중 먼지와 흡입 경로",
+    "words": [
+      {
+        "word": "흡입력은",
+        "start": 63.9687,
+        "end": 64.5691,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.141
+      },
+      {
+        "word": "이미",
+        "start": 64.6291,
+        "end": 64.7892,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "떠",
+        "start": 64.8292,
+        "end": 64.9693,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.041
+      },
+      {
+        "word": "있는",
+        "start": 65.0693,
+        "end": 65.2894,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.024
+      },
+      {
+        "word": "먼지를",
+        "start": 65.3094,
+        "end": 65.6896,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.067
+      },
+      {
+        "word": "빨아들이는",
+        "start": 65.7097,
+        "end": 66.39,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      },
+      {
+        "word": "일이에요.",
+        "start": 66.45,
+        "end": 66.8102,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.066
+      }
+    ],
+    "start": 63.875,
+    "cue_start": 65.7097,
+    "cue_end": 66.39,
+    "initial_state": "먼지가 흡입구 앞에 떠 있음",
+    "action": "떠 있는 먼지 입자가 실제 흡입관을 따라 상승",
+    "end_state": "먼지가 위로 흡입됨",
+    "end": 67.25,
+    "start_frame": 1534,
+    "end_frame": 1614,
+    "camera": {
+      "position": [
+        2.7,
+        4,
+        1.9
+      ],
+      "target": [
+        0,
+        0,
+        0.7
+      ],
+      "lens": 78
+    },
+    "spoken_cues": [
+      {
+        "word": "먼지를",
+        "start": 65.3094,
+        "end": 65.6896,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.067
+      },
+      {
+        "word": "빨아들이는",
+        "start": 65.7097,
+        "end": 66.39,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      }
+    ]
+  },
+  {
+    "cut": 22,
+    "narration": "머리카락이 롤러에 한 번 감기기 시작하면, 회전이 흡입보다 먼저 작동해서 축으로 밀어 넣습니다.",
+    "subject": "흡입되는 먼지와 감기는 긴 가닥",
+    "words": [
+      {
+        "word": "머리카락이",
+        "start": 67.3505,
+        "end": 67.9308,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.055
+      },
+      {
+        "word": "롤러에",
+        "start": 68.0108,
+        "end": 68.371,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.38
+      },
+      {
+        "word": "한",
+        "start": 68.4111,
+        "end": 68.5311,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "번",
+        "start": 68.5711,
+        "end": 68.7312,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.016
+      },
+      {
+        "word": "감기기",
+        "start": 68.7712,
+        "end": 69.1915,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "시작하면,",
+        "start": 69.2315,
+        "end": 69.8118,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.003
+      },
+      {
+        "word": "회전이",
+        "start": 70.292,
+        "end": 70.6522,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.1
+      },
+      {
+        "word": "흡입보다",
+        "start": 70.6922,
+        "end": 71.1925,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.067
+      },
+      {
+        "word": "먼저",
+        "start": 71.2925,
+        "end": 71.5527,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.045
+      },
+      {
+        "word": "작동해서",
+        "start": 71.5927,
+        "end": 72.213,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.377
+      },
+      {
+        "word": "축으로",
+        "start": 72.3331,
+        "end": 72.6733,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      },
+      {
+        "word": "밀어",
+        "start": 72.7133,
+        "end": 72.9134,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.116
+      },
+      {
+        "word": "넣습니다.",
+        "start": 72.9334,
+        "end": 73.4337,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.716
+      }
+    ],
+    "start": 67.25,
+    "cue_start": 68.7712,
+    "cue_end": 69.1915,
+    "initial_state": "긴 가닥과 떠 있는 먼지가 함께 있음",
+    "action": "먼지는 위로 이동하지만 긴 가닥은 회전으로 감긴 후 축 끝으로 이동",
+    "end_state": "먼지는 상승하고 긴 가닥은 축 끝에 남음",
+    "end": 73.79166666666667,
+    "start_frame": 1615,
+    "end_frame": 1771,
+    "camera": {
+      "position": [
+        2.5,
+        4.8,
+        2.8
+      ],
+      "target": [
+        0.45,
+        0,
+        0.9
+      ],
+      "lens": 52
+    },
+    "spoken_cues": [
+      {
+        "word": "감기기",
+        "start": 68.7712,
+        "end": 69.1915,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "회전이",
+        "start": 70.292,
+        "end": 70.6522,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.1
+      },
+      {
+        "word": "축으로",
+        "start": 72.3331,
+        "end": 72.6733,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      }
+    ]
+  },
+  {
+    "cut": 23,
+    "narration": "그래서 흡입력 숫자만 올려서는 감김이 사라지지 않아요.",
+    "subject": "강한 흡입에도 남아 있는 감김",
+    "words": [
+      {
+        "word": "그래서",
+        "start": 73.8939,
+        "end": 74.194,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.064
+      },
+      {
+        "word": "흡입력",
+        "start": 74.2741,
+        "end": 74.7343,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.121
+      },
+      {
+        "word": "숫자만",
+        "start": 74.7743,
+        "end": 75.2746,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.247
+      },
+      {
+        "word": "올려서는",
+        "start": 75.3346,
+        "end": 75.8549,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.088
+      },
+      {
+        "word": "감김이",
+        "start": 76.035,
+        "end": 76.4952,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.003
+      },
+      {
+        "word": "사라지지",
+        "start": 76.5753,
+        "end": 77.0755,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.132
+      },
+      {
+        "word": "않아요.",
+        "start": 77.1556,
+        "end": 77.4557,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.006
+      }
+    ],
+    "start": 73.79166666666667,
+    "cue_start": 76.5753,
+    "cue_end": 77.0755,
+    "initial_state": "끝단 다발이 감겨 있음",
+    "action": "흡입량은 커져도 끝단 다발은 남아 함께 회전",
+    "end_state": "흡입이 커져도 감김은 남음",
+    "end": 78.625,
+    "start_frame": 1772,
+    "end_frame": 1887,
+    "camera": {
+      "position": [
+        2.5,
+        4.8,
+        2.8
+      ],
+      "target": [
+        0.5,
+        0,
+        0.95
+      ],
+      "lens": 60
+    },
+    "spoken_cues": [
+      {
+        "word": "숫자만",
+        "start": 74.7743,
+        "end": 75.2746,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.247
+      },
+      {
+        "word": "올려서는",
+        "start": 75.3346,
+        "end": 75.8549,
+        "paragraph": 4,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.088
+      }
+    ]
+  },
+  {
+    "cut": 24,
+    "narration": "그래서 브랜드들이 구조를 바꿨습니다.",
+    "subject": "분리되는 커버·롤러·캡·모터",
+    "words": [
+      {
+        "word": "그래서",
+        "start": 78.7365,
+        "end": 79.0168,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.008
+      },
+      {
+        "word": "브랜드들이",
+        "start": 79.0768,
+        "end": 79.6374,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.256
+      },
+      {
+        "word": "구조를",
+        "start": 79.8377,
+        "end": 80.2781,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.074
+      },
+      {
+        "word": "바꿨습니다.",
+        "start": 80.3182,
+        "end": 80.9589,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.211
+      }
+    ],
+    "start": 78.625,
+    "cue_start": 80.3182,
+    "cue_end": 80.9589,
+    "initial_state": "하부 부품들이 조립된 위치",
+    "action": "본체 하부·롤러·캡·모터가 실제 간격을 벌리는 분해도",
+    "end_state": "본체·롤러·캡·모터가 간격을 벌림",
+    "end": 81.375,
+    "start_frame": 1888,
+    "end_frame": 1953,
+    "camera": {
+      "position": [
+        4,
+        6,
+        3.6
+      ],
+      "target": [
+        0,
+        0,
+        1.4
+      ],
+      "lens": 45
+    },
+    "spoken_cues": [
+      {
+        "word": "구조를",
+        "start": 79.8377,
+        "end": 80.2781,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.074
+      },
+      {
+        "word": "바꿨습니다.",
+        "start": 80.3182,
+        "end": 80.9589,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.211
+      }
+    ]
+  },
+  {
+    "cut": 25,
+    "narration": "로보락은 짧은 롤러 두 개를 반대 방향으로 돌려,",
+    "subject": "일렬인 짧은 롤러 두 개의 반대 회전",
+    "words": [
+      {
+        "word": "로보락은",
+        "start": 81.4594,
+        "end": 82.0601,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.098
+      },
+      {
+        "word": "짧은",
+        "start": 82.1001,
+        "end": 82.5005,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.064
+      },
+      {
+        "word": "롤러",
+        "start": 82.5606,
+        "end": 82.8409,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.101
+      },
+      {
+        "word": "두",
+        "start": 82.901,
+        "end": 83.0011,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "개를",
+        "start": 83.0812,
+        "end": 83.3615,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.144
+      },
+      {
+        "word": "반대",
+        "start": 83.4415,
+        "end": 83.7819,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.157
+      },
+      {
+        "word": "방향으로",
+        "start": 83.822,
+        "end": 84.2825,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.082
+      },
+      {
+        "word": "돌려,",
+        "start": 84.3025,
+        "end": 84.6228,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      }
+    ],
+    "start": 81.375,
+    "cue_start": 83.4415,
+    "cue_end": 83.7819,
+    "initial_state": "짧은 두 롤러가 중앙 틈을 둠",
+    "action": "가운데 간격이 있는 짧은 두 롤러가 서로 반대 방향으로 회전",
+    "end_state": "두 롤러가 서로 반대로 회전",
+    "end": 84.95833333333333,
+    "start_frame": 1954,
+    "end_frame": 2039,
+    "camera": {
+      "position": [
+        -0.2,
+        0.5,
+        6
+      ],
+      "target": [
+        0,
+        0,
+        1
+      ],
+      "lens": 65
+    },
+    "spoken_cues": [
+      {
+        "word": "두",
+        "start": 82.901,
+        "end": 83.0011,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "반대",
+        "start": 83.4415,
+        "end": 83.7819,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.157
+      }
+    ]
+  },
+  {
+    "cut": 26,
+    "narration": "머리카락을 양쪽에서 가운데로 밀어 넣고 바로 빨아들이는 구조를 씁니다.",
+    "subject": "중앙으로 모여 흡입되는 가닥",
+    "words": [
+      {
+        "word": "머리카락을",
+        "start": 85.0633,
+        "end": 85.684,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.054
+      },
+      {
+        "word": "양쪽에서",
+        "start": 85.744,
+        "end": 86.2846,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.021
+      },
+      {
+        "word": "가운데로",
+        "start": 86.3847,
+        "end": 86.9453,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.078
+      },
+      {
+        "word": "밀어",
+        "start": 86.9854,
+        "end": 87.2056,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.233
+      },
+      {
+        "word": "넣고",
+        "start": 87.2256,
+        "end": 87.606,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.218
+      },
+      {
+        "word": "바로",
+        "start": 87.8863,
+        "end": 88.1666,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.042
+      },
+      {
+        "word": "빨아들이는",
+        "start": 88.2267,
+        "end": 88.8874,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.086
+      },
+      {
+        "word": "구조를",
+        "start": 88.9475,
+        "end": 89.3079,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.035
+      },
+      {
+        "word": "씁니다.",
+        "start": 89.3479,
+        "end": 89.6883,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.078
+      }
+    ],
+    "start": 84.95833333333333,
+    "cue_start": 86.3847,
+    "cue_end": 86.9453,
+    "initial_state": "양쪽 짧은 롤러에 가닥이 닿음",
+    "action": "서로 반대로 도는 두 짧은 롤러의 가닥이 중앙 틈에 모인 뒤 흡입관으로 상승",
+    "end_state": "다발이 중앙 틈에 모여 관으로 상승",
+    "end": 90.04166666666667,
+    "start_frame": 2040,
+    "end_frame": 2161,
+    "camera": {
+      "position": [
+        2.6,
+        5,
+        2.8
+      ],
+      "target": [
+        0,
+        0,
+        1
+      ],
+      "lens": 65
+    },
+    "spoken_cues": [
+      {
+        "word": "가운데로",
+        "start": 86.3847,
+        "end": 86.9453,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.078
+      },
+      {
+        "word": "빨아들이는",
+        "start": 88.2267,
+        "end": 88.8874,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.086
+      }
+    ]
+  },
+  {
+    "cut": 27,
+    "narration": "드리미나 나르왈은 절단 구조로",
+    "subject": "절단 빗에서 끊기는 가닥",
+    "words": [
+      {
+        "word": "드리미나",
+        "start": 90.1488,
+        "end": 90.5492,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.016
+      },
+      {
+        "word": "나르왈은",
+        "start": 90.6093,
+        "end": 91.1899,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.289
+      },
+      {
+        "word": "절단",
+        "start": 91.25,
+        "end": 91.6504,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.014
+      },
+      {
+        "word": "구조로",
+        "start": 91.7105,
+        "end": 92.0909,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ],
+    "start": 90.04166666666667,
+    "cue_start": 91.25,
+    "cue_end": 91.6504,
+    "initial_state": "긴 가닥이 회전 브러시에 감김",
+    "action": "촘촘한 금속 절단 빗이 회전 브러시에 접근해 긴 가닥을 끊고 분리된 조각이 풀리며 앞쪽 상승 경로로 흡입",
+    "end_state": "빗이 접촉해 분리된 곡선 조각이 생김",
+    "end": 92.16666666666667,
+    "start_frame": 2162,
+    "end_frame": 2212,
+    "camera": {
+      "position": [
+        2.3,
+        3,
+        1.9
+      ],
+      "target": [
+        0,
+        0.1,
+        0.75
+      ],
+      "lens": 78
+    },
+    "spoken_cues": [
+      {
+        "word": "절단",
+        "start": 91.25,
+        "end": 91.6504,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.014
+      }
+    ]
+  },
+  {
+    "cut": 28,
+    "narration": "머리카락이 축까지 가지 못하게 경로를 바꿉니다.",
+    "subject": "끝단 대신 흡입구로 향하는 가닥",
+    "words": [
+      {
+        "word": "머리카락이",
+        "start": 92.2711,
+        "end": 92.8317,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.02
+      },
+      {
+        "word": "축까지",
+        "start": 92.9118,
+        "end": 93.3923,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.708
+      },
+      {
+        "word": "가지",
+        "start": 93.4323,
+        "end": 93.6526,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "못하게",
+        "start": 93.7126,
+        "end": 94.1131,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.011
+      },
+      {
+        "word": "경로를",
+        "start": 94.2332,
+        "end": 94.6536,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.05
+      },
+      {
+        "word": "바꿉니다.",
+        "start": 94.6737,
+        "end": 95.1742,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.1
+      }
+    ],
+    "start": 92.16666666666667,
+    "cue_start": 94.2332,
+    "cue_end": 94.6536,
+    "initial_state": "잘린 짧은 가닥이 빗 앞에 있음",
+    "action": "절단된 짧은 조각이 끝단 축으로 가지 않고 중앙 흡입 경로로 상승",
+    "end_state": "조각이 축 끝 대신 흡입 경로로 이동",
+    "end": 95.58333333333333,
+    "start_frame": 2213,
+    "end_frame": 2294,
+    "camera": {
+      "position": [
+        -2.8,
+        3.6,
+        2.0
+      ],
+      "target": [
+        0,
+        0.15,
+        1.0
+      ],
+      "lens": 85
+    },
+    "spoken_cues": [
+      {
+        "word": "경로를",
+        "start": 94.2332,
+        "end": 94.6536,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.05
+      }
+    ]
+  },
+  {
+    "cut": 29,
+    "narration": "공통점은 흡입력을 올리는 대신, 경로를 바꾼 거예요.",
+    "subject": "기존 단일 롤러와 개선 분할 롤러의 노출 끝단",
+    "words": [
+      {
+        "word": "공통점은",
+        "start": 95.6547,
+        "end": 96.2554,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.038
+      },
+      {
+        "word": "흡입력을",
+        "start": 96.3355,
+        "end": 96.9361,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.182
+      },
+      {
+        "word": "올리는",
+        "start": 96.9962,
+        "end": 97.3365,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.07
+      },
+      {
+        "word": "대신,",
+        "start": 97.3766,
+        "end": 97.757,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.067
+      },
+      {
+        "word": "경로를",
+        "start": 98.2776,
+        "end": 98.698,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.105
+      },
+      {
+        "word": "바꾼",
+        "start": 98.718,
+        "end": 98.9983,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.155
+      },
+      {
+        "word": "거예요.",
+        "start": 99.0384,
+        "end": 99.3587,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.918
+      }
+    ],
+    "start": 95.58333333333333,
+    "cue_start": 98.2776,
+    "cue_end": 98.698,
+    "initial_state": "기존 단일 롤러와 개선 분할 롤러",
+    "action": "위에서 본 분리 비교: 기존 다발은 바깥 끝단으로, 개선된 두 롤러의 가닥은 중앙으로 이동; 두 경로가 다른 행과 겹치지 않음",
+    "end_state": "기존은 끝단으로·개선 구조는 중앙으로 보내는 경로 차이를 보여 줌",
+    "end": 100.375,
+    "start_frame": 2295,
+    "end_frame": 2409,
+    "camera": {
+      "position": [
+        0,
+        0.45,
+        6.5
+      ],
+      "target": [
+        0,
+        0.35,
+        0.55
+      ],
+      "lens": 55
+    },
+    "spoken_cues": [
+      {
+        "word": "경로를",
+        "start": 98.2776,
+        "end": 98.698,
+        "paragraph": 5,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.105
+      }
+    ]
+  },
+  {
+    "cut": 30,
+    "narration": "그런데 이 구조도 완벽하진 않아요.",
+    "subject": "개선된 짧은 두 롤러의 바깥 끝단 잔류 가닥",
+    "words": [
+      {
+        "word": "그런데",
+        "start": 100.4795,
+        "end": 100.8197,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.05
+      },
+      {
+        "word": "이",
+        "start": 100.9597,
+        "end": 100.9797,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "구조도",
+        "start": 101.0798,
+        "end": 101.48,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.01
+      },
+      {
+        "word": "완벽하진",
+        "start": 101.6401,
+        "end": 102.2805,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.059
+      },
+      {
+        "word": "않아요.",
+        "start": 102.3205,
+        "end": 102.6607,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      }
+    ],
+    "start": 100.375,
+    "cue_start": 101.6401,
+    "cue_end": 102.2805,
+    "initial_state": "개선된 두 롤러에 일부 잔류 가닥",
+    "action": "개선된 짧은 두 롤러가 반대 회전을 계속하지만 바깥 끝단에 잔류 다발이 남음",
+    "end_state": "확대된 개선 구조 끝단에 가닥이 잔류",
+    "end": 103.0,
+    "start_frame": 2410,
+    "end_frame": 2472,
+    "camera": {
+      "position": [
+        2.6,
+        5,
+        2.4
+      ],
+      "target": [
+        0.96,
+        0,
+        0.75
+      ],
+      "lens": 55
+    },
+    "spoken_cues": [
+      {
+        "word": "완벽하진",
+        "start": 101.6401,
+        "end": 102.2805,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.059
+      }
+    ]
+  },
+  {
+    "cut": 31,
+    "narration": "긴 머리카락이 많거나 반려동물이 있는 집에서는",
+    "subject": "빗질과 고양이의 털",
+    "words": [
+      {
+        "word": "긴",
+        "start": 103.1009,
+        "end": 103.301,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.024
+      },
+      {
+        "word": "머리카락이",
+        "start": 103.3611,
+        "end": 103.9014,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.068
+      },
+      {
+        "word": "많거나",
+        "start": 103.9414,
+        "end": 104.4017,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.229
+      },
+      {
+        "word": "반려동물이",
+        "start": 104.6218,
+        "end": 105.2822,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.234
+      },
+      {
+        "word": "있는",
+        "start": 105.3222,
+        "end": 105.5623,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.025
+      },
+      {
+        "word": "집에서는",
+        "start": 105.5823,
+        "end": 106.1827,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.021
+      }
+    ],
+    "start": 103.0,
+    "cue_start": 104.6218,
+    "cue_end": 105.2822,
+    "initial_state": "긴 머리카락을 빗는 손, 쉬고 있는 고양이",
+    "action": "브러시가 긴 개별 가닥을 빗고 반려동물 발화 때 고양이가 고개를 돌림; 반려동물 단어에서 고양이 전신 각도로 컷 전환",
+    "end_state": "반려동물 발화에서 고양이 구도로 전환하고 고개 회전",
+    "end": 106.25,
+    "start_frame": 2473,
+    "end_frame": 2550,
+    "camera": {
+      "position": [
+        3.2,
+        -5,
+        2.5
+      ],
+      "target": [
+        0.25,
+        0,
+        0.65
+      ],
+      "lens": 55
+    },
+    "spoken_cues": [
+      {
+        "word": "긴",
+        "start": 103.1009,
+        "end": 103.301,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.024
+      },
+      {
+        "word": "반려동물이",
+        "start": 104.6218,
+        "end": 105.2822,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.234
+      }
+    ]
+  },
+  {
+    "cut": 32,
+    "narration": "여전히 끝단에 쌓입니다.",
+    "subject": "개선된 짧은 두 롤러의 바깥 끝단 잔류 가닥",
+    "words": [
+      {
+        "word": "여전히",
+        "start": 106.3227,
+        "end": 106.6629,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.126
+      },
+      {
+        "word": "끝단에",
+        "start": 106.703,
+        "end": 107.1432,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.399
+      },
+      {
+        "word": "쌓입니다.",
+        "start": 107.1632,
+        "end": 107.6835,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.682
+      }
+    ],
+    "start": 106.25,
+    "cue_start": 107.1632,
+    "cue_end": 107.6835,
+    "initial_state": "개선 구조의 끝단에 가닥이 남음",
+    "action": "개선 구조의 노출 끝단에 추가 가닥이 감기며 쌓임",
+    "end_state": "추가 가닥이 감겨 끝단에 쌓임",
+    "end": 108.375,
+    "start_frame": 2551,
+    "end_frame": 2601,
+    "camera": {
+      "position": [
+        1.4,
+        3.2,
+        1.5
+      ],
+      "target": [
+        0.96,
+        0,
+        0.75
+      ],
+      "lens": 105
+    },
+    "spoken_cues": [
+      {
+        "word": "끝단에",
+        "start": 106.703,
+        "end": 107.1432,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.399
+      },
+      {
+        "word": "쌓입니다.",
+        "start": 107.1632,
+        "end": 107.6835,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.682
+      }
+    ]
+  },
+  {
+    "cut": 33,
+    "narration": "구조가 감김을 줄여 줄 뿐, 없애 주지는 않거든요.",
+    "subject": "기존 단일 롤러와 개선 분할 롤러의 노출 끝단",
+    "words": [
+      {
+        "word": "구조가",
+        "start": 108.4639,
+        "end": 108.8241,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "감김을",
+        "start": 108.9242,
+        "end": 109.4245,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.02
+      },
+      {
+        "word": "줄여",
+        "start": 109.4645,
+        "end": 109.7046,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.496
+      },
+      {
+        "word": "줄",
+        "start": 109.7647,
+        "end": 109.9248,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "뿐,",
+        "start": 109.9448,
+        "end": 110.2249,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.628
+      },
+      {
+        "word": "없애",
+        "start": 110.5251,
+        "end": 110.8053,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.211
+      },
+      {
+        "word": "주지는",
+        "start": 110.8653,
+        "end": 111.2255,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.1
+      },
+      {
+        "word": "않거든요.",
+        "start": 111.2655,
+        "end": 111.8058,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.096
+      }
+    ],
+    "start": 108.375,
+    "cue_start": 109.4645,
+    "cue_end": 109.7046,
+    "initial_state": "많은 가닥과 소수 잔류 가닥을 비교",
+    "action": "기존 한 롤러와 개선된 분할 롤러를 함께 비교; 변경 구조에서도 소수의 끝단 가닥을 남겨 한계 표시",
+    "end_state": "개선 쪽에도 가는 가닥을 남김",
+    "end": 112.125,
+    "start_frame": 2602,
+    "end_frame": 2691,
+    "camera": {
+      "position": [
+        1.6,
+        4.6,
+        3.4
+      ],
+      "target": [
+        0.72,
+        0,
+        0.55
+      ],
+      "lens": 100
+    },
+    "spoken_cues": [
+      {
+        "word": "줄여",
+        "start": 109.4645,
+        "end": 109.7046,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.496
+      },
+      {
+        "word": "없애",
+        "start": 110.5251,
+        "end": 110.8053,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.211
+      }
+    ]
+  },
+  {
+    "cut": 34,
+    "narration": "회전하는 롤러 자체가 머리카락을 끝단으로 미끄러지게 하는 원리는 그대로 남아 있기 때문입니다.",
+    "subject": "연필 회전에 따라 끝으로 이동하는 실",
+    "words": [
+      {
+        "word": "회전하는",
+        "start": 112.206,
+        "end": 112.7463,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.122
+      },
+      {
+        "word": "롤러",
+        "start": 112.8064,
+        "end": 113.0665,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.026
+      },
+      {
+        "word": "자체가",
+        "start": 113.1065,
+        "end": 113.5068,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "머리카락을",
+        "start": 113.5868,
+        "end": 114.1872,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.034
+      },
+      {
+        "word": "끝단으로",
+        "start": 114.2072,
+        "end": 114.7675,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.332
+      },
+      {
+        "word": "미끄러지게",
+        "start": 114.8475,
+        "end": 115.4679,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.107
+      },
+      {
+        "word": "하는",
+        "start": 115.4879,
+        "end": 115.728,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.076
+      },
+      {
+        "word": "원리는",
+        "start": 115.768,
+        "end": 116.2283,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.089
+      },
+      {
+        "word": "그대로",
+        "start": 116.4084,
+        "end": 116.7486,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.049
+      },
+      {
+        "word": "남아",
+        "start": 116.8086,
+        "end": 117.0488,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "있기",
+        "start": 117.0888,
+        "end": 117.2889,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.012
+      },
+      {
+        "word": "때문입니다.",
+        "start": 117.2889,
+        "end": 117.7892,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ],
+    "start": 112.125,
+    "cue_start": 114.2072,
+    "cue_end": 114.7675,
+    "initial_state": "가닥이 롤러에 조금 감김",
+    "action": "회전 중 개별 가닥이 롤러 중앙에서 노출 끝단으로 이동해 남는 원리를 연속 추적",
+    "end_state": "회전과 함께 다발이 끝단으로 이동",
+    "end": 119.16666666666667,
+    "start_frame": 2692,
+    "end_frame": 2860,
+    "camera": {
+      "position": [
+        -0.3,
+        0.7,
+        6.5
+      ],
+      "target": [
+        0.4,
+        0,
+        0.75
+      ],
+      "lens": 65
+    },
+    "spoken_cues": [
+      {
+        "word": "회전하는",
+        "start": 112.206,
+        "end": 112.7463,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.122
+      },
+      {
+        "word": "끝단으로",
+        "start": 114.2072,
+        "end": 114.7675,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.332
+      },
+      {
+        "word": "미끄러지게",
+        "start": 114.8475,
+        "end": 115.4679,
+        "paragraph": 6,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.107
+      }
+    ]
+  },
+  {
+    "cut": 35,
+    "narration": "결국 핵심은 흡입력이 아니라,",
+    "subject": "흡입 조절기와 감긴 끝단을 한 화면에 배치",
+    "words": [
+      {
+        "word": "결국",
+        "start": 119.2498,
+        "end": 119.5699,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.008
+      },
+      {
+        "word": "핵심은",
+        "start": 119.5699,
+        "end": 120.0501,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.062
+      },
+      {
+        "word": "흡입력이",
+        "start": 120.1102,
+        "end": 120.6504,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.144
+      },
+      {
+        "word": "아니라,",
+        "start": 120.7304,
+        "end": 121.0305,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ],
+    "start": 119.16666666666667,
+    "cue_start": 120.1102,
+    "cue_end": 120.6504,
+    "initial_state": "끝단 다발과 흡입 조절기를 함께 노출",
+    "action": "흡입력 다이얼을 돌려도 같은 화면의 끝단 감김은 남음",
+    "end_state": "조절기를 돌려도 다발이 남음",
+    "end": 121.375,
+    "start_frame": 2861,
+    "end_frame": 2913,
+    "camera": {
+      "position": [
+        2.3,
+        5,
+        2.4
+      ],
+      "target": [
+        0.5,
+        0,
+        0.65
+      ],
+      "lens": 55
+    },
+    "spoken_cues": [
+      {
+        "word": "흡입력이",
+        "start": 120.1102,
+        "end": 120.6504,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.144
+      },
+      {
+        "word": "아니라,",
+        "start": 120.7304,
+        "end": 121.0305,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ]
+  },
+  {
+    "cut": 36,
+    "narration": "회전하는 롤러가 머리카락을 끝단으로 미끄러지게 하는 물리 자체예요.",
+    "subject": "회전축과 끝단으로 이동하는 가닥",
+    "words": [
+      {
+        "word": "회전하는",
+        "start": 121.4507,
+        "end": 122.0109,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.101
+      },
+      {
+        "word": "롤러가",
+        "start": 122.051,
+        "end": 122.4711,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.136
+      },
+      {
+        "word": "머리카락을",
+        "start": 122.6112,
+        "end": 123.2515,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.035
+      },
+      {
+        "word": "끝단으로",
+        "start": 123.3315,
+        "end": 123.9317,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.351
+      },
+      {
+        "word": "미끄러지게",
+        "start": 123.9918,
+        "end": 124.572,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.163
+      },
+      {
+        "word": "하는",
+        "start": 124.592,
+        "end": 124.8321,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.041
+      },
+      {
+        "word": "물리",
+        "start": 124.8921,
+        "end": 125.1723,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.008
+      },
+      {
+        "word": "자체예요.",
+        "start": 125.2123,
+        "end": 125.7725,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.766
+      }
+    ],
+    "start": 121.375,
+    "cue_start": 123.3315,
+    "cue_end": 123.9317,
+    "initial_state": "가는 가닥이 투명 롤러 안 축과 함께 보임",
+    "action": "회전 중 개별 가닥이 롤러 중앙에서 노출 끝단으로 이동해 남는 원리를 연속 추적",
+    "end_state": "다발이 노출 끝단에 모임",
+    "end": 126.125,
+    "start_frame": 2914,
+    "end_frame": 3027,
+    "camera": {
+      "position": [
+        -1.4,
+        -4.5,
+        2.3
+      ],
+      "target": [
+        0.45,
+        0,
+        0.75
+      ],
+      "lens": 65
+    },
+    "spoken_cues": [
+      {
+        "word": "회전하는",
+        "start": 121.4507,
+        "end": 122.0109,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.101
+      },
+      {
+        "word": "끝단으로",
+        "start": 123.3315,
+        "end": 123.9317,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.351
+      },
+      {
+        "word": "미끄러지게",
+        "start": 123.9918,
+        "end": 124.572,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.163
+      }
+    ]
+  },
+  {
+    "cut": 37,
+    "narration": "청소가 끝나면 브러시를 꺼내서",
+    "subject": "본체에서 꺼내는 브러시",
+    "words": [
+      {
+        "word": "청소가",
+        "start": 126.2127,
+        "end": 126.5928,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.03
+      },
+      {
+        "word": "끝나면",
+        "start": 126.6329,
+        "end": 127.2131,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.189
+      },
+      {
+        "word": "브러시를",
+        "start": 127.3732,
+        "end": 127.8534,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.202
+      },
+      {
+        "word": "꺼내서",
+        "start": 127.8734,
+        "end": 128.3536,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.188
+      }
+    ],
+    "start": 126.125,
+    "cue_start": 127.8734,
+    "cue_end": 128.3536,
+    "initial_state": "뒤집은 본체에 롤러가 설치됨",
+    "action": "뒤집은 청소기의 브러시 베이에서 롤러를 손으로 꺼냄",
+    "end_state": "손이 브러시를 베이 밖으로 꺼냄",
+    "end": 128.66666666666666,
+    "start_frame": 3028,
+    "end_frame": 3088,
+    "camera": {
+      "position": [
+        2.5,
+        -4.5,
+        4
+      ],
+      "target": [
+        0,
+        0,
+        1.1
+      ],
+      "lens": 45
+    },
+    "spoken_cues": [
+      {
+        "word": "꺼내서",
+        "start": 127.8734,
+        "end": 128.3536,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.188
+      }
+    ]
+  },
+  {
+    "cut": 38,
+    "narration": "양끝 캡을 열어 보세요.",
+    "subject": "양쪽 캡을 빼는 손",
+    "words": [
+      {
+        "word": "양끝",
+        "start": 128.7737,
+        "end": 129.1339,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.54
+      },
+      {
+        "word": "캡을",
+        "start": 129.1939,
+        "end": 129.454,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.292
+      },
+      {
+        "word": "열어",
+        "start": 129.474,
+        "end": 129.6741,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.553
+      },
+      {
+        "word": "보세요.",
+        "start": 129.6941,
+        "end": 130.0543,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.098
+      }
+    ],
+    "start": 128.66666666666666,
+    "cue_start": 129.474,
+    "cue_end": 129.6741,
+    "initial_state": "꺼낸 롤러의 양끝 캡이 닫힘",
+    "action": "양쪽 캡과 손이 축 방향으로 빠지며 안쪽 베어링 감김을 노출",
+    "end_state": "양손이 양쪽 캡을 분리",
+    "end": 130.5,
+    "start_frame": 3089,
+    "end_frame": 3132,
+    "camera": {
+      "position": [
+        1,
+        7,
+        3
+      ],
+      "target": [
+        0,
+        0,
+        0.75
+      ],
+      "lens": 36
+    },
+    "spoken_cues": [
+      {
+        "word": "열어",
+        "start": 129.474,
+        "end": 129.6741,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.553
+      }
+    ]
+  },
+  {
+    "cut": 39,
+    "narration": "일주일에 한 번, 머리카락이 많거나 반려동물이 있는 집은 두 번이면 충분합니다.",
+    "subject": "달력·연필·손 → 많은 머리카락 → 고양이 → 달력",
+    "words": [
+      {
+        "word": "일주일에",
+        "start": 130.5745,
+        "end": 131.0547,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.072
+      },
+      {
+        "word": "한",
+        "start": 131.1147,
+        "end": 131.2548,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.015
+      },
+      {
+        "word": "번,",
+        "start": 131.3148,
+        "end": 131.5149,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.032
+      },
+      {
+        "word": "머리카락이",
+        "start": 131.795,
+        "end": 132.3552,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.056
+      },
+      {
+        "word": "많거나",
+        "start": 132.3952,
+        "end": 132.8754,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.328
+      },
+      {
+        "word": "반려동물이",
+        "start": 133.0755,
+        "end": 133.7758,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.074
+      },
+      {
+        "word": "있는",
+        "start": 133.8158,
+        "end": 134.0759,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.058
+      },
+      {
+        "word": "집은",
+        "start": 134.1159,
+        "end": 134.4161,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.05
+      },
+      {
+        "word": "두",
+        "start": 134.5761,
+        "end": 134.6762,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      },
+      {
+        "word": "번이면",
+        "start": 134.7562,
+        "end": 135.1764,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.041
+      },
+      {
+        "word": "충분합니다.",
+        "start": 135.2364,
+        "end": 135.8967,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.048
+      }
+    ],
+    "start": 130.5,
+    "cue_start": 134.5761,
+    "cue_end": 134.6762,
+    "initial_state": "달력의 두 체크 칸이 비어 있음",
+    "action": "한 번에 달력 첫 체크 → 머리카락 발화에 손이 가는 가닥을 들어 올림 → 반려동물 발화에 고양이가 고개와 앞발을 움직임 → 두 번에 달력 두 번째 체크",
+    "end_state": "한 번에 첫 체크, 두 번에 두 번째 체크",
+    "end": 136.25,
+    "start_frame": 3133,
+    "end_frame": 3270,
+    "camera_events": [
+      {
+        "time": 130.5,
+        "position": [
+          0.2,
+          -0.8,
+          4
+        ],
+        "target": [
+          0,
+          0,
+          0.15
+        ],
+        "lens": 58
+      },
+      {
+        "time": 131.795,
+        "position": [
+          -2.1,
+          -3.5,
+          1.6
+        ],
+        "target": [
+          -2.65,
+          0,
+          0.5
+        ],
+        "lens": 75
+      },
+      {
+        "time": 133.0755,
+        "position": [
+          3.5,
+          -3.5,
+          1.7
+        ],
+        "target": [
+          2.45,
+          -0.08,
+          0.35
+        ],
+        "lens": 68
+      },
+      {
+        "time": 134.5761,
+        "position": [
+          0.2,
+          -0.8,
+          4
+        ],
+        "target": [
+          0,
+          0,
+          0.15
+        ],
+        "lens": 58
+      }
+    ],
+    "camera": {
+      "position": [
+        0.2,
+        -0.8,
+        4
+      ],
+      "target": [
+        0,
+        0,
+        0.15
+      ],
+      "lens": 58
+    },
+    "spoken_cues": [
+      {
+        "word": "한",
+        "start": 131.1147,
+        "end": 131.2548,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.015
+      },
+      {
+        "word": "머리카락이",
+        "start": 131.795,
+        "end": 132.3552,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.056
+      },
+      {
+        "word": "반려동물이",
+        "start": 133.0755,
+        "end": 133.7758,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.074
+      },
+      {
+        "word": "두",
+        "start": 134.5761,
+        "end": 134.6762,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.002
+      }
+    ]
+  },
+  {
+    "cut": 40,
+    "narration": "끝단에 감겨 있으면 가위나 도구로 잘라 빼는 게 모터를 지키는 가장 빠른 방법입니다.",
+    "subject": "열린 베어링·가는 가닥·가위·양손 → 연결 모터와 정리된 축",
+    "words": [
+      {
+        "word": "끝단에",
+        "start": 136.3369,
+        "end": 136.737,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.658
+      },
+      {
+        "word": "감겨",
+        "start": 136.777,
+        "end": 137.0772,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.003
+      },
+      {
+        "word": "있으면",
+        "start": 137.1172,
+        "end": 137.5374,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.05
+      },
+      {
+        "word": "가위나",
+        "start": 137.7174,
+        "end": 138.1976,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.04
+      },
+      {
+        "word": "도구로",
+        "start": 138.3377,
+        "end": 138.7178,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.001
+      },
+      {
+        "word": "잘라",
+        "start": 138.7579,
+        "end": 139.058,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      },
+      {
+        "word": "빼는",
+        "start": 139.098,
+        "end": 139.4381,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.082
+      },
+      {
+        "word": "게",
+        "start": 139.4982,
+        "end": 139.5782,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.0
+      },
+      {
+        "word": "모터를",
+        "start": 139.8583,
+        "end": 140.2585,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.054
+      },
+      {
+        "word": "지키는",
+        "start": 140.2785,
+        "end": 140.7187,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.01
+      },
+      {
+        "word": "가장",
+        "start": 140.9788,
+        "end": 141.3589,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.079
+      },
+      {
+        "word": "빠른",
+        "start": 141.419,
+        "end": 141.7791,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.113
+      },
+      {
+        "word": "방법입니다.",
+        "start": 141.8191,
+        "end": 142.4594,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.016
+      }
+    ],
+    "start": 136.25,
+    "cue_start": 138.7579,
+    "cue_end": 139.058,
+    "initial_state": "캡이 열린 끝단에 다발이 감김",
+    "action": "가위가 다발에 접근→힌지가 닫혀 가닥 절단→손이 다발을 빼냄→모터를 발화에 작업 후 연결 모터·정리된 축 구도로 컷 전환→가림 없이 축과 모터가 함께 자유 회전",
+    "end_state": "가위가 닫혀 끊고 손이 가닥을 빼냄; 모터 발화에 연결 모터와 깨끗한 축을 함께 보여 준 뒤 자유 회전",
+    "end": 143.125,
+    "start_frame": 3271,
+    "end_frame": 3435,
+    "camera_events": [
+      {
+        "time": 136.25,
+        "position": [
+          2.6,
+          3.8,
+          2
+        ],
+        "target": [
+          0.88,
+          0,
+          0.75
+        ],
+        "lens": 85
+      },
+      {
+        "time": 139.8583,
+        "position": [
+          3.5,
+          4.8,
+          4.0
+        ],
+        "target": [
+          1.45,
+          0,
+          0.9
+        ],
+        "lens": 65
+      }
+    ],
+    "camera": {
+      "position": [
+        2.6,
+        3.8,
+        2
+      ],
+      "target": [
+        0.88,
+        0,
+        0.75
+      ],
+      "lens": 85
+    },
+    "spoken_cues": [
+      {
+        "word": "가위나",
+        "start": 137.7174,
+        "end": 138.1976,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.04
+      },
+      {
+        "word": "잘라",
+        "start": 138.7579,
+        "end": 139.058,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.036
+      },
+      {
+        "word": "빼는",
+        "start": 139.098,
+        "end": 139.4381,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.082
+      },
+      {
+        "word": "모터를",
+        "start": 139.8583,
+        "end": 140.2585,
+        "paragraph": 7,
+        "method": "MMS CTC Viterbi forced alignment of original word",
+        "confidence": -0.054
+      }
+    ]
+  }
+]

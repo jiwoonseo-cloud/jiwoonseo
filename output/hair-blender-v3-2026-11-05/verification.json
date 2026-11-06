@@ -1,0 +1,34 @@
+{
+  "duration_seconds": 143.125,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": "24/1",
+  "decoded_frames": 3435,
+  "original_words": 264,
+  "subtitle_word_order_exact": true,
+  "full_decode_errors": 0,
+  "size_bytes": 64062100,
+  "audio_codec": "aac",
+  "audio_rate": "48000",
+  "audio_sync_checks": [
+    {
+      "range_seconds": [
+        0.0,
+        15.0
+      ],
+      "lag_ms": 0,
+      "envelope_correlation": 0.9999908415891592
+    },
+    {
+      "range_seconds": [
+        125.0,
+        142.0
+      ],
+      "lag_ms": 0,
+      "envelope_correlation": 0.9999858380302274
+    }
+  ],
+  "technical_check_is_not_visual_quality_verdict": true
+}

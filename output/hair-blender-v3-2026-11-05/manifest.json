@@ -1,0 +1,111 @@
+{
+  "files": [
+    {
+      "file": "action_review_01.jpg",
+      "bytes": 287756,
+      "sha256": "7a643ca285f42883fb22ab640ca6c9fc652c6244550c5ddf5bd32bc83c41de25"
+    },
+    {
+      "file": "action_review_02.jpg",
+      "bytes": 316809,
+      "sha256": "1d393e90c40e1e59c77c4fa154483f3751465af07727cbf30858adc6ca1aebc5"
+    },
+    {
+      "file": "contact_page_01.jpg",
+      "bytes": 530334,
+      "sha256": "40a35b397a4076b0c48fd7a290f31ca07370933ad65d9ffba30a3c059104f28e"
+    },
+    {
+      "file": "contact_page_02.jpg",
+      "bytes": 559582,
+      "sha256": "6e8f99fb50a7640dc28f91d06cd7c94372872257b45b69556f02907bb5d41d58"
+    },
+    {
+      "file": "contact_page_03.jpg",
+      "bytes": 524400,
+      "sha256": "6d80cc969cba4a9fb12ac2ab7dd467ab76f5ae9ba01dbdab84e88dfdf7cb3662"
+    },
+    {
+      "file": "contact_page_04.jpg",
+      "bytes": 607981,
+      "sha256": "53db3851ec01fdbbc152a676234cc1484a02d7524f26b16678fc0f7efe97406d"
+    },
+    {
+      "file": "contact_page_05.jpg",
+      "bytes": 548291,
+      "sha256": "cefb143e6ee581d337d110d961205249afb92537bf2e6d4f2534266a0609a78b"
+    },
+    {
+      "file": "contact_page_06.jpg",
+      "bytes": 518221,
+      "sha256": "022eb3afc82334ab0dbacd320116f487e4e483301a2f068037082a68e7fc0892"
+    },
+    {
+      "file": "contact_sheet.jpg",
+      "bytes": 1477432,
+      "sha256": "e979ae5da2fd155a7e531f5ac012d8642aebb663fa9c031ce6fa179912f648bd"
+    },
+    {
+      "file": "hair_pixel.mp4",
+      "bytes": 64062100,
+      "sha256": "36de5ac882a5361a17d7a75bcb2e9b36b5308c1b2bc70c134796dcec884b5657"
+    },
+    {
+      "file": "media_info.json",
+      "bytes": 3554,
+      "sha256": "5cdb39c5966c497a76a90af98f54bd93327a2933fab5b6b02ab914c5196c2860"
+    },
+    {
+      "file": "narration.txt",
+      "bytes": 2632,
+      "sha256": "628d3704e74390e884024a12f7bc4c074fa8b6dc1e7142687e195ac138db1de8"
+    },
+    {
+      "file": "report.md",
+      "bytes": 26891,
+      "sha256": "ca988ea1111c2c348bcbfb2ca5a788b24cc6b5d4bf26a7b1d7268fa79fefd8b7"
+    },
+    {
+      "file": "scene_table.csv",
+      "bytes": 14296,
+      "sha256": "c61ea71c8f3a2909d3457e613a8ca1c2b13ba5bf2675979f20d1d9d1d4600535"
+    },
+    {
+      "file": "scene_table.json",
+      "bytes": 107440,
+      "sha256": "5759717d25229ebded68359ae4305fdfedd09bde4acc5f6125febde85e4f979d"
+    },
+    {
+      "file": "source.zip",
+      "bytes": 47934652,
+      "sha256": "c1dcb529b16b62f5ff58c29c02b70e35c690a2e310cc2bcdce232a60f6d20c32"
+    },
+    {
+      "file": "trial_contact.jpg",
+      "bytes": 348234,
+      "sha256": "4318d659532c274d471f8cb91e820d39ad1f6d63d073aa6052ca3d87976a105d"
+    },
+    {
+      "file": "trial_slide_quarters.jpg",
+      "bytes": 278370,
+      "sha256": "b138dd7e00925ebf75a587e5bebdec20d276e66a72fb78516984fafc2e40fdc2"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 653,
+      "sha256": "d39f9a7ba85ce8b2223fb63b718cbc9f4cb05443fd8d5765021f4099fce98f31"
+    },
+    {
+      "file": "visual_review.json",
+      "bytes": 2542,
+      "sha256": "82cb34b9d05dacb50352b53fa6943ef27b0fed06694b354744c929a4e9956e60"
+    },
+    {
+      "file": "word_timecodes.csv",
+      "bytes": 9323,
+      "sha256": "4c30cd7fed38ecba039659079d39716eb31f55591c3b823d42b49bb400130ac5"
+    }
+  ],
+  "only_finished_video_in_gallery": "hair_pixel.mp4",
+  "trial_video_in": "source.zip/review/trial_10s.mp4"
+}
