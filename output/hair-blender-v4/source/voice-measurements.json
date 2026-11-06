@@ -1,0 +1,44 @@
+{
+  "ko-KR-SunHiNeural": {
+    "paragraph_seconds": {
+      "01": 10.032,
+      "02": 14.496,
+      "03": 22.368,
+      "04": 19.464,
+      "05": 19.44,
+      "07": 20.592,
+      "08": 24.888
+    },
+    "total_excluding_6_seconds": 131.28,
+    "rate": "+0%",
+    "post_speed_adjustment": false
+  },
+  "ko-KR-HyunsuMultilingualNeural": {
+    "paragraph_seconds": {
+      "01": 9.912,
+      "02": 14.376,
+      "03": 22.296,
+      "04": 20.304,
+      "05": 19.704,
+      "07": 20.76,
+      "08": 25.896
+    },
+    "total_excluding_6_seconds": 133.248,
+    "rate": "+0%",
+    "post_speed_adjustment": false
+  },
+  "ko-KR-InJoonNeural": {
+    "paragraph_seconds": {
+      "01": 11.256,
+      "02": 16.08,
+      "03": 24.144,
+      "04": 20.808,
+      "05": 21.24,
+      "07": 22.032,
+      "08": 26.28
+    },
+    "total_excluding_6_seconds": 141.84,
+    "rate": "+0%",
+    "post_speed_adjustment": false
+  }
+}

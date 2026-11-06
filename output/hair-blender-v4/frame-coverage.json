@@ -1,0 +1,124 @@
+{
+  "native_frames": 3198,
+  "fps": 24,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "all_frames_unique_and_contiguous": true,
+  "revised_dust_chunk": 8,
+  "parts": [
+    {
+      "chunk": 0,
+      "first": 0,
+      "last": 198,
+      "frames": 199,
+      "camera_fields": false
+    },
+    {
+      "chunk": 1,
+      "first": 199,
+      "last": 398,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 2,
+      "first": 399,
+      "last": 598,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 3,
+      "first": 599,
+      "last": 798,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 4,
+      "first": 799,
+      "last": 998,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 5,
+      "first": 999,
+      "last": 1198,
+      "frames": 200,
+      "camera_fields": true
+    },
+    {
+      "chunk": 6,
+      "first": 1199,
+      "last": 1398,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 7,
+      "first": 1399,
+      "last": 1598,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 8,
+      "first": 1599,
+      "last": 1797,
+      "frames": 199,
+      "camera_fields": true
+    },
+    {
+      "chunk": 9,
+      "first": 1798,
+      "last": 1997,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 10,
+      "first": 1998,
+      "last": 2197,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 11,
+      "first": 2198,
+      "last": 2397,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 12,
+      "first": 2398,
+      "last": 2597,
+      "frames": 200,
+      "camera_fields": true
+    },
+    {
+      "chunk": 13,
+      "first": 2598,
+      "last": 2797,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 14,
+      "first": 2798,
+      "last": 2997,
+      "frames": 200,
+      "camera_fields": false
+    },
+    {
+      "chunk": 15,
+      "first": 2998,
+      "last": 3197,
+      "frames": 200,
+      "camera_fields": true
+    }
+  ]
+}

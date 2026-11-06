@@ -1,0 +1,71 @@
+{
+  "native_shape_key_animation": true,
+  "states": [
+    {
+      "frame": 685,
+      "time": 28.5,
+      "shape_eval_time": 4469.9892578125,
+      "wind": 0.25118717551231384,
+      "slide": 0.0,
+      "center_x": 0.0,
+      "evaluated_max_y": 0.3495759069919586,
+      "mesh_vertices": 20736,
+      "hidden": false
+    },
+    {
+      "frame": 709,
+      "time": 29.5,
+      "shape_eval_time": 4709.9853515625,
+      "wind": 0.5190602540969849,
+      "slide": 0.0,
+      "center_x": 0.0,
+      "evaluated_max_y": 0.34914565086364746,
+      "mesh_vertices": 20736,
+      "hidden": false
+    },
+    {
+      "frame": 757,
+      "time": 31.5,
+      "shape_eval_time": 5189.97802734375,
+      "wind": 0.9664636254310608,
+      "slide": 0.0,
+      "center_x": 0.0,
+      "evaluated_max_y": 0.35018932819366455,
+      "mesh_vertices": 20736,
+      "hidden": false
+    },
+    {
+      "frame": 805,
+      "time": 33.5,
+      "shape_eval_time": 5669.970703125,
+      "wind": 1.0,
+      "slide": 0.13055232167243958,
+      "center_x": 0.20888371765613556,
+      "evaluated_max_y": 0.3504001498222351,
+      "mesh_vertices": 20736,
+      "hidden": false
+    },
+    {
+      "frame": 877,
+      "time": 36.5,
+      "shape_eval_time": 6389.9599609375,
+      "wind": 1.0,
+      "slide": 0.7862555384635925,
+      "center_x": 1.2580088376998901,
+      "evaluated_max_y": 0.3504001498222351,
+      "mesh_vertices": 20736,
+      "hidden": false
+    },
+    {
+      "frame": 924,
+      "time": 38.458333333333336,
+      "shape_eval_time": 6859.95263671875,
+      "wind": 0.9989765882492065,
+      "slide": 0.9970760345458984,
+      "center_x": 1.5953216552734375,
+      "evaluated_max_y": 0.1117962971329689,
+      "mesh_vertices": 20736,
+      "hidden": false
+    }
+  ]
+}

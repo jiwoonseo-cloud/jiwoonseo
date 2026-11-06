@@ -1,0 +1,22 @@
+{
+  "robot-hair-blender.mp4": {
+    "bytes": 60610372,
+    "sha256": "1fbc6bc3ffb701b7e3a37fcf14fcf67e778117b7d37f390b6a2878ab240e6815"
+  },
+  "contact-sheet.jpg": {
+    "bytes": 1265396,
+    "sha256": "d8d7c767da1e90f88405a5f6d02b861f078e984f06e21cf53b31121723405b2f"
+  },
+  "test-10s.mp4": {
+    "bytes": 14387680,
+    "sha256": "f8c1b0d6396dc29768ff8288a4b6feee7e512f691741226619ce0bc2e902cb46"
+  },
+  "hair-animation.blend": {
+    "bytes": 34641416,
+    "sha256": "5735134514a9c0c969f27e252cbb7f56166a71bd88f30fecd0d53fe6fed58e1a"
+  },
+  "script-original.txt": {
+    "bytes": 2639,
+    "sha256": "350c96259b7dcb7e166dd79951b0af19ebe586a1f0a15227c60875d2633684d8"
+  }
+}
